@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
+
   <meta charset="UTF-8">
 
   <meta
@@ -12,6 +14,7 @@
 
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 
+
   <style>
 
     * {
@@ -20,18 +23,26 @@
       padding: 0;
     }
 
+
     :root {
+
       --background: #f6f3ed;
       --white: #ffffff;
       --black: #24221f;
       --gray: #77736c;
-      --light-gray: #e7e2d9;
+      --light-gray: #e5e0d8;
       --accent: #8f3d32;
+      --green: #50634e;
+
     }
 
+
     body {
+
       background: var(--background);
+
       color: var(--black);
+
       font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -42,37 +53,50 @@
         sans-serif;
 
       min-height: 100vh;
+
       padding-bottom: 90px;
+
     }
+
 
     button {
       font-family: inherit;
     }
 
+
     .app {
+
       max-width: 620px;
+
       margin: auto;
+
     }
 
 
-    /* =========================
-       HERO
-    ========================= */
+
+    /* =================================
+       ГЛАВНЫЙ ЭКРАН
+    ================================= */
 
     .hero {
+
       position: relative;
-      height: 430px;
+
+      height: 420px;
 
       background-image:
+
         linear-gradient(
           180deg,
-          rgba(0,0,0,0.12) 0%,
-          rgba(0,0,0,0.12) 40%,
-          rgba(0,0,0,0.68) 100%
+          rgba(0,0,0,0.10) 0%,
+          rgba(0,0,0,0.15) 40%,
+          rgba(0,0,0,0.72) 100%
         ),
+
         url("https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=1400&q=90");
 
       background-size: cover;
+
       background-position: center;
 
       border-radius: 0 0 32px 32px;
@@ -80,30 +104,45 @@
       color: white;
 
       display: flex;
+
       flex-direction: column;
+
       justify-content: space-between;
 
       padding: 24px 20px 30px;
+
     }
 
 
-    /* TOP */
 
     .hero-top {
+
       display: flex;
+
       justify-content: space-between;
+
       align-items: center;
+
     }
+
 
     .logo {
+
       font-size: 12px;
+
       letter-spacing: 2.5px;
+
       font-weight: 700;
+
     }
 
+
     .language-button {
+
       border: 1px solid rgba(255,255,255,0.35);
+
       background: rgba(255,255,255,0.14);
+
       backdrop-filter: blur(12px);
 
       color: white;
@@ -115,56 +154,75 @@
       font-size: 12px;
 
       cursor: pointer;
+
     }
 
-
-    /* HERO TEXT */
 
     .hero-content {
+
       max-width: 410px;
+
     }
 
+
     .eyebrow {
+
       font-size: 11px;
+
       letter-spacing: 2px;
+
       text-transform: uppercase;
 
       margin-bottom: 12px;
 
       opacity: 0.8;
+
     }
 
+
     .hero h1 {
-      font-size: 47px;
+
+      font-size: 46px;
+
       line-height: 0.98;
 
       letter-spacing: -2px;
 
       margin-bottom: 15px;
+
     }
 
+
     .hero-description {
+
       font-size: 15px;
+
       line-height: 1.5;
 
       max-width: 340px;
 
       opacity: 0.9;
+
     }
 
 
-    /* =========================
-       CONTENT
-    ========================= */
+
+    /* =================================
+       КОНТЕНТ
+    ================================= */
 
     .content {
+
       padding: 26px 18px;
+
     }
 
 
-    /* SEARCH */
+
+    /* ПОИСК */
 
     .search {
+
       width: 100%;
 
       border: 1px solid var(--light-gray);
@@ -176,19 +234,27 @@
       padding: 15px 17px;
 
       display: flex;
+
       align-items: center;
 
       gap: 10px;
 
       margin-bottom: 28px;
+
     }
+
 
     .search-icon {
+
       font-size: 18px;
+
     }
 
+
     .search input {
+
       border: none;
+
       outline: none;
 
       width: 100%;
@@ -196,40 +262,60 @@
       font-size: 14px;
 
       background: transparent;
+
       color: var(--black);
+
     }
+
 
     .search input::placeholder {
+
       color: #99948c;
+
     }
 
 
-    /* SECTION HEADER */
+
+    /* ЗАГОЛОВКИ */
 
     .section-header {
+
       display: flex;
+
       justify-content: space-between;
+
       align-items: baseline;
 
       margin-bottom: 14px;
+
     }
+
 
     .section-header h2 {
+
       font-size: 21px;
+
       letter-spacing: -0.5px;
+
     }
+
 
     .section-header span {
+
       font-size: 12px;
+
       color: var(--gray);
+
     }
 
 
-    /* =========================
-       CATEGORIES
-    ========================= */
+
+    /* =================================
+       КАТЕГОРИИ
+    ================================= */
 
     .categories {
+
       display: flex;
 
       gap: 9px;
@@ -241,13 +327,19 @@
       margin-bottom: 32px;
 
       scrollbar-width: none;
+
     }
+
 
     .categories::-webkit-scrollbar {
+
       display: none;
+
     }
 
+
     .category {
+
       flex: 0 0 auto;
 
       border: 1px solid var(--light-gray);
@@ -263,23 +355,31 @@
       cursor: pointer;
 
       white-space: nowrap;
+
     }
+
 
     .category.active {
+
       background: var(--black);
+
       color: white;
+
       border-color: var(--black);
+
     }
 
 
-    /* =========================
-       EDITOR'S PICK
-    ========================= */
 
-    .featured {
-      position: relative;
+    /* =================================
+       КАРТОЧКА ГАРНИ
+    ================================= */
 
-      min-height: 230px;
+    .place-card {
+
+      background: white;
+
+      border: 1px solid var(--light-gray);
 
       border-radius: 24px;
 
@@ -287,86 +387,322 @@
 
       margin-bottom: 34px;
 
-      background:
+      cursor: pointer;
+
+    }
+
+
+    .place-image {
+
+      height: 230px;
+
+      background-image:
+
         linear-gradient(
           180deg,
-          rgba(0,0,0,0.05),
-          rgba(0,0,0,0.72)
+          rgba(0,0,0,0.02),
+          rgba(0,0,0,0.45)
         ),
-        url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=85");
+
+        url("https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=90");
 
       background-size: cover;
+
       background-position: center;
 
-      color: white;
+      position: relative;
 
-      padding: 20px;
-
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
     }
 
-    .featured-label {
-      font-size: 10px;
 
-      text-transform: uppercase;
+    .place-badge {
 
-      letter-spacing: 1.8px;
-
-      opacity: 0.75;
-
-      margin-bottom: 8px;
-    }
-
-    .featured h3 {
-      font-size: 27px;
-
-      line-height: 1.05;
-
-      letter-spacing: -0.8px;
-
-      margin-bottom: 8px;
-    }
-
-    .featured p {
-      font-size: 13px;
-
-      opacity: 0.82;
-
-      max-width: 330px;
-
-      line-height: 1.45;
-    }
-
-    .featured-arrow {
       position: absolute;
 
-      right: 18px;
-      bottom: 18px;
+      top: 14px;
 
-      width: 40px;
-      height: 40px;
+      left: 14px;
 
-      border-radius: 50%;
-
-      background: rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.90);
 
       backdrop-filter: blur(10px);
 
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 8px 11px;
 
-      font-size: 18px;
+      border-radius: 20px;
+
+      font-size: 11px;
+
+      font-weight: 600;
+
     }
 
 
-    /* =========================
-       DESTINATIONS
-    ========================= */
+    .save-button {
+
+      position: absolute;
+
+      top: 14px;
+
+      right: 14px;
+
+      width: 38px;
+
+      height: 38px;
+
+      border-radius: 50%;
+
+      border: none;
+
+      background: rgba(255,255,255,0.90);
+
+      backdrop-filter: blur(10px);
+
+      font-size: 19px;
+
+      cursor: pointer;
+
+    }
+
+
+    .place-content {
+
+      padding: 20px;
+
+    }
+
+
+    .place-title-row {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      gap: 12px;
+
+      align-items: flex-start;
+
+    }
+
+
+    .place-title {
+
+      font-size: 23px;
+
+      line-height: 1.1;
+
+      margin-bottom: 6px;
+
+    }
+
+
+    .place-location {
+
+      color: var(--gray);
+
+      font-size: 12px;
+
+      margin-bottom: 15px;
+
+    }
+
+
+    .rating {
+
+      background: #f3eee4;
+
+      border-radius: 10px;
+
+      padding: 7px 9px;
+
+      font-size: 12px;
+
+      white-space: nowrap;
+
+    }
+
+
+    .place-description {
+
+      color: #57534c;
+
+      font-size: 13px;
+
+      line-height: 1.6;
+
+      margin-bottom: 18px;
+
+    }
+
+
+    .info-grid {
+
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 9px;
+
+      margin-bottom: 18px;
+
+    }
+
+
+    .info {
+
+      background: var(--background);
+
+      border-radius: 13px;
+
+      padding: 12px;
+
+    }
+
+
+    .info-label {
+
+      color: var(--gray);
+
+      font-size: 10px;
+
+      margin-bottom: 5px;
+
+    }
+
+
+    .info-value {
+
+      font-size: 12px;
+
+      font-weight: 600;
+
+    }
+
+
+    .place-buttons {
+
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 9px;
+
+    }
+
+
+    .place-button {
+
+      border: none;
+
+      border-radius: 13px;
+
+      padding: 13px 8px;
+
+      font-size: 12px;
+
+      cursor: pointer;
+
+    }
+
+
+    .place-button.primary {
+
+      background: var(--black);
+
+      color: white;
+
+    }
+
+
+    .place-button.secondary {
+
+      background: var(--background);
+
+      color: var(--black);
+
+    }
+
+
+
+    /* =================================
+       ЧТО ПОСМОТРЕТЬ РЯДОМ
+    ================================= */
+
+    .nearby-list {
+
+      display: flex;
+
+      gap: 10px;
+
+      overflow-x: auto;
+
+      padding-bottom: 5px;
+
+      scrollbar-width: none;
+
+      margin-bottom: 34px;
+
+    }
+
+
+    .nearby-list::-webkit-scrollbar {
+
+      display: none;
+
+    }
+
+
+    .nearby {
+
+      flex: 0 0 190px;
+
+      background: white;
+
+      border: 1px solid var(--light-gray);
+
+      border-radius: 18px;
+
+      padding: 15px;
+
+    }
+
+
+    .nearby-icon {
+
+      font-size: 24px;
+
+      margin-bottom: 10px;
+
+    }
+
+
+    .nearby h3 {
+
+      font-size: 15px;
+
+      margin-bottom: 5px;
+
+    }
+
+
+    .nearby p {
+
+      font-size: 11px;
+
+      color: var(--gray);
+
+      line-height: 1.4;
+
+    }
+
+
+
+    /* =================================
+       НАПРАВЛЕНИЯ
+    ================================= */
 
     .destinations {
+
       display: grid;
 
       grid-template-columns: 1fr 1fr;
@@ -374,12 +710,15 @@
       gap: 12px;
 
       margin-bottom: 34px;
+
     }
 
+
     .destination {
+
       position: relative;
 
-      height: 190px;
+      height: 170px;
 
       border-radius: 20px;
 
@@ -394,13 +733,18 @@
       padding: 16px;
 
       display: flex;
+
       flex-direction: column;
+
       justify-content: flex-end;
 
       cursor: pointer;
+
     }
 
+
     .destination::after {
+
       content: "";
 
       position: absolute;
@@ -409,124 +753,79 @@
 
       background:
         linear-gradient(
-          transparent 30%,
-          rgba(0,0,0,0.65)
+          transparent 25%,
+          rgba(0,0,0,0.70)
         );
+
     }
 
+
     .destination-content {
+
       position: relative;
 
       z-index: 1;
+
     }
+
 
     .destination h3 {
-      font-size: 19px;
+
+      font-size: 18px;
 
       margin-bottom: 3px;
+
     }
 
+
     .destination p {
-      font-size: 11px;
+
+      font-size: 10px;
 
       opacity: 0.8;
+
     }
 
 
     .yerevan {
+
       background-image:
         url("https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=85");
+
     }
+
 
     .sevan {
+
       background-image:
         url("https://images.unsplash.com/photo-1596395819057-e37f55a8516a?auto=format&fit=crop&w=800&q=85");
+
     }
+
 
     .dilijan {
+
       background-image:
         url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=85");
+
     }
 
-    .garni {
+
+    .geghard {
+
       background-image:
-        url("https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=85");
+        url("https://images.unsplash.com/photo-1582550945154-66ea8fff25e1?auto=format&fit=crop&w=800&q=85");
+
     }
 
 
-    /* =========================
-       DISCOVER CARDS
-    ========================= */
 
-    .discover-list {
-      display: flex;
-
-      gap: 12px;
-
-      overflow-x: auto;
-
-      padding-bottom: 5px;
-
-      scrollbar-width: none;
-
-      margin-bottom: 35px;
-    }
-
-    .discover-list::-webkit-scrollbar {
-      display: none;
-    }
-
-    .discover-card {
-      flex: 0 0 230px;
-
-      background: white;
-
-      border: 1px solid var(--light-gray);
-
-      border-radius: 20px;
-
-      padding: 17px;
-
-      cursor: pointer;
-    }
-
-    .discover-icon {
-      width: 42px;
-      height: 42px;
-
-      border-radius: 13px;
-
-      background: #f1ede5;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      font-size: 21px;
-
-      margin-bottom: 14px;
-    }
-
-    .discover-card h3 {
-      font-size: 16px;
-
-      margin-bottom: 6px;
-    }
-
-    .discover-card p {
-      font-size: 12px;
-
-      color: var(--gray);
-
-      line-height: 1.45;
-    }
-
-
-    /* =========================
-       PREMIUM PREVIEW
-    ========================= */
+    /* =================================
+       PREMIUM
+    ================================= */
 
     .premium {
+
       background: var(--black);
 
       color: white;
@@ -536,17 +835,27 @@
       padding: 22px;
 
       margin-bottom: 25px;
+
+      cursor: pointer;
+
     }
 
+
     .premium-top {
+
       display: flex;
+
       justify-content: space-between;
+
       align-items: center;
 
       margin-bottom: 15px;
+
     }
 
+
     .premium-label {
+
       font-size: 10px;
 
       letter-spacing: 1.7px;
@@ -554,42 +863,54 @@
       text-transform: uppercase;
 
       opacity: 0.65;
+
     }
+
 
     .premium-star {
+
       font-size: 19px;
+
     }
 
+
     .premium h3 {
+
       font-size: 22px;
 
       margin-bottom: 8px;
+
     }
 
+
     .premium p {
+
       font-size: 13px;
 
       line-height: 1.5;
 
       opacity: 0.7;
 
-      max-width: 400px;
     }
 
 
-    /* =========================
-       BOTTOM NAV
-    ========================= */
+
+    /* =================================
+       НИЖНЕЕ МЕНЮ
+    ================================= */
 
     .bottom-nav {
+
       position: fixed;
 
       bottom: 0;
+
       left: 50%;
 
       transform: translateX(-50%);
 
       width: 100%;
+
       max-width: 620px;
 
       background: rgba(255,255,255,0.95);
@@ -608,9 +929,12 @@
         calc(10px + env(safe-area-inset-bottom));
 
       z-index: 20;
+
     }
 
+
     .nav-button {
+
       border: none;
 
       background: transparent;
@@ -622,31 +946,41 @@
       cursor: pointer;
 
       padding: 5px;
+
     }
 
+
     .nav-button.active {
+
       color: var(--accent);
 
       font-weight: 700;
+
     }
 
+
     .nav-icon {
+
       display: block;
 
       font-size: 20px;
 
       margin-bottom: 4px;
+
     }
 
 
-    /* =========================
-       TOAST
-    ========================= */
+
+    /* =================================
+       УВЕДОМЛЕНИЕ
+    ================================= */
 
     .toast {
+
       position: fixed;
 
       left: 50%;
+
       bottom: 90px;
 
       transform:
@@ -672,29 +1006,30 @@
       z-index: 100;
 
       white-space: nowrap;
+
     }
 
+
     .toast.show {
+
       opacity: 1;
 
       transform:
         translateX(-50%)
         translateY(0);
+
     }
 
 
-    /* =========================
-       MOBILE
-    ========================= */
 
     @media (max-width: 380px) {
 
       .hero {
-        height: 400px;
+        height: 390px;
       }
 
       .hero h1 {
-        font-size: 41px;
+        font-size: 40px;
       }
 
       .content {
@@ -703,23 +1038,29 @@
       }
 
       .destination {
-        height: 170px;
+        height: 155px;
       }
 
     }
 
   </style>
+
 </head>
+
 
 
 <body>
 
+
 <div class="app">
 
 
-  <!-- HERO -->
+  <!-- ================================
+       ГЛАВНЫЙ ЭКРАН
+  ================================= -->
 
   <section class="hero">
+
 
     <div class="hero-top">
 
@@ -727,44 +1068,54 @@
         ARMENIA GUIDE
       </div>
 
+
       <button
         class="language-button"
-        onclick="showMessage('🌍 Languages coming next')"
+        onclick="showMessage('🌍 Выбор языка добавим на следующем этапе')"
       >
-        EN 🇬🇧
+        🇷🇺 Русский
       </button>
 
     </div>
 
 
+
     <div class="hero-content">
 
       <div class="eyebrow">
-        Discover · Explore · Experience
+        Откройте · Исследуйте · Почувствуйте
       </div>
 
+
       <h1>
-        Discover<br>
-        Armenia.
+        Открой<br>
+        Армению.
       </h1>
 
+
       <p class="hero-description">
-        A curated guide to the places,
-        flavors and experiences worth discovering.
+
+        Путеводитель по местам,
+        вкусам и впечатлениям,
+        которые действительно стоит увидеть.
+
       </p>
 
     </div>
+
 
   </section>
 
 
 
-  <!-- CONTENT -->
+  <!-- ================================
+       КОНТЕНТ
+  ================================= -->
 
   <main class="content">
 
 
-    <!-- SEARCH -->
+    <!-- ПОИСК -->
 
     <div class="search">
 
@@ -772,9 +1123,10 @@
         🔎
       </span>
 
+
       <input
         type="text"
-        placeholder="Search Armenia..."
+        placeholder="Поиск по Армении..."
         oninput="searchGuide(this.value)"
       >
 
@@ -782,124 +1134,362 @@
 
 
 
-    <!-- CATEGORIES -->
+    <!-- КАТЕГОРИИ -->
 
     <div class="section-header">
 
       <h2>
-        Explore
+        Исследовать
       </h2>
 
       <span>
-        See all
+        Все
       </span>
 
     </div>
 
 
+
     <div class="categories">
+
 
       <button
         class="category active"
         onclick="categoryClick(this)"
       >
-        ✨ All
+        ✨ Всё
       </button>
+
 
       <button
         class="category"
         onclick="categoryClick(this)"
       >
-        🏛️ Sightseeing
+        🏛️ Достопримечательности
       </button>
+
 
       <button
         class="category"
         onclick="categoryClick(this)"
       >
-        🍴 Food
+        🍴 Рестораны
       </button>
+
 
       <button
         class="category"
         onclick="categoryClick(this)"
       >
-        ☕ Cafés
+        ☕ Кафе
       </button>
+
 
       <button
         class="category"
         onclick="categoryClick(this)"
       >
-        🏔️ Nature
+        🏔️ Природа
       </button>
+
 
       <button
         class="category"
         onclick="categoryClick(this)"
       >
-        🍷 Wine
+        🍷 Вино
       </button>
+
 
     </div>
 
 
 
-    <!-- EDITOR'S PICK -->
+    <!-- ================================
+         ГАРНИ
+    ================================= -->
 
     <div class="section-header">
 
       <h2>
-        Editor's pick
+        Выбор редакции
       </h2>
 
       <span>
-        Featured
+        Рекомендуем
       </span>
 
     </div>
 
 
-    <div
-      class="featured"
-      onclick="showMessage('📍 Full place details coming next')"
-    >
 
-      <div class="featured-label">
-        Must experience
+    <div class="place-card">
+
+
+      <!-- ФОТО -->
+
+      <div class="place-image">
+
+
+        <div class="place-badge">
+          🏛️ Достопримечательность
+        </div>
+
+
+        <button
+          class="save-button"
+          onclick="savePlace(event)"
+        >
+          ♡
+        </button>
+
+
       </div>
 
-      <h3>
-        Armenia beyond<br>
-        the obvious.
-      </h3>
 
-      <p>
-        Discover places, flavors and experiences
-        selected by locals.
-      </p>
 
-      <div class="featured-arrow">
-        →
+      <!-- ИНФОРМАЦИЯ -->
+
+      <div class="place-content">
+
+
+        <div class="place-title-row">
+
+
+          <div>
+
+            <h2 class="place-title">
+              Храм Гарни
+            </h2>
+
+
+            <div class="place-location">
+              📍 Котайкская область
+            </div>
+
+          </div>
+
+
+          <div class="rating">
+            ⭐ 4.8
+          </div>
+
+
+        </div>
+
+
+
+        <p class="place-description">
+
+          Храм Гарни — один из самых известных
+          памятников дохристианской Армении.
+          Это единственное сохранившееся в Армении
+          сооружение греко-римского типа с колоннадой.
+
+          Храм находится примерно в 30 км от Еревана,
+          над ущельем реки Азат.
+
+        </p>
+
+
+
+        <!-- ПОЛЕЗНАЯ ИНФОРМАЦИЯ -->
+
+        <div class="info-grid">
+
+
+          <div class="info">
+
+            <div class="info-label">
+              📍 От Еревана
+            </div>
+
+            <div class="info-value">
+              Около 30 км
+            </div>
+
+          </div>
+
+
+
+          <div class="info">
+
+            <div class="info-label">
+              🏛️ Период
+            </div>
+
+            <div class="info-value">
+              I век н. э.
+            </div>
+
+          </div>
+
+
+
+          <div class="info">
+
+            <div class="info-label">
+              🎟️ Вход
+            </div>
+
+            <div class="info-value">
+              1 500 ֏
+            </div>
+
+          </div>
+
+
+
+          <div class="info">
+
+            <div class="info-label">
+              🕐 Музей-заповедник
+            </div>
+
+            <div class="info-value">
+              Вт–Вс
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- КНОПКИ -->
+
+        <div class="place-buttons">
+
+
+          <button
+            class="place-button primary"
+            onclick="openMap()"
+          >
+            🗺️ Открыть карту
+          </button>
+
+
+          <button
+            class="place-button secondary"
+            onclick="savePlace(event)"
+          >
+            ♡ Сохранить
+          </button>
+
+
+        </div>
+
+
       </div>
+
 
     </div>
 
 
 
-    <!-- DESTINATIONS -->
+    <!-- ================================
+         РЯДОМ
+    ================================= -->
 
     <div class="section-header">
 
       <h2>
-        Start exploring
+        Что посмотреть рядом
+      </h2>
+
+    </div>
+
+
+
+    <div class="nearby-list">
+
+
+      <div
+        class="nearby"
+        onclick="showMessage('🪨 Симфония камней')"
+      >
+
+        <div class="nearby-icon">
+          🪨
+        </div>
+
+        <h3>
+          Симфония камней
+        </h3>
+
+        <p>
+          Уникальное базальтовое ущелье
+          реки Азат.
+        </p>
+
+      </div>
+
+
+
+      <div
+        class="nearby"
+        onclick="showMessage('⛪ Монастырь Гегард')"
+      >
+
+        <div class="nearby-icon">
+          ⛪
+        </div>
+
+        <h3>
+          Монастырь Гегард
+        </h3>
+
+        <p>
+          Средневековый монастырский
+          комплекс в скалах.
+        </p>
+
+      </div>
+
+
+
+      <div
+        class="nearby"
+        onclick="showMessage('🥖 Лаваш')"
+      >
+
+        <div class="nearby-icon">
+          🥖
+        </div>
+
+        <h3>
+          Выпечка лаваша
+        </h3>
+
+        <p>
+          Познакомьтесь с традиционным
+          армянским способом выпечки.
+        </p>
+
+      </div>
+
+
+    </div>
+
+
+
+    <!-- ================================
+         НАПРАВЛЕНИЯ
+    ================================= -->
+
+    <div class="section-header">
+
+      <h2>
+        Куда ещё поехать
       </h2>
 
       <span>
-        Armenia
+        Армения
       </span>
 
     </div>
+
 
 
     <div class="destinations">
@@ -907,17 +1497,17 @@
 
       <div
         class="destination yerevan"
-        onclick="showMessage('📍 Yerevan guide coming soon')"
+        onclick="showMessage('📍 Гид по Еревану скоро')"
       >
 
         <div class="destination-content">
 
           <h3>
-            Yerevan
+            Ереван
           </h3>
 
           <p>
-            Capital · Culture · Food
+            Столица · Еда · Культура
           </p>
 
         </div>
@@ -928,17 +1518,17 @@
 
       <div
         class="destination sevan"
-        onclick="showMessage('📍 Lake Sevan guide coming soon')"
+        onclick="showMessage('📍 Гид по Севану скоро')"
       >
 
         <div class="destination-content">
 
           <h3>
-            Lake Sevan
+            Севан
           </h3>
 
           <p>
-            Nature · Views · Escape
+            Озеро · Природа · Виды
           </p>
 
         </div>
@@ -949,17 +1539,17 @@
 
       <div
         class="destination dilijan"
-        onclick="showMessage('📍 Dilijan guide coming soon')"
+        onclick="showMessage('📍 Гид по Дилижану скоро')"
       >
 
         <div class="destination-content">
 
           <h3>
-            Dilijan
+            Дилижан
           </h3>
 
           <p>
-            Forest · Nature · Relax
+            Леса · Природа · Отдых
           </p>
 
         </div>
@@ -969,18 +1559,18 @@
 
 
       <div
-        class="destination garni"
-        onclick="showMessage('📍 Garni guide coming soon')"
+        class="destination geghard"
+        onclick="showMessage('📍 Гид по Гегарду скоро')"
       >
 
         <div class="destination-content">
 
           <h3>
-            Garni
+            Гегард
           </h3>
 
           <p>
-            History · Mountains · Culture
+            История · Монастырь · Скалы
           </p>
 
         </div>
@@ -992,95 +1582,15 @@
 
 
 
-    <!-- DISCOVER -->
-
-    <div class="section-header">
-
-      <h2>
-        Discover more
-      </h2>
-
-    </div>
-
-
-    <div class="discover-list">
-
-
-      <div
-        class="discover-card"
-        onclick="showMessage('🍷 Wine guide coming soon')"
-      >
-
-        <div class="discover-icon">
-          🍷
-        </div>
-
-        <h3>
-          Armenian wine
-        </h3>
-
-        <p>
-          Discover wineries and unforgettable
-          wine experiences.
-        </p>
-
-      </div>
-
-
-
-      <div
-        class="discover-card"
-        onclick="showMessage('🍴 Food guide coming soon')"
-      >
-
-        <div class="discover-icon">
-          🍴
-        </div>
-
-        <h3>
-          Eat like a local
-        </h3>
-
-        <p>
-          Traditional Armenian food and
-          modern restaurants.
-        </p>
-
-      </div>
-
-
-
-      <div
-        class="discover-card"
-        onclick="showMessage('📸 Photo spots coming soon')"
-      >
-
-        <div class="discover-icon">
-          📸
-        </div>
-
-        <h3>
-          Photo spots
-        </h3>
-
-        <p>
-          Beautiful places worth saving
-          to your camera roll.
-        </p>
-
-      </div>
-
-
-    </div>
-
-
-
-    <!-- PREMIUM PREVIEW -->
+    <!-- ================================
+         PREMIUM
+    ================================= -->
 
     <div
       class="premium"
-      onclick="showMessage('⭐ Premium will be available soon')"
+      onclick="showMessage('⭐ Premium появится позже')"
     >
+
 
       <div class="premium-top">
 
@@ -1094,16 +1604,21 @@
 
       </div>
 
+
       <h3>
-        Go beyond the guide.
+        Больше, чем обычный гид.
       </h3>
 
+
       <p>
-        Hidden gems, curated routes,
-        local favorites and exclusive
-        experiences will be available
-        in Premium.
+
+        Скрытые места, готовые маршруты,
+        любимые места местных жителей,
+        необычные впечатления и другие
+        рекомендации появятся в Premium.
+
       </p>
+
 
     </div>
 
@@ -1115,7 +1630,9 @@
 
 
 
-<!-- BOTTOM NAV -->
+<!-- ================================
+     НИЖНЕЕ МЕНЮ
+================================= -->
 
 <nav class="bottom-nav">
 
@@ -1129,7 +1646,7 @@
       ⌂
     </span>
 
-    Home
+    Главная
 
   </button>
 
@@ -1137,14 +1654,14 @@
 
   <button
     class="nav-button"
-    onclick="showMessage('🗺️ Map coming next')"
+    onclick="openMap()"
   >
 
     <span class="nav-icon">
       🗺️
     </span>
 
-    Map
+    Карта
 
   </button>
 
@@ -1152,14 +1669,14 @@
 
   <button
     class="nav-button"
-    onclick="showMessage('❤️ Saved places coming next')"
+    onclick="showMessage('❤️ Здесь будут сохранённые места')"
   >
 
     <span class="nav-icon">
       ♡
     </span>
 
-    Saved
+    Избранное
 
   </button>
 
@@ -1167,14 +1684,14 @@
 
   <button
     class="nav-button"
-    onclick="showMessage('☰ More sections coming next')"
+    onclick="showMessage('☰ Дополнительные разделы появятся позже')"
   >
 
     <span class="nav-icon">
       ☰
     </span>
 
-    More
+    Ещё
 
   </button>
 
@@ -1182,6 +1699,8 @@
 </nav>
 
 
+
+<!-- УВЕДОМЛЕНИЕ -->
 
 <div
   class="toast"
@@ -1192,11 +1711,13 @@
 
 <script>
 
-  /* =========================
-     TELEGRAM
-  ========================= */
+
+  /* =================================
+     TELEGRAM MINI APP
+  ================================= */
 
   const tg = window.Telegram?.WebApp;
+
 
   if (tg) {
 
@@ -1207,9 +1728,10 @@
   }
 
 
-  /* =========================
-     TOAST
-  ========================= */
+
+  /* =================================
+     УВЕДОМЛЕНИЯ
+  ================================= */
 
   function showMessage(message) {
 
@@ -1220,6 +1742,7 @@
 
     toast.classList.add("show");
 
+
     setTimeout(() => {
 
       toast.classList.remove("show");
@@ -1229,11 +1752,13 @@
   }
 
 
-  /* =========================
-     CATEGORY
-  ========================= */
+
+  /* =================================
+     КАТЕГОРИИ
+  ================================= */
 
   function categoryClick(button) {
+
 
     document
       .querySelectorAll(".category")
@@ -1243,20 +1768,25 @@
 
       });
 
+
     button.classList.add("active");
 
+
     showMessage(
-      "✨ " + button.textContent.trim()
+      "Выбрано: " +
+      button.textContent.trim()
     );
 
   }
 
 
-  /* =========================
-     NAVIGATION
-  ========================= */
+
+  /* =================================
+     НИЖНЕЕ МЕНЮ
+  ================================= */
 
   function setActive(button) {
+
 
     document
       .querySelectorAll(".nav-button")
@@ -1266,29 +1796,93 @@
 
       });
 
+
     button.classList.add("active");
 
   }
 
 
-  /* =========================
-     SEARCH
-  ========================= */
+
+  /* =================================
+     ПОИСК
+  ================================= */
 
   function searchGuide(value) {
+
 
     if (value.trim().length >= 2) {
 
       showMessage(
-        "🔎 Searching for " + value.trim()
+        "🔎 Поиск: " +
+        value.trim()
       );
 
     }
 
   }
 
+
+
+  /* =================================
+     СОХРАНИТЬ
+  ================================= */
+
+  function savePlace(event) {
+
+
+    if (event) {
+
+      event.stopPropagation();
+
+    }
+
+
+    showMessage(
+      "❤️ Место добавлено в избранное"
+    );
+
+  }
+
+
+
+  /* =================================
+     КАРТА
+  ================================= */
+
+  function openMap() {
+
+
+    const latitude = 40.1126;
+
+    const longitude = 44.7296;
+
+
+    const url =
+      "https://www.google.com/maps/search/?api=1&query="
+      + latitude
+      + ","
+      + longitude;
+
+
+    if (tg && tg.openLink) {
+
+      tg.openLink(url);
+
+    } else {
+
+      window.open(
+        url,
+        "_blank"
+      );
+
+    }
+
+  }
+
+
 </script>
 
 
 </body>
+
 </html>
