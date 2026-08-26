@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-  />
+  >
 
   <title>Armenia Guide</title>
 
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 
   <style>
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -19,502 +21,1274 @@
     }
 
     :root {
-      --bg: #f7f5f0;
-      --card: #ffffff;
-      --text: #24221f;
-      --muted: #77736c;
-      --border: #e7e3dc;
-      --accent: #9a3f32;
+      --background: #f6f3ed;
+      --white: #ffffff;
+      --black: #24221f;
+      --gray: #77736c;
+      --light-gray: #e7e2d9;
+      --accent: #8f3d32;
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
+      background: var(--background);
+      color: var(--black);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
       min-height: 100vh;
       padding-bottom: 90px;
     }
 
-    .app {
-      max-width: 600px;
-      margin: 0 auto;
+    button {
+      font-family: inherit;
     }
 
-    /* HERO */
+    .app {
+      max-width: 620px;
+      margin: auto;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
 
     .hero {
-      min-height: 330px;
-      padding: 28px 22px;
+      position: relative;
+      height: 430px;
+
+      background-image:
+        linear-gradient(
+          180deg,
+          rgba(0,0,0,0.12) 0%,
+          rgba(0,0,0,0.12) 40%,
+          rgba(0,0,0,0.68) 100%
+        ),
+        url("https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=1400&q=90");
+
+      background-size: cover;
+      background-position: center;
+
+      border-radius: 0 0 32px 32px;
+
+      color: white;
+
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      background:
-        linear-gradient(
-          rgba(30, 25, 20, 0.28),
-          rgba(30, 25, 20, 0.48)
-        ),
-        url("https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=85")
-        center / cover;
-      color: white;
-      border-radius: 0 0 28px 28px;
+
+      padding: 24px 20px 30px;
     }
 
-    .top {
+
+    /* TOP */
+
+    .hero-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
     .logo {
-      font-size: 14px;
+      font-size: 12px;
+      letter-spacing: 2.5px;
       font-weight: 700;
-      letter-spacing: 2px;
     }
 
-    .language {
-      background: rgba(255,255,255,0.18);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255,255,255,0.25);
-      padding: 8px 12px;
-      border-radius: 20px;
-      font-size: 13px;
+    .language-button {
+      border: 1px solid rgba(255,255,255,0.35);
+      background: rgba(255,255,255,0.14);
+      backdrop-filter: blur(12px);
+
+      color: white;
+
+      border-radius: 30px;
+
+      padding: 9px 13px;
+
+      font-size: 12px;
+
+      cursor: pointer;
     }
+
+
+    /* HERO TEXT */
 
     .hero-content {
-      padding-bottom: 5px;
+      max-width: 410px;
+    }
+
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      margin-bottom: 12px;
+
+      opacity: 0.8;
     }
 
     .hero h1 {
-      font-size: 42px;
-      line-height: 1;
-      letter-spacing: -1.5px;
-      margin-bottom: 12px;
+      font-size: 47px;
+      line-height: 0.98;
+
+      letter-spacing: -2px;
+
+      margin-bottom: 15px;
     }
 
-    .hero p {
+    .hero-description {
       font-size: 15px;
       line-height: 1.5;
+
       max-width: 340px;
-      opacity: 0.92;
+
+      opacity: 0.9;
     }
 
-    /* CONTENT */
+
+    /* =========================
+       CONTENT
+    ========================= */
 
     .content {
-      padding: 24px 18px;
+      padding: 26px 18px;
     }
 
-    .section-title {
+
+    /* SEARCH */
+
+    .search {
+      width: 100%;
+
+      border: 1px solid var(--light-gray);
+
+      background: var(--white);
+
+      border-radius: 16px;
+
+      padding: 15px 17px;
+
+      display: flex;
+      align-items: center;
+
+      gap: 10px;
+
+      margin-bottom: 28px;
+    }
+
+    .search-icon {
+      font-size: 18px;
+    }
+
+    .search input {
+      border: none;
+      outline: none;
+
+      width: 100%;
+
+      font-size: 14px;
+
+      background: transparent;
+      color: var(--black);
+    }
+
+    .search input::placeholder {
+      color: #99948c;
+    }
+
+
+    /* SECTION HEADER */
+
+    .section-header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: baseline;
+
       margin-bottom: 14px;
     }
 
-    .section-title h2 {
-      font-size: 20px;
-      letter-spacing: -0.4px;
+    .section-header h2 {
+      font-size: 21px;
+      letter-spacing: -0.5px;
     }
 
-    .section-title span {
+    .section-header span {
       font-size: 12px;
-      color: var(--muted);
+      color: var(--gray);
     }
 
-    /* MAIN BUTTONS */
 
-    .main-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-bottom: 30px;
+    /* =========================
+       CATEGORIES
+    ========================= */
+
+    .categories {
+      display: flex;
+
+      gap: 9px;
+
+      overflow-x: auto;
+
+      padding-bottom: 6px;
+
+      margin-bottom: 32px;
+
+      scrollbar-width: none;
     }
 
-    .main-card {
-      border: none;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 20px 16px;
-      text-align: left;
+    .categories::-webkit-scrollbar {
+      display: none;
+    }
+
+    .category {
+      flex: 0 0 auto;
+
+      border: 1px solid var(--light-gray);
+
+      background: white;
+
+      border-radius: 30px;
+
+      padding: 11px 15px;
+
+      font-size: 12px;
+
       cursor: pointer;
-      transition: transform 0.15s ease;
+
+      white-space: nowrap;
     }
 
-    .main-card:active {
-      transform: scale(0.97);
+    .category.active {
+      background: var(--black);
+      color: white;
+      border-color: var(--black);
     }
 
-    .main-card .icon {
-      font-size: 27px;
-      margin-bottom: 14px;
-      display: block;
-    }
 
-    .main-card h3 {
-      font-size: 15px;
-      margin-bottom: 5px;
-    }
-
-    .main-card p {
-      color: var(--muted);
-      font-size: 12px;
-      line-height: 1.4;
-    }
-
-    /* FEATURED */
+    /* =========================
+       EDITOR'S PICK
+    ========================= */
 
     .featured {
-      background: var(--text);
+      position: relative;
+
+      min-height: 230px;
+
+      border-radius: 24px;
+
+      overflow: hidden;
+
+      margin-bottom: 34px;
+
+      background:
+        linear-gradient(
+          180deg,
+          rgba(0,0,0,0.05),
+          rgba(0,0,0,0.72)
+        ),
+        url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=85");
+
+      background-size: cover;
+      background-position: center;
+
       color: white;
-      border-radius: 22px;
+
       padding: 20px;
-      margin-bottom: 28px;
-      cursor: pointer;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
     }
 
     .featured-label {
-      font-size: 11px;
-      letter-spacing: 1.5px;
+      font-size: 10px;
+
       text-transform: uppercase;
-      opacity: 0.65;
-      margin-bottom: 10px;
+
+      letter-spacing: 1.8px;
+
+      opacity: 0.75;
+
+      margin-bottom: 8px;
     }
 
     .featured h3 {
-      font-size: 23px;
-      margin-bottom: 7px;
+      font-size: 27px;
+
+      line-height: 1.05;
+
+      letter-spacing: -0.8px;
+
+      margin-bottom: 8px;
     }
 
     .featured p {
       font-size: 13px;
-      line-height: 1.5;
-      opacity: 0.72;
+
+      opacity: 0.82;
+
+      max-width: 330px;
+
+      line-height: 1.45;
     }
 
-    .featured-button {
-      display: inline-block;
-      margin-top: 16px;
-      padding: 9px 14px;
-      border: 1px solid rgba(255,255,255,0.3);
-      border-radius: 20px;
-      font-size: 12px;
-    }
+    .featured-arrow {
+      position: absolute;
 
-    /* SMALL CATEGORIES */
+      right: 18px;
+      bottom: 18px;
 
-    .category-list {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-    }
+      width: 40px;
+      height: 40px;
 
-    .category {
-      background: white;
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 15px;
+      border-radius: 50%;
+
+      background: rgba(255,255,255,0.18);
+
+      backdrop-filter: blur(10px);
+
       display: flex;
       align-items: center;
-      gap: 11px;
+      justify-content: center;
+
+      font-size: 18px;
+    }
+
+
+    /* =========================
+       DESTINATIONS
+    ========================= */
+
+    .destinations {
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 12px;
+
+      margin-bottom: 34px;
+    }
+
+    .destination {
+      position: relative;
+
+      height: 190px;
+
+      border-radius: 20px;
+
+      overflow: hidden;
+
+      background-size: cover;
+
+      background-position: center;
+
+      color: white;
+
+      padding: 16px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
       cursor: pointer;
     }
 
-    .category-icon {
-      font-size: 20px;
+    .destination::after {
+      content: "";
+
+      position: absolute;
+
+      inset: 0;
+
+      background:
+        linear-gradient(
+          transparent 30%,
+          rgba(0,0,0,0.65)
+        );
     }
 
-    .category span {
+    .destination-content {
+      position: relative;
+
+      z-index: 1;
+    }
+
+    .destination h3 {
+      font-size: 19px;
+
+      margin-bottom: 3px;
+    }
+
+    .destination p {
+      font-size: 11px;
+
+      opacity: 0.8;
+    }
+
+
+    .yerevan {
+      background-image:
+        url("https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=85");
+    }
+
+    .sevan {
+      background-image:
+        url("https://images.unsplash.com/photo-1596395819057-e37f55a8516a?auto=format&fit=crop&w=800&q=85");
+    }
+
+    .dilijan {
+      background-image:
+        url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=85");
+    }
+
+    .garni {
+      background-image:
+        url("https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=85");
+    }
+
+
+    /* =========================
+       DISCOVER CARDS
+    ========================= */
+
+    .discover-list {
+      display: flex;
+
+      gap: 12px;
+
+      overflow-x: auto;
+
+      padding-bottom: 5px;
+
+      scrollbar-width: none;
+
+      margin-bottom: 35px;
+    }
+
+    .discover-list::-webkit-scrollbar {
+      display: none;
+    }
+
+    .discover-card {
+      flex: 0 0 230px;
+
+      background: white;
+
+      border: 1px solid var(--light-gray);
+
+      border-radius: 20px;
+
+      padding: 17px;
+
+      cursor: pointer;
+    }
+
+    .discover-icon {
+      width: 42px;
+      height: 42px;
+
+      border-radius: 13px;
+
+      background: #f1ede5;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 21px;
+
+      margin-bottom: 14px;
+    }
+
+    .discover-card h3 {
+      font-size: 16px;
+
+      margin-bottom: 6px;
+    }
+
+    .discover-card p {
+      font-size: 12px;
+
+      color: var(--gray);
+
+      line-height: 1.45;
+    }
+
+
+    /* =========================
+       PREMIUM PREVIEW
+    ========================= */
+
+    .premium {
+      background: var(--black);
+
+      color: white;
+
+      border-radius: 23px;
+
+      padding: 22px;
+
+      margin-bottom: 25px;
+    }
+
+    .premium-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      margin-bottom: 15px;
+    }
+
+    .premium-label {
+      font-size: 10px;
+
+      letter-spacing: 1.7px;
+
+      text-transform: uppercase;
+
+      opacity: 0.65;
+    }
+
+    .premium-star {
+      font-size: 19px;
+    }
+
+    .premium h3 {
+      font-size: 22px;
+
+      margin-bottom: 8px;
+    }
+
+    .premium p {
       font-size: 13px;
-      font-weight: 600;
+
+      line-height: 1.5;
+
+      opacity: 0.7;
+
+      max-width: 400px;
     }
 
-    /* BOTTOM NAV */
+
+    /* =========================
+       BOTTOM NAV
+    ========================= */
 
     .bottom-nav {
       position: fixed;
+
       bottom: 0;
       left: 50%;
+
       transform: translateX(-50%);
+
       width: 100%;
-      max-width: 600px;
-      background: rgba(255,255,255,0.94);
+      max-width: 620px;
+
+      background: rgba(255,255,255,0.95);
+
       backdrop-filter: blur(18px);
-      border-top: 1px solid var(--border);
+
+      border-top: 1px solid var(--light-gray);
+
       display: grid;
+
       grid-template-columns: repeat(4, 1fr);
-      padding: 10px 8px calc(10px + env(safe-area-inset-bottom));
-      z-index: 10;
+
+      padding:
+        10px
+        8px
+        calc(10px + env(safe-area-inset-bottom));
+
+      z-index: 20;
     }
 
-    .nav-item {
+    .nav-button {
       border: none;
-      background: none;
-      color: var(--muted);
+
+      background: transparent;
+
+      color: var(--gray);
+
       font-size: 10px;
+
       cursor: pointer;
+
       padding: 5px;
     }
 
-    .nav-item.active {
+    .nav-button.active {
       color: var(--accent);
+
       font-weight: 700;
     }
 
     .nav-icon {
       display: block;
+
       font-size: 20px;
+
       margin-bottom: 4px;
     }
 
-    /* TOAST */
+
+    /* =========================
+       TOAST
+    ========================= */
 
     .toast {
       position: fixed;
+
       left: 50%;
       bottom: 90px;
-      transform: translateX(-50%) translateY(20px);
-      background: #24221f;
+
+      transform:
+        translateX(-50%)
+        translateY(20px);
+
+      background: var(--black);
+
       color: white;
+
       padding: 12px 18px;
+
       border-radius: 25px;
-      font-size: 13px;
+
+      font-size: 12px;
+
       opacity: 0;
+
       pointer-events: none;
-      transition: all 0.25s ease;
-      z-index: 20;
+
+      transition: 0.25s;
+
+      z-index: 100;
+
       white-space: nowrap;
     }
 
     .toast.show {
       opacity: 1;
-      transform: translateX(-50%) translateY(0);
+
+      transform:
+        translateX(-50%)
+        translateY(0);
     }
 
+
+    /* =========================
+       MOBILE
+    ========================= */
+
     @media (max-width: 380px) {
+
+      .hero {
+        height: 400px;
+      }
+
       .hero h1 {
-        font-size: 36px;
+        font-size: 41px;
       }
 
       .content {
-        padding: 20px 14px;
+        padding-left: 14px;
+        padding-right: 14px;
       }
+
+      .destination {
+        height: 170px;
+      }
+
     }
+
   </style>
 </head>
 
+
 <body>
 
-  <div class="app">
+<div class="app">
 
-    <!-- HERO -->
 
-    <section class="hero">
+  <!-- HERO -->
 
-      <div class="top">
-        <div class="logo">ARMENIA GUIDE</div>
-        <div class="language">🇬🇧 EN</div>
+  <section class="hero">
+
+    <div class="hero-top">
+
+      <div class="logo">
+        ARMENIA GUIDE
       </div>
 
-      <div class="hero-content">
-        <h1>Discover<br>Armenia.</h1>
-        <p>
-          Your personal guide to the places worth seeing,
-          eating and experiencing.
-        </p>
+      <button
+        class="language-button"
+        onclick="showMessage('🌍 Languages coming next')"
+      >
+        EN 🇬🇧
+      </button>
+
+    </div>
+
+
+    <div class="hero-content">
+
+      <div class="eyebrow">
+        Discover · Explore · Experience
       </div>
 
-    </section>
+      <h1>
+        Discover<br>
+        Armenia.
+      </h1>
+
+      <p class="hero-description">
+        A curated guide to the places,
+        flavors and experiences worth discovering.
+      </p>
+
+    </div>
+
+  </section>
 
 
-    <!-- CONTENT -->
 
-    <main class="content">
+  <!-- CONTENT -->
 
-      <div class="section-title">
-        <h2>Explore Armenia</h2>
-        <span>🇦🇲</span>
-      </div>
+  <main class="content">
 
 
-      <div class="main-grid">
+    <!-- SEARCH -->
 
-        <button class="main-card" onclick="showMessage('🗺 Interactive map coming soon')">
-          <span class="icon">🗺️</span>
-          <h3>Explore the map</h3>
-          <p>Find restaurants, places, cafés and hidden gems.</p>
-        </button>
+    <div class="search">
 
+      <span class="search-icon">
+        🔎
+      </span>
 
-        <button class="main-card" onclick="showMessage('🍴 Restaurants section coming soon')">
-          <span class="icon">🍴</span>
-          <h3>Eat & Drink</h3>
-          <p>Our favorite restaurants, cafés and wine spots.</p>
-        </button>
-
-
-        <button class="main-card" onclick="showMessage('🏔 Places section coming soon')">
-          <span class="icon">🏔️</span>
-          <h3>Places to visit</h3>
-          <p>Mountains, monasteries, lakes and beautiful views.</p>
-        </button>
-
-
-        <button class="main-card" onclick="showMessage('🚗 Routes section coming soon')">
-          <span class="icon">🚗</span>
-          <h3>Road trips</h3>
-          <p>Ready-made routes for 1, 2 or several days.</p>
-        </button>
-
-      </div>
-
-
-      <!-- FEATURED -->
-
-      <div class="section-title">
-        <h2>Editor's pick</h2>
-      </div>
-
-      <div
-        class="featured"
-        onclick="showMessage('📍 More information coming soon')"
+      <input
+        type="text"
+        placeholder="Search Armenia..."
+        oninput="searchGuide(this.value)"
       >
 
-        <div class="featured-label">
-          Armenia · Must visit
+    </div>
+
+
+
+    <!-- CATEGORIES -->
+
+    <div class="section-header">
+
+      <h2>
+        Explore
+      </h2>
+
+      <span>
+        See all
+      </span>
+
+    </div>
+
+
+    <div class="categories">
+
+      <button
+        class="category active"
+        onclick="categoryClick(this)"
+      >
+        ✨ All
+      </button>
+
+      <button
+        class="category"
+        onclick="categoryClick(this)"
+      >
+        🏛️ Sightseeing
+      </button>
+
+      <button
+        class="category"
+        onclick="categoryClick(this)"
+      >
+        🍴 Food
+      </button>
+
+      <button
+        class="category"
+        onclick="categoryClick(this)"
+      >
+        ☕ Cafés
+      </button>
+
+      <button
+        class="category"
+        onclick="categoryClick(this)"
+      >
+        🏔️ Nature
+      </button>
+
+      <button
+        class="category"
+        onclick="categoryClick(this)"
+      >
+        🍷 Wine
+      </button>
+
+    </div>
+
+
+
+    <!-- EDITOR'S PICK -->
+
+    <div class="section-header">
+
+      <h2>
+        Editor's pick
+      </h2>
+
+      <span>
+        Featured
+      </span>
+
+    </div>
+
+
+    <div
+      class="featured"
+      onclick="showMessage('📍 Full place details coming next')"
+    >
+
+      <div class="featured-label">
+        Must experience
+      </div>
+
+      <h3>
+        Armenia beyond<br>
+        the obvious.
+      </h3>
+
+      <p>
+        Discover places, flavors and experiences
+        selected by locals.
+      </p>
+
+      <div class="featured-arrow">
+        →
+      </div>
+
+    </div>
+
+
+
+    <!-- DESTINATIONS -->
+
+    <div class="section-header">
+
+      <h2>
+        Start exploring
+      </h2>
+
+      <span>
+        Armenia
+      </span>
+
+    </div>
+
+
+    <div class="destinations">
+
+
+      <div
+        class="destination yerevan"
+        onclick="showMessage('📍 Yerevan guide coming soon')"
+      >
+
+        <div class="destination-content">
+
+          <h3>
+            Yerevan
+          </h3>
+
+          <p>
+            Capital · Culture · Food
+          </p>
+
         </div>
 
-        <h3>See Armenia like a local.</h3>
+      </div>
+
+
+
+      <div
+        class="destination sevan"
+        onclick="showMessage('📍 Lake Sevan guide coming soon')"
+      >
+
+        <div class="destination-content">
+
+          <h3>
+            Lake Sevan
+          </h3>
+
+          <p>
+            Nature · Views · Escape
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <div
+        class="destination dilijan"
+        onclick="showMessage('📍 Dilijan guide coming soon')"
+      >
+
+        <div class="destination-content">
+
+          <h3>
+            Dilijan
+          </h3>
+
+          <p>
+            Forest · Nature · Relax
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <div
+        class="destination garni"
+        onclick="showMessage('📍 Garni guide coming soon')"
+      >
+
+        <div class="destination-content">
+
+          <h3>
+            Garni
+          </h3>
+
+          <p>
+            History · Mountains · Culture
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+    <!-- DISCOVER -->
+
+    <div class="section-header">
+
+      <h2>
+        Discover more
+      </h2>
+
+    </div>
+
+
+    <div class="discover-list">
+
+
+      <div
+        class="discover-card"
+        onclick="showMessage('🍷 Wine guide coming soon')"
+      >
+
+        <div class="discover-icon">
+          🍷
+        </div>
+
+        <h3>
+          Armenian wine
+        </h3>
 
         <p>
-          Discover the places we would recommend
-          to our closest friends.
+          Discover wineries and unforgettable
+          wine experiences.
         </p>
 
-        <div class="featured-button">
-          Explore →
+      </div>
+
+
+
+      <div
+        class="discover-card"
+        onclick="showMessage('🍴 Food guide coming soon')"
+      >
+
+        <div class="discover-icon">
+          🍴
         </div>
+
+        <h3>
+          Eat like a local
+        </h3>
+
+        <p>
+          Traditional Armenian food and
+          modern restaurants.
+        </p>
 
       </div>
 
 
-      <!-- CATEGORIES -->
 
-      <div class="section-title">
-        <h2>More to discover</h2>
-      </div>
+      <div
+        class="discover-card"
+        onclick="showMessage('📸 Photo spots coming soon')"
+      >
 
-      <div class="category-list">
-
-        <div class="category" onclick="showMessage('☕ Cafés coming soon')">
-          <div class="category-icon">☕</div>
-          <span>Cafés</span>
+        <div class="discover-icon">
+          📸
         </div>
 
-        <div class="category" onclick="showMessage('🍷 Wineries coming soon')">
-          <div class="category-icon">🍷</div>
-          <span>Wine</span>
-        </div>
+        <h3>
+          Photo spots
+        </h3>
 
-        <div class="category" onclick="showMessage('📸 Photo spots coming soon')">
-          <div class="category-icon">📸</div>
-          <span>Photo spots</span>
-        </div>
-
-        <div class="category" onclick="showMessage('🏨 Hotels coming soon')">
-          <div class="category-icon">🏨</div>
-          <span>Hotels</span>
-        </div>
-
-        <div class="category" onclick="showMessage('🧖 SPA coming soon')">
-          <div class="category-icon">🧖</div>
-          <span>SPA & Relax</span>
-        </div>
-
-        <div class="category" onclick="showMessage('🛍 Shopping coming soon')">
-          <div class="category-icon">🛍️</div>
-          <span>Shopping</span>
-        </div>
+        <p>
+          Beautiful places worth saving
+          to your camera roll.
+        </p>
 
       </div>
 
-    </main>
 
-  </div>
-
-
-  <!-- BOTTOM NAV -->
-
-  <nav class="bottom-nav">
-
-    <button class="nav-item active" onclick="setActive(this)">
-      <span class="nav-icon">⌂</span>
-      Home
-    </button>
-
-    <button class="nav-item" onclick="showMessage('🗺 Map coming soon')">
-      <span class="nav-icon">🗺</span>
-      Map
-    </button>
-
-    <button class="nav-item" onclick="showMessage('❤️ Saved places coming soon')">
-      <span class="nav-icon">♡</span>
-      Saved
-    </button>
-
-    <button class="nav-item" onclick="showMessage('More sections coming soon')">
-      <span class="nav-icon">☰</span>
-      More
-    </button>
-
-  </nav>
+    </div>
 
 
-  <div class="toast" id="toast"></div>
+
+    <!-- PREMIUM PREVIEW -->
+
+    <div
+      class="premium"
+      onclick="showMessage('⭐ Premium will be available soon')"
+    >
+
+      <div class="premium-top">
+
+        <div class="premium-label">
+          Armenia Guide
+        </div>
+
+        <div class="premium-star">
+          ⭐
+        </div>
+
+      </div>
+
+      <h3>
+        Go beyond the guide.
+      </h3>
+
+      <p>
+        Hidden gems, curated routes,
+        local favorites and exclusive
+        experiences will be available
+        in Premium.
+      </p>
+
+    </div>
 
 
-  <script>
+  </main>
 
-    // Telegram Mini App initialization
 
-    const tg = window.Telegram?.WebApp;
+</div>
 
-    if (tg) {
-      tg.ready();
-      tg.expand();
+
+
+<!-- BOTTOM NAV -->
+
+<nav class="bottom-nav">
+
+
+  <button
+    class="nav-button active"
+    onclick="setActive(this)"
+  >
+
+    <span class="nav-icon">
+      ⌂
+    </span>
+
+    Home
+
+  </button>
+
+
+
+  <button
+    class="nav-button"
+    onclick="showMessage('🗺️ Map coming next')"
+  >
+
+    <span class="nav-icon">
+      🗺️
+    </span>
+
+    Map
+
+  </button>
+
+
+
+  <button
+    class="nav-button"
+    onclick="showMessage('❤️ Saved places coming next')"
+  >
+
+    <span class="nav-icon">
+      ♡
+    </span>
+
+    Saved
+
+  </button>
+
+
+
+  <button
+    class="nav-button"
+    onclick="showMessage('☰ More sections coming next')"
+  >
+
+    <span class="nav-icon">
+      ☰
+    </span>
+
+    More
+
+  </button>
+
+
+</nav>
+
+
+
+<div
+  class="toast"
+  id="toast"
+></div>
+
+
+
+<script>
+
+  /* =========================
+     TELEGRAM
+  ========================= */
+
+  const tg = window.Telegram?.WebApp;
+
+  if (tg) {
+
+    tg.ready();
+
+    tg.expand();
+
+  }
+
+
+  /* =========================
+     TOAST
+  ========================= */
+
+  function showMessage(message) {
+
+    const toast =
+      document.getElementById("toast");
+
+    toast.textContent = message;
+
+    toast.classList.add("show");
+
+    setTimeout(() => {
+
+      toast.classList.remove("show");
+
+    }, 1800);
+
+  }
+
+
+  /* =========================
+     CATEGORY
+  ========================= */
+
+  function categoryClick(button) {
+
+    document
+      .querySelectorAll(".category")
+      .forEach(item => {
+
+        item.classList.remove("active");
+
+      });
+
+    button.classList.add("active");
+
+    showMessage(
+      "✨ " + button.textContent.trim()
+    );
+
+  }
+
+
+  /* =========================
+     NAVIGATION
+  ========================= */
+
+  function setActive(button) {
+
+    document
+      .querySelectorAll(".nav-button")
+      .forEach(item => {
+
+        item.classList.remove("active");
+
+      });
+
+    button.classList.add("active");
+
+  }
+
+
+  /* =========================
+     SEARCH
+  ========================= */
+
+  function searchGuide(value) {
+
+    if (value.trim().length >= 2) {
+
+      showMessage(
+        "🔎 Searching for " + value.trim()
+      );
+
     }
 
+  }
 
-    // Temporary notification
+</script>
 
-    function showMessage(message) {
-
-      const toast = document.getElementById("toast");
-
-      toast.textContent = message;
-      toast.classList.add("show");
-
-      setTimeout(() => {
-        toast.classList.remove("show");
-      }, 1800);
-
-    }
-
-
-    // Bottom navigation
-
-    function setActive(element) {
-
-      document
-        .querySelectorAll(".nav-item")
-        .forEach(item => item.classList.remove("active"));
-
-      element.classList.add("active");
-
-    }
-
-  </script>
 
 </body>
 </html>
