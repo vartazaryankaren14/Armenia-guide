@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  />
+
+  <title>Armenia Guide</title>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #f7f5f0;
+      --card: #ffffff;
+      --text: #24221f;
+      --muted: #77736c;
+      --border: #e7e3dc;
+      --accent: #9a3f32;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding-bottom: 90px;
+    }
+
+    .app {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* HERO */
+
+    .hero {
+      min-height: 330px;
+      padding: 28px 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background:
+        linear-gradient(
+          rgba(30, 25, 20, 0.28),
+          rgba(30, 25, 20, 0.48)
+        ),
+        url("https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=85")
+        center / cover;
+      color: white;
+      border-radius: 0 0 28px 28px;
+    }
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .language {
+      background: rgba(255,255,255,0.18);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+
+    .hero-content {
+      padding-bottom: 5px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      line-height: 1;
+      letter-spacing: -1.5px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 15px;
+      line-height: 1.5;
+      max-width: 340px;
+      opacity: 0.92;
+    }
+
+    /* CONTENT */
+
+    .content {
+      padding: 24px 18px;
+    }
+
+    .section-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .section-title h2 {
+      font-size: 20px;
+      letter-spacing: -0.4px;
+    }
+
+    .section-title span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* MAIN BUTTONS */
+
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .main-card {
+      border: none;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px 16px;
+      text-align: left;
+      cursor: pointer;
+      transition: transform 0.15s ease;
+    }
+
+    .main-card:active {
+      transform: scale(0.97);
+    }
+
+    .main-card .icon {
+      font-size: 27px;
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .main-card h3 {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    .main-card p {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    /* FEATURED */
+
+    .featured {
+      background: var(--text);
+      color: white;
+      border-radius: 22px;
+      padding: 20px;
+      margin-bottom: 28px;
+      cursor: pointer;
+    }
+
+    .featured-label {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      opacity: 0.65;
+      margin-bottom: 10px;
+    }
+
+    .featured h3 {
+      font-size: 23px;
+      margin-bottom: 7px;
+    }
+
+    .featured p {
+      font-size: 13px;
+      line-height: 1.5;
+      opacity: 0.72;
+    }
+
+    .featured-button {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 9px 14px;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      font-size: 12px;
+    }
+
+    /* SMALL CATEGORIES */
+
+    .category-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .category {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      cursor: pointer;
+    }
+
+    .category-icon {
+      font-size: 20px;
+    }
+
+    .category span {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    /* BOTTOM NAV */
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 600px;
+      background: rgba(255,255,255,0.94);
+      backdrop-filter: blur(18px);
+      border-top: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      padding: 10px 8px calc(10px + env(safe-area-inset-bottom));
+      z-index: 10;
+    }
+
+    .nav-item {
+      border: none;
+      background: none;
+      color: var(--muted);
+      font-size: 10px;
+      cursor: pointer;
+      padding: 5px;
+    }
+
+    .nav-item.active {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .nav-icon {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    /* TOAST */
+
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 90px;
+      transform: translateX(-50%) translateY(20px);
+      background: #24221f;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 25px;
+      font-size: 13px;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.25s ease;
+      z-index: 20;
+      white-space: nowrap;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    @media (max-width: 380px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .content {
+        padding: 20px 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+      <div class="top">
+        <div class="logo">ARMENIA GUIDE</div>
+        <div class="language">🇬🇧 EN</div>
+      </div>
+
+      <div class="hero-content">
+        <h1>Discover<br>Armenia.</h1>
+        <p>
+          Your personal guide to the places worth seeing,
+          eating and experiencing.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- CONTENT -->
+
+    <main class="content">
+
+      <div class="section-title">
+        <h2>Explore Armenia</h2>
+        <span>🇦🇲</span>
+      </div>
+
+
+      <div class="main-grid">
+
+        <button class="main-card" onclick="showMessage('🗺 Interactive map coming soon')">
+          <span class="icon">🗺️</span>
+          <h3>Explore the map</h3>
+          <p>Find restaurants, places, cafés and hidden gems.</p>
+        </button>
+
+
+        <button class="main-card" onclick="showMessage('🍴 Restaurants section coming soon')">
+          <span class="icon">🍴</span>
+          <h3>Eat & Drink</h3>
+          <p>Our favorite restaurants, cafés and wine spots.</p>
+        </button>
+
+
+        <button class="main-card" onclick="showMessage('🏔 Places section coming soon')">
+          <span class="icon">🏔️</span>
+          <h3>Places to visit</h3>
+          <p>Mountains, monasteries, lakes and beautiful views.</p>
+        </button>
+
+
+        <button class="main-card" onclick="showMessage('🚗 Routes section coming soon')">
+          <span class="icon">🚗</span>
+          <h3>Road trips</h3>
+          <p>Ready-made routes for 1, 2 or several days.</p>
+        </button>
+
+      </div>
+
+
+      <!-- FEATURED -->
+
+      <div class="section-title">
+        <h2>Editor's pick</h2>
+      </div>
+
+      <div
+        class="featured"
+        onclick="showMessage('📍 More information coming soon')"
+      >
+
+        <div class="featured-label">
+          Armenia · Must visit
+        </div>
+
+        <h3>See Armenia like a local.</h3>
+
+        <p>
+          Discover the places we would recommend
+          to our closest friends.
+        </p>
+
+        <div class="featured-button">
+          Explore →
+        </div>
+
+      </div>
+
+
+      <!-- CATEGORIES -->
+
+      <div class="section-title">
+        <h2>More to discover</h2>
+      </div>
+
+      <div class="category-list">
+
+        <div class="category" onclick="showMessage('☕ Cafés coming soon')">
+          <div class="category-icon">☕</div>
+          <span>Cafés</span>
+        </div>
+
+        <div class="category" onclick="showMessage('🍷 Wineries coming soon')">
+          <div class="category-icon">🍷</div>
+          <span>Wine</span>
+        </div>
+
+        <div class="category" onclick="showMessage('📸 Photo spots coming soon')">
+          <div class="category-icon">📸</div>
+          <span>Photo spots</span>
+        </div>
+
+        <div class="category" onclick="showMessage('🏨 Hotels coming soon')">
+          <div class="category-icon">🏨</div>
+          <span>Hotels</span>
+        </div>
+
+        <div class="category" onclick="showMessage('🧖 SPA coming soon')">
+          <div class="category-icon">🧖</div>
+          <span>SPA & Relax</span>
+        </div>
+
+        <div class="category" onclick="showMessage('🛍 Shopping coming soon')">
+          <div class="category-icon">🛍️</div>
+          <span>Shopping</span>
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+
+  <!-- BOTTOM NAV -->
+
+  <nav class="bottom-nav">
+
+    <button class="nav-item active" onclick="setActive(this)">
+      <span class="nav-icon">⌂</span>
+      Home
+    </button>
+
+    <button class="nav-item" onclick="showMessage('🗺 Map coming soon')">
+      <span class="nav-icon">🗺</span>
+      Map
+    </button>
+
+    <button class="nav-item" onclick="showMessage('❤️ Saved places coming soon')">
+      <span class="nav-icon">♡</span>
+      Saved
+    </button>
+
+    <button class="nav-item" onclick="showMessage('More sections coming soon')">
+      <span class="nav-icon">☰</span>
+      More
+    </button>
+
+  </nav>
+
+
+  <div class="toast" id="toast"></div>
+
+
+  <script>
+
+    // Telegram Mini App initialization
+
+    const tg = window.Telegram?.WebApp;
+
+    if (tg) {
+      tg.ready();
+      tg.expand();
+    }
+
+
+    // Temporary notification
+
+    function showMessage(message) {
+
+      const toast = document.getElementById("toast");
+
+      toast.textContent = message;
+      toast.classList.add("show");
+
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 1800);
+
+    }
+
+
+    // Bottom navigation
+
+    function setActive(element) {
+
+      document
+        .querySelectorAll(".nav-item")
+        .forEach(item => item.classList.remove("active"));
+
+      element.classList.add("active");
+
+    }
+
+  </script>
+
+</body>
+</html>
