@@ -74,16 +74,12 @@
 - **Крепость Бжни**, [ag_056_1.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_at_Bjni,_Armenia_01.jpg): Beko, CC BY-SA 4.0
 - **Крепость Бжни**, [ag_056_2.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_at_Bjni,_Armenia_03.jpg): Beko, CC BY-SA 4.0
 - **Крепость Бжни**, [ag_056_3.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_at_Bjni,_Armenia_02.jpg): Beko, CC BY-SA 4.0
-- **Монастырь Гегард**, [geghard_001_1.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Geghard,_Armenia,_2016-10-02,_DD_44.jpg): Diego Delso, CC BY-SA 4.0
-- **Монастырь Гегард**, [geghard_001_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Geghard,_Armenia,_2016-10-02,_DD_45.jpg): Diego Delso, CC BY-SA 4.0
 - **Монастырь Кечарис**, [ag_055_1.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor_(interior).jpg): Kevorkmail (talk), Public domain
 - **Монастырь Кечарис**, [ag_055_2.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor,_2009_(2).jpg): Kevorkmail (talk), Public domain
 - **Монастырь Кечарис**, [ag_055_3.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor_03.jpg): GeoO, CC BY-SA 4.0
 - **Симфония камней**, [simfoniya_001_1.webp](https://commons.wikimedia.org/wiki/File:Symphony_of_Stones,_Armenia.jpg): mk4oto https://www.instagram.com/mk4oto/, CC BY-SA 4.0
 - **Симфония камней**, [simfoniya_001_2.webp](https://commons.wikimedia.org/wiki/File:Symphony_of_the_Stones,_%D5%8E%D4%B1%D5%8D.jpg): ՎԱՍ, CC BY-SA 4.0
 - **Симфония камней**, [simfoniya_001_3.webp](https://commons.wikimedia.org/wiki/File:Garni_Gorge_Armenia_(13).JPG): Hanay, CC BY-SA 3.0
-- **Храм Гарни**, [garni_001_1.webp](https://commons.wikimedia.org/wiki/File:Templo_de_Garni,_Armenia,_2016-10-02,_DD_02.jpg): Diego Delso, CC BY-SA 4.0
-- **Храм Гарни**, [garni_001_2.webp](https://commons.wikimedia.org/wiki/File:Templo_de_Garni,_Armenia,_2016-10-02,_DD_10.jpg): Diego Delso, CC BY-SA 4.0
 - **Айраванк**, [ag_059_1.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_18.jpg): Azniv Stepanian, CC BY-SA 4.0
 - **Айраванк**, [ag_059_2.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_20.jpg): Azniv Stepanian, CC BY-SA 4.0
 - **Айраванк**, [ag_059_3.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_22.jpg): Azniv Stepanian, CC BY-SA 4.0
@@ -144,9 +140,6 @@
 - **Одзун**, [ag_072_1.webp](https://commons.wikimedia.org/wiki/File:Odzun_Armenian_Apostolic_Church.jpg): SyuzanHayki, CC BY 4.0
 - **Одзун**, [ag_072_2.webp](https://commons.wikimedia.org/wiki/File:Odzun_Church_1-01.jpg): Arman musikyan, CC BY-SA 3.0
 - **Одзун**, [ag_072_3.webp](https://commons.wikimedia.org/wiki/File:Odzun_Church_1-05.jpg): Arman musikyan, CC BY-SA 3.0
-- **Озеро Цовер**, [ag_095_1.webp](https://commons.wikimedia.org/wiki/File:Tsover_Lake_near_Dsegh,_Lori_Province,_Armenia.jpg): Mar Mkrtchyan, CC0
-- **Озеро Цовер**, [ag_095_2.webp](https://commons.wikimedia.org/wiki/File:%D5%93%D5%A1%D5%B4%D5%A2%D5%A1%D5%AF_%D5%A3%D5%A5%D5%BF%D5%AB_%D5%A1%D5%BE%D5%A1%D5%A6%D5%A1%D5%B6_87.jpg): Lubekar, CC BY-SA 4.0
-- **Озеро Цовер**, [ag_095_3.webp](https://commons.wikimedia.org/wiki/File:%D5%93%D5%A1%D5%B4%D5%A2%D5%A1%D5%AF_%D5%A3%D5%A5%D5%BF%D5%AB_%D5%A1%D5%BE%D5%A1%D5%A6%D5%A1%D5%B6_86.jpg): Lubekar, CC BY-SA 4.0
 - **Санаин**, [ag_070_1.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_01.JPG): Beko, CC BY-SA 4.0
 - **Санаин**, [ag_070_2.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_02.JPG): Beko, CC BY-SA 4.0
 - **Санаин**, [ag_070_3.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_05.JPG): Beko, CC BY-SA 4.0
@@ -231,3 +224,12 @@
 - **Степанаванский дендропарк**, [ag_074_1.webp](https://commons.wikimedia.org/wiki/File:Stepanavan_Dendropark_path.jpg): Serouj, Public domain
 - **Степанаванский дендропарк**, [ag_074_2.webp](https://commons.wikimedia.org/wiki/File:Stepanavan_Dendropark.jpg): Psalm Tours (talk), CC BY-SA 3.0
 - **Степанаванский дендропарк**, [ag_074_3.webp](https://commons.wikimedia.org/wiki/File:Stepanavan_dendropark_by_Ohannes.jpg): ogannes, CC BY-SA 2.0
+- **Храм Гарни**, [garni_001_1.webp](https://commons.wikimedia.org/wiki/File:Garni_Temple_(1).jpg): Palickap, CC BY 4.0
+- **Храм Гарни**, [garni_001_2.webp](https://commons.wikimedia.org/wiki/File:Garni_Temple_(front_view,_2026).jpg): Petar Milošević, CC BY-SA 4.0
+- **Храм Гарни**, [garni_001_3.webp](https://commons.wikimedia.org/wiki/File:Garni_temple_interior.jpg): Tiia Monto, CC BY-SA 3.0
+- **Монастырь Гегард**, [geghard_001_1.webp](https://commons.wikimedia.org/wiki/File:Geghard_Monastery,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
+- **Монастырь Гегард**, [geghard_001_2.webp](https://commons.wikimedia.org/wiki/File:Geghard_Monastery,_Entrance,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
+- **Монастырь Гегард**, [geghard_001_3.webp](https://commons.wikimedia.org/wiki/File:Geghard_Monastery,_Church,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
+- **Озеро Цовер**, [ag_095_1.webp](https://commons.wikimedia.org/wiki/File:Tsover_Lake_near_Dsegh,_Lori_Province,_Armenia.jpg): Mar Mkrtchyan, CC0
+- **Озеро Цовер**, [ag_095_2.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_(%D5%AC%D5%AB%D5%B3)_04.jpg): Dav Sargsyan, CC BY-SA 4.0
+- **Озеро Цовер**, [ag_095_3.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_%D5%AC%D5%AB%D5%B3_D5.jpg): Dav Sargsyan, CC0
