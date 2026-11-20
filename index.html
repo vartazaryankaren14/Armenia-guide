@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f6f3ed">
   <meta name="description" content="Armenia Guide — путеводитель по самым красивым местам Армении">
   <title>Armenia Guide — Открой Армению</title>
-  <meta name="armenia-guide-version" content="photos-local-v3">
+  <meta name="armenia-guide-version" content="photos-visible-v4">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <style>
     :root{--cream:#f6f3ed;--paper:#fff;--ink:#24221f;--muted:#817b71;--line:#e7e1d6;--wine:#843e35;--gold:#d4b892}
@@ -33,7 +33,7 @@
     .card-open{display:block;cursor:pointer;width:100%;text-align:left;padding:0;border:0;background:transparent;color:inherit}
     .thumb{height:155px;position:relative;background:linear-gradient(135deg,#c8bba5,#776f60);overflow:hidden}
     .thumb img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
-    .thumb .no-photo{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#fff;font-size:13px;padding:12px;background:linear-gradient(140deg,#ae9580,#50463b)}
+    .thumb .no-photo{position:absolute;inset:0;display:none;place-items:center;text-align:center;color:#fff;font-size:13px;padding:12px;background:linear-gradient(140deg,#ae9580,#50463b)}
     .card-info{padding:13px 13px 16px}.type{font-size:10px;font-weight:700;color:#8e6b53;margin:0 0 7px;letter-spacing:.04em}.card-info h4{font-size:16px;margin:0 0 7px;line-height:1.23;letter-spacing:-.035em}.card-info p{font-size:12px;color:#6f6b65;line-height:1.48;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:36px}.card-bottom{display:flex;align-items:center;justify-content:space-between;margin-top:11px;color:var(--muted);font-size:11px;gap:6px}
     .heart{position:absolute;right:10px;top:10px;width:35px;height:35px;display:grid;place-items:center;background:#fffffff1;border:0;border-radius:50%;font-size:20px;color:var(--wine);z-index:2}
     .empty{display:none;text-align:center;padding:50px 20px;color:var(--muted);line-height:1.65}
@@ -42,7 +42,7 @@
     .modal{position:fixed;inset:0;z-index:35;background:var(--cream);overflow-y:auto;display:none;padding-bottom:18px;overscroll-behavior:contain}
     .modal.open{display:block}.modal-inner{max-width:760px;margin:auto}.modal-top{position:sticky;top:0;z-index:40;background:#f6f3edef;backdrop-filter:blur(15px);height:57px;display:flex;align-items:center;gap:10px;padding:7px 14px;border-bottom:1px solid var(--line)}
     .back{border:0;background:var(--paper);border-radius:20px;padding:8px 14px;font-size:13px;font-weight:700}.modal-small{font-size:12px;color:var(--muted);margin-left:auto;white-space:nowrap}.modal-hero{height:290px;background:linear-gradient(120deg,#ab9585,#48413b);position:relative;overflow:hidden}
-    .modal-hero img{width:100%;height:100%;object-fit:cover}.photo-fail{position:absolute;inset:0;display:grid;place-items:center;color:white;text-align:center;background:linear-gradient(135deg,#aa9a80,#4e4642)}
+    .modal-hero img{width:100%;height:100%;object-fit:cover}.photo-fail{position:absolute;inset:0;display:none;place-items:center;color:white;text-align:center;background:linear-gradient(135deg,#aa9a80,#4e4642)}
     .gallery-prev,.gallery-next{position:absolute;top:45%;width:38px;height:38px;border-radius:50%;border:0;background:#fffef4e6;font-size:23px}.gallery-prev{left:12px}.gallery-next{right:12px}.gallery-count{position:absolute;bottom:12px;right:12px;padding:6px 10px;background:#16161698;color:white;border-radius:20px;font-size:11px}
     .dot-gallery{display:flex;gap:6px;padding:10px 16px 0;overflow:auto}.dot-gallery button{border:2px solid transparent;padding:0;border-radius:8px;width:54px;height:49px;background:var(--line);overflow:hidden;flex-shrink:0}.dot-gallery button.active{border-color:var(--wine)}.dot-gallery img{width:100%;height:100%;object-fit:cover}
     .detail-body{padding:20px 17px}.detail-name{margin:0 0 9px;font-size:31px;line-height:1.08;letter-spacing:-.05em}.detail-region{font-size:13px;color:var(--muted);margin-bottom:18px}.detail-desc{font-size:15px;line-height:1.72;color:#514c44;margin:12px 0 21px}
@@ -99,19 +99,29 @@ function imageCandidates(p,index){
  }
  return [...new Set(c)];
 }
+// Only display a placeholder after all image sources have failed.
+function setImagePlaceholder(el,show){
+ const overlay=el.parentElement?.querySelector('.no-photo, .photo-fail');
+ if(overlay)overlay.style.display=show?'grid':'none';
+}
+function smartImgLoaded(el){
+ el.style.display='block';
+ setImagePlaceholder(el,false);
+}
 function smartImgError(el){
  const p=PLACES.find(x=>x.id===el.dataset.placeId);
- if(!p){el.style.display='none';return;}
+ if(!p){el.style.display='none';setImagePlaceholder(el,true);return;}
  const index=Number(el.dataset.photoIndex||0);
  const tried=Number(el.dataset.attempt||0);
  const sources=imageCandidates(p,index);
  if(tried+1 >= sources.length){
   el.style.display='none';
   el.removeAttribute('src');
+  setImagePlaceholder(el,true);
   return;
  }
  el.dataset.attempt=String(tried+1);
- el.style.display='block';
+ setImagePlaceholder(el,false);
  el.src=sources[tried+1];
 }
 
@@ -132,7 +142,7 @@ function createChips(){let r=['Все области',...REGIONS],c=['Все','�
  $('regionChips').innerHTML=r.map((v,i)=>`<button class="chip ${v===selectedRegion?'active':''}" data-region="${i}">${esc(v)}</button>`).join('');
  $('categoryChips').innerHTML=c.map((v,i)=>`<button class="chip ${v===selectedCategory?'active':''}" data-cat="${i}">${esc(v)}</button>`).join('');}
 function filtered(){let q=$('search').value.trim().toLocaleLowerCase('ru');return PLACES.filter(p=>(selectedRegion==='Все области'||p.region===selectedRegion)&&(selectedCategory==='Все'||p.category===selectedCategory)&&(!onlyFavorites||favorites.includes(p.id))&&(!q||[p.name,p.region,p.short,p.description,p.nearby].join(' ').toLocaleLowerCase('ru').includes(q)));}
-function cardHTML(p){let saved=favorites.includes(p.id),i=PLACES.findIndex(x=>x.id===p.id);return `<article class="place-card"><button class="heart" data-save="${esc(p.id)}" aria-label="${saved?'Убрать из избранного':'Сохранить'}">${saved?'♥':'♡'}</button><button class="card-open" data-open="${i}"><div class="thumb"><div class="no-photo" aria-hidden="true">🏔️<br>Фото появится после обновления</div><img loading="lazy" decoding="async" src="${esc(p.photos[0]||'')}" data-place-id="${esc(p.id)}" data-photo-index="0" alt="${esc(p.name)}" onerror="smartImgError(this)"></div><div class="card-info"><div class="type">${esc(p.category)}</div><h4>${esc(p.name)}</h4><p>${esc(p.short||p.description)}</p><div class="card-bottom"><span>📍 ${esc(p.region.replace(' область',''))}</span><span>Подробнее ›</span></div></div></button></article>`;}
+function cardHTML(p){let saved=favorites.includes(p.id),i=PLACES.findIndex(x=>x.id===p.id);return `<article class="place-card"><button class="heart" data-save="${esc(p.id)}" aria-label="${saved?'Убрать из избранного':'Сохранить'}">${saved?'♥':'♡'}</button><button class="card-open" data-open="${i}"><div class="thumb"><div class="no-photo" aria-hidden="true">🏔️<br>Фото появится после обновления</div><img loading="lazy" decoding="async" src="${esc(p.photos[0]||'')}" data-place-id="${esc(p.id)}" data-photo-index="0" alt="${esc(p.name)}" onload="smartImgLoaded(this)" onerror="smartImgError(this)"></div><div class="card-info"><div class="type">${esc(p.category)}</div><h4>${esc(p.name)}</h4><p>${esc(p.short||p.description)}</p><div class="card-bottom"><span>📍 ${esc(p.region.replace(' область',''))}</span><span>Подробнее ›</span></div></div></button></article>`;}
 function render(){createChips();const list=filtered(),cnt=list.length;
  $('listingTitle').textContent=onlyFavorites?'Избранные места':'Исследовать';$('count').textContent=cnt+' '+(cnt%10===1&&cnt%100!==11?'место':(cnt%10>=2&&cnt%10<=4&&(cnt%100<12||cnt%100>14)?'места':'мест'));
  $('empty').style.display=cnt?'none':'block';let groups=REGIONS.filter(region=>list.some(p=>p.region===region));
@@ -143,7 +153,7 @@ function openPlace(i){let p=PLACES[i];if(!p)return;activePlace=p;activePhoto=0;l
  const nearby=p.nearby?`<h3 class="detail-title">Что посмотреть рядом</h3><p class="detail-text">${esc(p.nearby.split(';').map(s=>s.trim()).filter(Boolean).join(' · '))}</p>`:'';
  const tip=p.tip?`<div class="tip"><strong>💡 Совет от Armenia Guide</strong><div style="margin-top:5px">${esc(p.tip)}</div></div>`:'';
  const facts=[['🎟️ Вход',p.price],['🕒 Часы работы',p.hours],['⏱️ Время на посещение',p.duration],['☀️ Лучшее время',p.best_time]];
- $('detailContent').innerHTML=`<div class="modal-hero" id="mainPhoto"><div class="photo-fail">🏔️<br>Фото появится после обновления</div><img id="mainPhotoImage" alt="${esc(p.name)}"><button class="gallery-prev" id="photoPrev" aria-label="Предыдущее фото">‹</button><button class="gallery-next" id="photoNext" aria-label="Следующее фото">›</button><span class="gallery-count" id="photoCount"></span></div><div class="dot-gallery" id="galleryThumbs">${p.photos.map((img,j)=>`<button data-photo="${j}" aria-label="Фото ${j+1}"><img loading="lazy" data-place-id="${esc(p.id)}" data-photo-index="${j}" src="${esc(img)}" onerror="smartImgError(this)" alt=""></button>`).join('')}</div><div class="detail-body"><h1 class="detail-name">${esc(p.name)}</h1><div class="detail-region">📍 ${esc(p.region)} ${p.rating?' · ⭐ '+esc(p.rating):''}</div><p class="detail-desc">${esc(p.description||p.short)}</p><div class="facts">${facts.filter(x=>x[1]).map(([label,value])=>`<div class="fact"><label>${label}</label><div>${esc(value)}</div></div>`).join('')}</div>${p.how_to?`<h3 class="detail-title">Как добраться</h3><p class="detail-text">${esc(p.how_to)}</p>`:''}${nearby}${tip}<div class="actions"><button class="action primary" id="detailMaps">🗺️ Яндекс Карты</button><button class="action" id="detailSave"></button></div>${site}<div class="photo-credit" id="photoCredit"></div><div class="photo-credit">Цены, доступность и расписание могут измениться. Уточняйте детали перед поездкой.</div></div>`;
+ $('detailContent').innerHTML=`<div class="modal-hero" id="mainPhoto"><div class="photo-fail">🏔️<br>Фото появится после обновления</div><img id="mainPhotoImage" alt="${esc(p.name)}"><button class="gallery-prev" id="photoPrev" aria-label="Предыдущее фото">‹</button><button class="gallery-next" id="photoNext" aria-label="Следующее фото">›</button><span class="gallery-count" id="photoCount"></span></div><div class="dot-gallery" id="galleryThumbs">${p.photos.map((img,j)=>`<button data-photo="${j}" aria-label="Фото ${j+1}"><img loading="lazy" data-place-id="${esc(p.id)}" data-photo-index="${j}" src="${esc(img)}" onload="smartImgLoaded(this)" onerror="smartImgError(this)" alt=""></button>`).join('')}</div><div class="detail-body"><h1 class="detail-name">${esc(p.name)}</h1><div class="detail-region">📍 ${esc(p.region)} ${p.rating?' · ⭐ '+esc(p.rating):''}</div><p class="detail-desc">${esc(p.description||p.short)}</p><div class="facts">${facts.filter(x=>x[1]).map(([label,value])=>`<div class="fact"><label>${label}</label><div>${esc(value)}</div></div>`).join('')}</div>${p.how_to?`<h3 class="detail-title">Как добраться</h3><p class="detail-text">${esc(p.how_to)}</p>`:''}${nearby}${tip}<div class="actions"><button class="action primary" id="detailMaps">🗺️ Яндекс Карты</button><button class="action" id="detailSave"></button></div>${site}<div class="photo-credit" id="photoCredit"></div><div class="photo-credit">Цены, доступность и расписание могут измениться. Уточняйте детали перед поездкой.</div></div>`;
  updateDetailSave();updatePhoto(0);
  $('detailMaps').onclick=()=>external(urlForPlace(p));$('detailSave').onclick=()=>toggleFav(p.id);
  if(site)$('siteOpen').onclick=()=>external(p.site);
@@ -151,7 +161,7 @@ function openPlace(i){let p=PLACES[i];if(!p)return;activePlace=p;activePhoto=0;l
  $('galleryThumbs').onclick=e=>{const btn=e.target.closest('[data-photo]');if(btn)updatePhoto(Number(btn.dataset.photo));};
 }
 function updatePhoto(index){if(!activePlace)return;const arr=activePlace.photos,n=arr.length;activePhoto=(index+n)%n;
- const img=$('mainPhotoImage');img.dataset.placeId=activePlace.id;img.dataset.photoIndex=String(activePhoto);img.style.display='none';delete img.dataset.photoRetry;img.dataset.attempt='0';img.onload=()=>{img.style.display='block'};img.onerror=()=>smartImgError(img);img.src=arr[activePhoto];
+ const img=$('mainPhotoImage');img.dataset.placeId=activePlace.id;img.dataset.photoIndex=String(activePhoto);img.style.display='none';delete img.dataset.photoRetry;img.dataset.attempt='0';setImagePlaceholder(img,false);img.onload=()=>smartImgLoaded(img);img.onerror=()=>smartImgError(img);img.src=arr[activePhoto];
  $('photoCount').textContent=(activePhoto+1)+' / '+n;
  [...$('galleryThumbs').children].forEach((node,i)=>node.classList.toggle('active',i===activePhoto));
  const src=filePage(arr[activePhoto]),gen=arr[activePhoto].startsWith('data:image/'),local=arr[activePhoto].startsWith('images/places/');
