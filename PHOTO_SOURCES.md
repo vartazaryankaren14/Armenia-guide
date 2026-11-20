@@ -56,9 +56,6 @@
 - **Сагмосаванк**, [ag_050_1.webp](https://commons.wikimedia.org/wiki/File:Saghmosavank_004.jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Сагмосаванк**, [ag_050_2.webp](https://commons.wikimedia.org/wiki/File:Saghmosavank_010.jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Сагмосаванк**, [ag_050_3.webp](https://commons.wikimedia.org/wiki/File:Saghmosavank_028.jpg): Soghomon Matevosyan, CC BY-SA 4.0
-- **Ущелье Касах**, [ag_097_1.webp](https://commons.wikimedia.org/wiki/File:Interior_-_Hovhannavank_Monastery_-_Kasagh_Gorge_-_Near_Yerevan_-_Armenia_-_01_(18368916174).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
-- **Ущелье Касах**, [ag_097_2.webp](https://commons.wikimedia.org/wiki/File:Christ_Painting_-_Hovhannavank_Monastery_-_Kasagh_Gorge_-_Near_Yerevan_-_Armenia_(18965426566).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
-- **Ущелье Касах**, [ag_097_3.webp](https://commons.wikimedia.org/wiki/File:Decorative_Carvings_-_Hovhannavank_Monastery_-_Kasagh_Gorge_-_Near_Yerevan_-_Armenia_(18994660261).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
 - **Ангельский каньон**, [ag_043_1.webp](https://commons.wikimedia.org/wiki/File:Angels%27_canyon,_Dashtakhar,_Armenia.jpg): Գարվիք, CC BY-SA 4.0
 - **Ангельский каньон**, [ag_043_2.webp](https://commons.wikimedia.org/wiki/File:Angels%27_canyon,_Armenia_01.jpg): Ավետիսյան91, CC BY-SA 4.0
 - **Ангельский каньон**, [ag_043_3.webp](https://commons.wikimedia.org/wiki/File:Angels%27_canyon,_Armenia_02.jpg): Ավետիսյան91, CC BY-SA 4.0
@@ -87,9 +84,6 @@
 - **Симфония камней**, [simfoniya_001_3.webp](https://commons.wikimedia.org/wiki/File:Garni_Gorge_Armenia_(13).JPG): Hanay, CC BY-SA 3.0
 - **Храм Гарни**, [garni_001_1.webp](https://commons.wikimedia.org/wiki/File:Templo_de_Garni,_Armenia,_2016-10-02,_DD_02.jpg): Diego Delso, CC BY-SA 4.0
 - **Храм Гарни**, [garni_001_2.webp](https://commons.wikimedia.org/wiki/File:Templo_de_Garni,_Armenia,_2016-10-02,_DD_10.jpg): Diego Delso, CC BY-SA 4.0
-- **Цахкадзор**, [ag_054_1.webp](https://commons.wikimedia.org/wiki/File:Tsaghkadzor_panorama,_Armenia.jpg): GeoO, CC BY-SA 4.0
-- **Цахкадзор**, [ag_054_2.webp](https://commons.wikimedia.org/wiki/File:Fall_Wikicamp_2019_group_photo,_Tsaghkadzor,_Armenia_01.jpg): Taken by Sargis Ghazaryan for Wikimedia Armenia, CC BY-SA 4.0
-- **Цахкадзор**, [ag_054_3.webp](https://commons.wikimedia.org/wiki/File:Football_table_in_Tsaghkadzor,_Armenia_02.jpg): Beko, CC BY-SA 4.0
 - **Айраванк**, [ag_059_1.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_18.jpg): Azniv Stepanian, CC BY-SA 4.0
 - **Айраванк**, [ag_059_2.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_20.jpg): Azniv Stepanian, CC BY-SA 4.0
 - **Айраванк**, [ag_059_3.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_22.jpg): Azniv Stepanian, CC BY-SA 4.0
@@ -111,9 +105,6 @@
 - **Гора Димац**, [ag_106_1.webp](https://commons.wikimedia.org/wiki/File:A_shepherd_with_his_flock_against_the_backdrop_of_Mount_Dimats_in_Armenia.jpg): Wowan1978, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_2.webp](https://commons.wikimedia.org/wiki/File:Mount_Dimats_in_the_fog.jpg): Vladimir Pankratov, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_3.webp](https://commons.wikimedia.org/wiki/File:Flowers_around_Mount_Dimats_%D4%B1%D4%B9_02.jpg): 23artashes, CC BY-SA 4.0
-- **Дилижан**, [ag_062_1.webp](https://commons.wikimedia.org/wiki/File:Plaza_Scene_-_Dilijan_-_Armenia_(18842973044).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
-- **Дилижан**, [ag_062_2.webp](https://commons.wikimedia.org/wiki/File:Mechanic_Poses_in_Pit_-_Dilijan_-_Armenia_(19348127672).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
-- **Дилижан**, [ag_062_3.webp](https://commons.wikimedia.org/wiki/File:Carved_Objects_outside_Woodworker%27s_Shop_-_Dilijan_-_Armenia_(19478038378).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
 - **Енокаван**, [ag_068_1.webp](https://commons.wikimedia.org/wiki/File:Yell_Extreme_Park,_Yenokavan,_Tavush,_Armenia.jpg): Narek Avetisyan /NAREK75/, CC BY-SA 4.0
 - **Енокаван**, [ag_068_2.webp](https://commons.wikimedia.org/wiki/File:Yenokavan_Resort_(3).jpg): Ji-Elle, CC BY-SA 4.0
 - **Енокаван**, [ag_068_3.webp](https://commons.wikimedia.org/wiki/File:Khachkar_in_Srbenes_church,_Yenokavan_(2).jpg): Soghomon Matevosyan, CC BY-SA 4.0
@@ -126,9 +117,6 @@
 - **Монастырь Гошаванк**, [ag_066_1.webp](https://commons.wikimedia.org/wiki/File:Khatchkar_at_Goshavank_Monastery_in_Armenia.jpg): Inna, CC BY 2.0
 - **Монастырь Гошаванк**, [ag_066_2.webp](https://commons.wikimedia.org/wiki/File:GOSHAVANK_MONASTERY_25.jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Монастырь Гошаванк**, [ag_066_3.webp](https://commons.wikimedia.org/wiki/File:GOSHAVANK_MONASTERY_69.jpg): Soghomon Matevosyan, CC BY-SA 4.0
-- **Монастырь Макараванк**, [ag_101_1.webp](https://commons.wikimedia.org/wiki/File:Portal_Makaravank_Pemzashen.JPG): Liveon001 © Travis K. Witt, CC BY-SA 3.0
-- **Монастырь Макараванк**, [ag_101_2.webp](https://commons.wikimedia.org/wiki/File:Makaravank_of_Pemzashen.JPG): Liveon001 © Travis K. Witt, CC BY-SA 3.0
-- **Монастырь Макараванк**, [ag_101_3.webp](https://commons.wikimedia.org/wiki/File:Makaravank_front_fa%C3%A7ade.jpg): © Travis K. Witt, CC BY-SA 4.0
 - **Озеро Гош**, [ag_064_1.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_01.jpg): Beko, CC BY-SA 4.0
 - **Озеро Гош**, [ag_064_2.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_02.jpg): Beko, CC BY-SA 4.0
 - **Озеро Гош**, [ag_064_3.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_05.jpg): Beko, CC BY-SA 4.0
@@ -162,9 +150,6 @@
 - **Санаин**, [ag_070_1.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_01.JPG): Beko, CC BY-SA 4.0
 - **Санаин**, [ag_070_2.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_02.JPG): Beko, CC BY-SA 4.0
 - **Санаин**, [ag_070_3.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_05.JPG): Beko, CC BY-SA 4.0
-- **Степанаванский дендропарк**, [ag_074_1.webp](https://commons.wikimedia.org/wiki/File:Bee_on_a_unidentified_flower_in_Dendropark,_Stepanavan,_Armenia,_2021.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0
-- **Степанаванский дендропарк**, [ag_074_2.webp](https://commons.wikimedia.org/wiki/File:Stepanavan_Dendropark_path.jpg): Serouj, Public domain
-- **Степанаванский дендропарк**, [ag_074_3.webp](https://commons.wikimedia.org/wiki/File:Stepanavan_Dendropark_2011_1.jpg): Ashot Arzumanyan, CC BY-SA 3.0
 - **Гюмри**, [ag_077_1.webp](https://commons.wikimedia.org/wiki/File:Gyumri_armenia_1.JPG): Der Reisende, CC BY-SA 3.0
 - **Гюмри**, [ag_077_2.webp](https://commons.wikimedia.org/wiki/File:Gyumri,_Armenia_-_panoramio_(10).jpg): Michal Gorski, CC BY-SA 3.0
 - **Гюмри**, [ag_077_3.webp](https://commons.wikimedia.org/wiki/File:Gyumri,_Armenia_-_panoramio_(23).jpg): Michal Gorski, CC BY-SA 3.0
@@ -231,3 +216,18 @@
 - **Шикахохский заповедник**, [ag_094_1.webp](https://commons.wikimedia.org/wiki/File:Shikahogh_State_Reserve_kz01.jpg): Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0
 - **Шикахохский заповедник**, [ag_094_2.webp](https://commons.wikimedia.org/wiki/File:%D5%87%D5%AB%D5%AF%D5%A1%D5%B0%D5%B8%D5%B2%D5%AB_%D5%A1%D6%80%D5%A3%D5%A5%D5%AC%D5%B8%D6%81.JPG): Gor Minasyan, CC BY-SA 3.0
 - **Шикахохский заповедник**, [ag_094_3.webp](https://commons.wikimedia.org/wiki/File:%D5%84%D5%A1%D5%A6%D6%80%D5%A1%D5%B5%D5%AB_%D5%A1%D5%B6%D5%BF%D5%A1%D5%BC.jpg): Հովհաննիսյան Արմինե, CC BY-SA 4.0
+- **Ущелье Касах**, [ag_097_1.webp](https://commons.wikimedia.org/wiki/File:Kasagh_Gorge_from_Saghmosavan.jpg): FingerWiki, CC BY-SA 4.0
+- **Ущелье Касах**, [ag_097_2.webp](https://commons.wikimedia.org/wiki/File:Kasakh_gorge_near_Sagmosavank_monastery.jpg): Vladimir Pankratov, CC BY-SA 4.0
+- **Ущелье Касах**, [ag_097_3.webp](https://commons.wikimedia.org/wiki/File:View_of_the_Kasakh_Gorge.jpg): Wowan1978, CC BY-SA 4.0
+- **Монастырь Макараванк**, [ag_101_1.webp](https://commons.wikimedia.org/wiki/File:Makaravank_monastery.jpg): Vahe Pirumian, CC BY-SA 4.0
+- **Монастырь Макараванк**, [ag_101_2.webp](https://commons.wikimedia.org/wiki/File:Makaravank_Monastery,_Armenia.jpg): Serouj, CC BY-SA 3.0
+- **Монастырь Макараванк**, [ag_101_3.webp](https://commons.wikimedia.org/wiki/File:Makaravank_monastery,_Armenia.jpg): Anahit Makarian, CC BY-SA 4.0
+- **Цахкадзор**, [ag_054_1.webp](https://commons.wikimedia.org/wiki/File:Tsaghkadzor_panorama,_Armenia.jpg): GeoO, CC BY-SA 4.0
+- **Цахкадзор**, [ag_054_2.webp](https://commons.wikimedia.org/wiki/File:View_from_Tsaghkadzor_second_ski_run.JPG): Սէրուժ Ուրիշեան (Serouj Ourishian), CC BY 3.0
+- **Цахкадзор**, [ag_054_3.webp](https://commons.wikimedia.org/wiki/File:%D4%BE%D5%A1%D5%B2%D5%AF%D5%A1%D5%B1%D5%B8%D6%80.JPG): Սէրուժ Ուրիշեան (Serouj Ourishian), CC BY 3.0
+- **Дилижан**, [ag_062_1.webp](https://commons.wikimedia.org/wiki/File:Downtown_Dilijan.jpg): Սէրուժ Ուրիշեան (Serouj Ourishian), CC BY-SA 4.0
+- **Дилижан**, [ag_062_2.webp](https://commons.wikimedia.org/wiki/File:Dilijan,_city_panorama,_ArmAg_(1).jpg): Armineaghayan, CC BY-SA 4.0
+- **Дилижан**, [ag_062_3.webp](https://commons.wikimedia.org/wiki/File:Old_Dilijan,_Sharambeyan_Street,_April_2026.jpg): Textfabrikant, CC0
+- **Степанаванский дендропарк**, [ag_074_1.webp](https://commons.wikimedia.org/wiki/File:Stepanavan_Dendropark_path.jpg): Serouj, Public domain
+- **Степанаванский дендропарк**, [ag_074_2.webp](https://commons.wikimedia.org/wiki/File:Stepanavan_Dendropark.jpg): Psalm Tours (talk), CC BY-SA 3.0
+- **Степанаванский дендропарк**, [ag_074_3.webp](https://commons.wikimedia.org/wiki/File:Stepanavan_dendropark_by_Ohannes.jpg): ogannes, CC BY-SA 2.0
