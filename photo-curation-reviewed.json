@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "notes": "Только изображения конкретных реальных объектов, отобранные по описаниям файлов Wikimedia Commons; не используйте ИИ как документальные фото.",
+  "sites": {
+    "ag_097": {
+      "name": "Ущелье Касах",
+      "files": [
+        "Kasagh Gorge from Saghmosavan.jpg",
+        "Kasakh gorge near Sagmosavank monastery.jpg",
+        "View of the Kasakh Gorge.jpg"
+      ],
+      "reason": "Заменить интерьеры Ованаванка на реальные виды ущелья Касах"
+    },
+    "ag_101": {
+      "name": "Монастырь Макараванк",
+      "files": [
+        "Makaravank monastery.jpg",
+        "Makaravank Monastery, Armenia.jpg",
+        "Makaravank monastery, Armenia.jpg"
+      ],
+      "reason": "Снимки монастыря Ахачур, Тавуш, вместо одноимённого храма в Пемзашене"
+    },
+    "ag_054": {
+      "name": "Цахкадзор",
+      "files": [
+        "Tsaghkadzor panorama, Armenia.jpg",
+        "View from Tsaghkadzor second ski run.JPG",
+        "Ծաղկաձոր.JPG"
+      ],
+      "reason": "Снимки курорта вместо группового фото и футбольного стола"
+    },
+    "ag_062": {
+      "name": "Дилижан",
+      "files": [
+        "Downtown Dilijan.jpg",
+        "Dilijan, city panorama, ArmAg (1).jpg",
+        "Old Dilijan, Sharambeyan Street, April 2026.jpg"
+      ],
+      "reason": "Панорамы и историческая улица вместо случайных портретов людей"
+    },
+    "ag_074": {
+      "name": "Степанаванский дендропарк",
+      "files": [
+        "Stepanavan Dendropark path.jpg",
+        "Stepanavan Dendropark.jpg",
+        "Stepanavan dendropark by Ohannes.jpg"
+      ],
+      "reason": "Реальные виды парка вместо макрофотографии насекомого"
+    }
+  }
+}
