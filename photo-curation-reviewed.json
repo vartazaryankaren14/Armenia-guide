@@ -46,6 +46,33 @@
         "Stepanavan dendropark by Ohannes.jpg"
       ],
       "reason": "Реальные виды парка вместо макрофотографии насекомого"
+    },
+    "garni_001": {
+      "name": "Храм Гарни",
+      "files": [
+        "Garni Temple (1).jpg",
+        "Garni Temple (front view, 2026).jpg",
+        "Garni temple interior.jpg"
+      ],
+      "reason": "Три реальных документальных фотографии храма вместо художественной генерации и неполной галереи"
+    },
+    "geghard_001": {
+      "name": "Монастырь Гегард",
+      "files": [
+        "Geghard Monastery, Armenia.jpg",
+        "Geghard Monastery, Entrance, Armenia.jpg",
+        "Geghard Monastery, Church, Armenia.jpg"
+      ],
+      "reason": "Три реальные фотографии комплекса и его деталей вместо художественной генерации и неполной галереи"
+    },
+    "ag_095": {
+      "name": "Озеро Цовер",
+      "files": [
+        "Tsover Lake near Dsegh, Lori Province, Armenia.jpg",
+        "Դսեղի Ծովեր (լիճ) 04.jpg",
+        "Դսեղի Ծովեր լիճ D5.jpg"
+      ],
+      "reason": "Удалить изображения бассейна реки Памбак: использовать снимки именно озера Цовер у Дсеха"
     }
   }
 }
