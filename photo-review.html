@@ -8,9 +8,29 @@ async function load(){
  catch(e){root.textContent='Ошибка загрузки каталога: '+e.message;return}
  const regions=[...new Set(catalog.map(x=>x.region))];
  for(const x of regions){let o=document.createElement('option');o.value=x;o.textContent=x;region.append(o)}
- function render(){let selected=catalog.filter(x=>(!region.value||x.region===region.value)&&(!query.value||x.name.toLowerCase().includes(query.value.toLowerCase())));
- document.getElementById('status').textContent='Показано '+selected.length+' из '+catalog.length+' мест; цветная фотография не является доказательством совпадения локации.';
- root.innerHTML=selected.map(p=>`<article class="site"><div class="name">${esc(p.name)}</div><div class="minor">${esc(p.region)} · ${esc(p.id)}</div><div class="photos">${[1,2,3].map(i=>'}`<div class="photo"><a target="_blank" rel="noopener" href="images/places/${encodeURIComponent(p.id)}_${i}.webp"><img loading="lazy" alt="${esc(p.name)} — фото ${i}" src="images/places/${encodeURIComponent(p.id)}_${i}.webp" onerror="this.style.opacity=.3;this.alt='Изображение отсутствует'"></a><footer>Фото ${i}</footer></div>` ).join("")</div></article>`).join('')}
+
+ function render(){
+  const selected=catalog.filter(x=>(!region.value||x.region===region.value)&&(!query.value||x.name.toLowerCase().includes(query.value.toLowerCase())));
+  document.getElementById('status').textContent='Показано '+selected.length+' из '+catalog.length+' мест. Проверяйте соответствие каждой фотографии реальному объекту.';
+  root.replaceChildren();
+  for(const p of selected){
+   const card=document.createElement('article'); card.className='site';
+   const name=document.createElement('div'); name.className='name'; name.textContent=p.name; card.append(name);
+   const meta=document.createElement('div'); meta.className='minor'; meta.textContent=p.region+' · '+p.id;card.append(meta);
+   const photos=document.createElement('div');photos.className='photos';
+   for(let i=1;i<=3;i++){
+    const path='images/places/'+p.id+'_'+i+'.webp';
+    const item=document.createElement('div');item.className='photo';
+    const link=document.createElement('a');link.href=path;link.target='_blank';link.rel='noopener';
+    const picture=document.createElement('img');picture.loading='lazy';picture.src=path;picture.alt=p.name+' — фото '+i;
+    picture.onerror=()=>{picture.style.opacity='.3';picture.alt='Фото отсутствует'};
+    link.append(picture);item.append(link);
+    const caption=document.createElement('footer');caption.textContent='Фото '+i;item.append(caption);
+    photos.append(item);
+   }
+   card.append(photos);root.append(card);
+  }
+ }
  region.addEventListener('change',render);query.addEventListener('input',render);render();
 }
 load();
