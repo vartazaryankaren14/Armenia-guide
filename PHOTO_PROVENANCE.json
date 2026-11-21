@@ -1,0 +1,80 @@
+{
+  "updated_at": "2026-11-21",
+  "label": "ИИ-визуализация — не документальное фото",
+  "notice": "Девять сгенерированных изображений показывают художественную интерпретацию реальных достопримечательностей. Они могут отличаться от вида на месте.",
+  "generated_images": [
+    {
+      "place": "Каскад",
+      "id": "ag_034",
+      "slot": 1,
+      "path": "images/places/ag_034_1.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Каскад",
+      "id": "ag_034",
+      "slot": 2,
+      "path": "images/places/ag_034_2.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Каскад",
+      "id": "ag_034",
+      "slot": 3,
+      "path": "images/places/ag_034_3.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Площадь Республики",
+      "id": "ag_035",
+      "slot": 1,
+      "path": "images/places/ag_035_1.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Площадь Республики",
+      "id": "ag_035",
+      "slot": 2,
+      "path": "images/places/ag_035_2.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Площадь Республики",
+      "id": "ag_035",
+      "slot": 3,
+      "path": "images/places/ag_035_3.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Матенадаран",
+      "id": "ag_036",
+      "slot": 1,
+      "path": "images/places/ag_036_1.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Матенадаран",
+      "id": "ag_036",
+      "slot": 2,
+      "path": "images/places/ag_036_2.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Матенадаран",
+      "id": "ag_036",
+      "slot": 3,
+      "path": "images/places/ag_036_3.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    }
+  ],
+  "remaining_photos": "Existing Wikimedia Commons photographs; see PHOTO_SOURCES.md."
+}

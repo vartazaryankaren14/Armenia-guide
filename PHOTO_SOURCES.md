@@ -5,21 +5,12 @@
 - **Вернисаж**, [ag_037_1.webp](https://commons.wikimedia.org/wiki/File:Vernissage_market,_Yerevan.jpg): Deb Collins, CC BY 2.0
 - **Вернисаж**, [ag_037_2.webp](https://commons.wikimedia.org/wiki/File:Armenian_rugs_at_Vernissage_Yerevan.jpg): Deb Collins, CC BY 2.0
 - **Вернисаж**, [ag_037_3.webp](https://commons.wikimedia.org/wiki/File:Vernissage_in_yerevan.jpg): acid holic, CC BY-SA 4.0
-- **Каскад**, [ag_034_1.webp](https://commons.wikimedia.org/wiki/File:Cascade_of_Yerevan,_Armenia_First_Christian_Country_Monument,_Head,_Armenia,_2013-09-01,_VM.jpg): Vahram Mekhitarian, CC BY-SA 3.0
-- **Каскад**, [ag_034_2.webp](https://commons.wikimedia.org/wiki/File:Yerevan_Cascade,_Armenia.jpg): Petar Milošević, CC BY-SA 4.0
-- **Каскад**, [ag_034_3.webp](https://commons.wikimedia.org/wiki/File:Yerevan_Cascade_(1).jpg): Radosław Botev, CC BY 3.0 pl
 - **Крепость Эребуни**, [ag_038_1.webp](https://commons.wikimedia.org/wiki/File:Erebuni_Fortress,_Yerevan,_Armenia_01.jpg): Armen Manukov, CC BY-SA 3.0
 - **Крепость Эребуни**, [ag_038_2.webp](https://commons.wikimedia.org/wiki/File:Erebuni_fortress_in_Armenia.jpg): Armen888, CC BY-SA 4.0
 - **Крепость Эребуни**, [ag_038_3.webp](https://commons.wikimedia.org/wiki/File:Erebuni_Fortress,_Yerevan,_Armenia_03.JPG): Armen Manukov, CC BY-SA 3.0
-- **Матенадаран**, [ag_036_1.webp](https://commons.wikimedia.org/wiki/File:Yerevan,_Matenadaran,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
-- **Матенадаран**, [ag_036_2.webp](https://commons.wikimedia.org/wiki/File:Yerevan,_Matenadaran,_Entrance,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
-- **Матенадаран**, [ag_036_3.webp](https://commons.wikimedia.org/wiki/File:Matenadaran,_Yerevan,_Armenia_(%D5%84%D5%A1%D5%BF%D5%A5%D5%B6%D5%A1%D5%A4%D5%A1%D6%80%D5%A1%D5%B6%D0%B1,_2026).jpg): Petar Milošević, CC BY-SA 4.0
 - **Парк Победы и Мать Армения**, [ag_040_1.webp](https://commons.wikimedia.org/wiki/File:Mother_Armenia,_Park_of_Victory,_Yerevan.jpg): Narinar, CC BY-SA 3.0
 - **Парк Победы и Мать Армения**, [ag_040_2.webp](https://commons.wikimedia.org/wiki/File:Mother_Armenia_statue_in_Victory_Park_of_Yerevan_on_Victory_Day_May_9_2021.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0
 - **Парк Победы и Мать Армения**, [ag_040_3.webp](https://commons.wikimedia.org/wiki/File:Yerevan,_Mother_Armenia_Monument,_S-75_Dvina,_Victory_Park,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
-- **Площадь Республики**, [ag_035_1.webp](https://commons.wikimedia.org/wiki/File:Yerevan,_Republic_Square_at_night,_Yerevan_city_life,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
-- **Площадь Республики**, [ag_035_2.webp](https://commons.wikimedia.org/wiki/File:Yerevan_at_night,_Republic_Square,_Yerevan,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
-- **Площадь Республики**, [ag_035_3.webp](https://commons.wikimedia.org/wiki/File:Yerevan,_Armenia_Marriott_Hotel,_Republic_Square_at_night,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
 - **Цицернакаберд**, [ag_039_1.webp](https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_-_Armenian_Genocide_memorial_complex_(18%E2%80%A409%E2%80%A42019)_15.jpg): Gardmanahay, CC BY-SA 4.0
 - **Цицернакаберд**, [ag_039_2.webp](https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_-_Armenian_Genocide_memorial_complex_(18%E2%80%A409%E2%80%A42019)_17.jpg): Gardmanahay, CC BY-SA 4.0
 - **Цицернакаберд**, [ag_039_3.webp](https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_-_Armenian_Genocide_memorial_complex_(18%E2%80%A409%E2%80%A42019)_18.jpg): Gardmanahay, CC BY-SA 4.0
@@ -233,3 +224,13 @@
 - **Озеро Цовер**, [ag_095_1.webp](https://commons.wikimedia.org/wiki/File:Tsover_Lake_near_Dsegh,_Lori_Province,_Armenia.jpg): Mar Mkrtchyan, CC0
 - **Озеро Цовер**, [ag_095_2.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_(%D5%AC%D5%AB%D5%B3)_04.jpg): Dav Sargsyan, CC BY-SA 4.0
 - **Озеро Цовер**, [ag_095_3.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_%D5%AC%D5%AB%D5%B3_D5.jpg): Dav Sargsyan, CC0
+
+- **Каскад**, `ag_034_1.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+- **Каскад**, `ag_034_2.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+- **Каскад**, `ag_034_3.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+- **Площадь Республики**, `ag_035_1.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+- **Площадь Республики**, `ag_035_2.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+- **Площадь Республики**, `ag_035_3.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+- **Матенадаран**, `ag_036_1.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+- **Матенадаран**, `ag_036_2.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+- **Матенадаран**, `ag_036_3.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
