@@ -84,7 +84,25 @@ def save_image(page,path):
 def main():
     totals={'places':len(CATALOG),'images':0,'places_with_images':0,'missing':[]}
     credit=['# Источники изображений Armenia Guide','','Фотографии взяты из Wikimedia Commons. Перед публикацией соблюдайте условия соответствующей лицензии.','']
+    # Preserve manually curated and AI-generated images when this job is rerun.
+    protected_ids={'ag_034','ag_035','ag_036'}
+    curated=ROOT/'photo-curation-reviewed.json'
+    if curated.exists():
+        try:
+            protected_ids.update(json.loads(curated.read_text('utf8')).get('sites',{}))
+        except Exception as exc:
+            print('WARN curated metadata could not be read:',exc,flush=True)
+    previous_credits=(ROOT/'PHOTO_SOURCES.md').read_text('utf8').splitlines() if (ROOT/'PHOTO_SOURCES.md').exists() else []
     for k,p in enumerate(CATALOG,1):
+        if p['id'] in protected_ids:
+            preserved=[OUT/(p['id']+'_'+str(i)+'.webp') for i in (1,2,3)]
+            count=sum(f.exists() for f in preserved)
+            totals['images']+=count
+            if count: totals['places_with_images']+=1
+            else: totals['missing'].append(p['name'])
+            credit.extend(line for line in previous_credits if line.startswith('- **'+p['name']+'**,'))
+            print(f'[{k:02d}/{len(CATALOG)}] PRESERVED {p["name"]}: {count}/3 photos',flush=True)
+            continue
         name=p['name'];q=QUERIES.get(name) or name+' Armenia'
         # The first image for Garni and Geghard is an AI-generated illustration embedded in index.html.
         goal=2 if name in ('Храм Гарни','Монастырь Гегард') else 3
