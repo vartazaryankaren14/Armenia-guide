@@ -170,7 +170,7 @@ def old_file_list(name,lines):
  items={}
  for line in lines:
   if line.startswith("- **"+name+"**,"):
-   m=re.search(r"\[([^\]]+)\]\((https://commons\.wikimedia\.org/wiki/File:[^)]+)\)",line)
+   m=re.search(r"\[([^\]]+)\]\((https://commons\.wikimedia\.org/wiki/File:.*?)\):",line)
    if m:
     n=re.search(r"_(\d+)\.webp",m.group(1))
     if n:items[int(n.group(1))]=unquote(m.group(2).split("/wiki/File:",1)[1]).replace("_"," ")
