@@ -3,45 +3,34 @@
   "date": "2026-11-25",
   "policy": "Manual selection by exact source filenames and slot; preserve previously approved cards and attractive originals. No generated picture is represented as a real photo.",
   "sites": {
-    "ag_042": {
-      "name": "Двин",
-      "note": "Сохраняем первый исходный снимок раскопок. Меняем два повторяющихся кадра; прежняя сверхширокая панорама не подошла для карточки.",
-      "slots": {
-        "2": "The ruins of Ancient Dvin 25.jpg",
-        "3": "The Saint Gregory Cathedral of Dvin, the capital of early medieval Armenia (43932342690).jpg"
-      }
-    },
-    "ag_055": {
-      "name": "Монастырь Кечарис",
-      "note": "Три исходных кадра не показывали архитектуру: тёмный интерьер с туристами, машина и табличка. Меняем на комплекс, архитектуру и хачкар.",
-      "slots": {
-        "1": "Kecharis Monastery Tsakhkadzor.jpg",
-        "2": "Kecharis monastery.JPG",
-        "3": "Kecharis Monastery Tsakhkadzor 1.jpg"
-      }
-    },
     "ag_059": {
       "name": "Айраванк",
-      "note": "Исходный второй снимок резного хачкара оставляем, но первый и третий заменяем реальными видами монастыря у Севана.",
+      "note": "Корректируем слишком похожий третий хачкар. Сохраняем зимний общий вид и один красивый старый резной хачкар.",
       "slots": {
-        "1": "Hayravank monastery with frozen Sevan lake.jpg",
-        "3": "Hayravank Monastery near Sevan lake 17.jpg"
+        "3": "Հայրավանք 112.jpg"
       }
     },
     "ag_058": {
       "name": "Севанаванк",
-      "note": "Второй пейзаж и третий архитектурный крупный план сохраняем. Первый заменяем общим видом монастырского полуострова.",
+      "note": "Второй кадр панорамный, третий крупный план храма; первое фото заменяем на зимний ракурс другого сезона.",
       "slots": {
-        "1": "Panorama of Sevanavank.png"
+        "1": "Sevanavank Surp Arakelots church in February 2024.jpg"
       }
     },
-    "ag_098": {
-      "name": "Арка Чаренца",
-      "note": "Исправляем неудачную повторяющуюся фотографию 3; первые два уже удачны и сохраняются.",
+    "ag_061": {
+      "name": "Шоржа",
+      "note": "Сохраняем бирюзовый берег и песчаный пляж; третий кадр брызг воды заменяем более характерным видом восточного берега.",
       "slots": {
-        "3": "Հուշարձան «Չարենցի կամար», ArmAg (6).jpg"
+        "3": "Eastern shore of Lake Sevan - Սեւանայ լիճի արեւելեան ափը (3413246424).jpg"
+      }
+    },
+    "ag_067": {
+      "name": "Ластивер",
+      "note": "Сохраняем водопад и уникальную резьбу в пещере; повтор резьбы меняем лесной тропой к водопаду.",
+      "slots": {
+        "3": "Path to Lastiver Waterfall in Yenokavan.jpg"
       }
     }
   },
-  "batch": "Third editorial batch with corrective replacement for Charents' Arch and Dvin"
+  "batch": "Fourth individual review: nonrepeating shores, cave-trail and church perspectives"
 }
