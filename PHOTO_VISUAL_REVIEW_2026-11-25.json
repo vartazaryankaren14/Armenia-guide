@@ -1,0 +1,466 @@
+{
+  "review_date": "2026-11-25",
+  "approach": "Each remaining gallery inspected individually; unchanged good originals retained. Replacements were manual selections of genuine Wikimedia Commons photos with source/author/license data in PHOTO_SOURCES.md.",
+  "total_reviewed": 48,
+  "updated_galleries": 35,
+  "retained_good_original_galleries": 13,
+  "additional_partial_edit": {
+    "id": "ag_106",
+    "name": "Гора Димац",
+    "updated_slots": [
+      3
+    ],
+    "note": "Only third photo replaced; text about jeep tours preserved."
+  },
+  "already_approved_untouched": [
+    "Вулкан Аждаак",
+    "Дилижан",
+    "Кладбище хачкаров Норатус",
+    "Монастырь Гегард",
+    "Монастырь Гегард",
+    "Монастырь Макараванк",
+    "Озеро Кари",
+    "Озеро Севан",
+    "Озеро Цовер",
+    "Степанаванский дендропарк",
+    "Ущелье Касах",
+    "Ущелье Касах",
+    "Храм Гарни",
+    "Храм Гарни",
+    "Цахкадзор"
+  ],
+  "galleries": [
+    {
+      "id": "ag_050",
+      "name": "Сагмосаванк",
+      "region": "Арагацотнская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "ag_043",
+      "name": "Ангельский каньон",
+      "region": "Араратская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "ag_107",
+      "name": "Водохранилище Азат",
+      "region": "Араратская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_042",
+      "name": "Двин",
+      "region": "Араратская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_041",
+      "name": "Хор Вирап",
+      "region": "Араратская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_098",
+      "name": "Арка Чаренца",
+      "region": "Котайкская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_056",
+      "name": "Крепость Бжни",
+      "region": "Котайкская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_055",
+      "name": "Монастырь Кечарис",
+      "region": "Котайкская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "simfoniya_001",
+      "name": "Симфония камней",
+      "region": "Котайкская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_059",
+      "name": "Айраванк",
+      "region": "Гегаркуникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_058",
+      "name": "Севанаванк",
+      "region": "Гегаркуникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1
+      ]
+    },
+    {
+      "id": "ag_061",
+      "name": "Шоржа",
+      "region": "Гегаркуникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_068",
+      "name": "Енокаван",
+      "region": "Тавушская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "ag_067",
+      "name": "Ластивер",
+      "region": "Тавушская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_065",
+      "name": "Монастырь Агарцин",
+      "region": "Тавушская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_066",
+      "name": "Монастырь Гошаванк",
+      "region": "Тавушская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_064",
+      "name": "Озеро Гош",
+      "region": "Тавушская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "ag_063",
+      "name": "Озеро Парз",
+      "region": "Тавушская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_069",
+      "name": "Ахпат",
+      "region": "Лорийская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_071",
+      "name": "Ахтала",
+      "region": "Лорийская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_076",
+      "name": "Водопад Трчкан",
+      "region": "Лорийская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_096",
+      "name": "Дебедское ущелье",
+      "region": "Лорийская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_075",
+      "name": "Крепость Лори Берд",
+      "region": "Лорийская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_073",
+      "name": "Монастырь Кобайр",
+      "region": "Лорийская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_072",
+      "name": "Одзун",
+      "region": "Лорийская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_070",
+      "name": "Санаин",
+      "region": "Лорийская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_077",
+      "name": "Гюмри",
+      "region": "Ширакская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_079",
+      "name": "Монастырь Мармашен",
+      "region": "Ширакская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_080",
+      "name": "Озеро Арпи",
+      "region": "Ширакская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_100",
+      "name": "Харичаванк",
+      "region": "Ширакская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_078",
+      "name": "Чёрная крепость",
+      "region": "Ширакская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1
+      ]
+    },
+    {
+      "id": "ag_102",
+      "name": "Гндеванк",
+      "region": "Вайоцдзорская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_085",
+      "name": "Джермук",
+      "region": "Вайоцдзорская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_084",
+      "name": "Джермукский водопад",
+      "region": "Вайоцдзорская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_081",
+      "name": "Нораванк",
+      "region": "Вайоцдзорская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_104",
+      "name": "Орбелянов караван-сарай",
+      "region": "Вайоцдзорская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_082",
+      "name": "Пещера Арени-1",
+      "region": "Вайоцдзорская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_083",
+      "name": "Село Арени",
+      "region": "Вайоцдзорская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_103",
+      "name": "Спитакавор",
+      "region": "Вайоцдзорская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_090",
+      "name": "Горис",
+      "region": "Сюникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1
+      ]
+    },
+    {
+      "id": "ag_087",
+      "name": "Канатная дорога «Крылья Татева»",
+      "region": "Сюникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_092",
+      "name": "Караундж (Зорац Карер)",
+      "region": "Сюникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "ag_093",
+      "name": "Мегри",
+      "region": "Сюникская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_086",
+      "name": "Татевский монастырь",
+      "region": "Сюникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_089",
+      "name": "Хндзореск и подвесной мост",
+      "region": "Сюникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        3
+      ]
+    },
+    {
+      "id": "ag_088",
+      "name": "Чертов мост",
+      "region": "Сюникская область",
+      "decision": "selected_real_images",
+      "updated_slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ag_091",
+      "name": "Шакинский водопад",
+      "region": "Сюникская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    },
+    {
+      "id": "ag_094",
+      "name": "Шикахохский заповедник",
+      "region": "Сюникская область",
+      "decision": "keep_originals",
+      "updated_slots": []
+    }
+  ]
+}
