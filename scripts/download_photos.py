@@ -92,6 +92,13 @@ def main():
             protected_ids.update(json.loads(curated.read_text('utf8')).get('sites',{}))
         except Exception as exc:
             print('WARN curated metadata could not be read:',exc,flush=True)
+    # Never overwrite photo galleries curated through the conservative batch workflow.
+    batch=ROOT/'PHOTO_BATCH_RESULT.json'
+    if batch.exists():
+        try:
+            protected_ids.update(json.loads(batch.read_text('utf8')).get('updated_slots',{}))
+        except Exception as exc:
+            print('WARN batch metadata could not be read:',exc,flush=True)
     previous_credits=(ROOT/'PHOTO_SOURCES.md').read_text('utf8').splitlines() if (ROOT/'PHOTO_SOURCES.md').exists() else []
     for k,p in enumerate(CATALOG,1):
         if p['id'] in protected_ids:
