@@ -2,8 +2,6 @@
 
 Фотографии взяты из Wikimedia Commons. Перед публикацией соблюдайте условия соответствующей лицензии.
 
-- **Храм Звартноц**, [ag_045_1.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Zvartnots_Cathedral_ruins_(2166083354).jpg): Tamara Areshian from London, UK, CC BY 2.0
-- **Храм Звартноц**, [ag_045_2.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Zvartnots_Cathedral_ruins_(2166082792).jpg): Tamara Areshian from London, UK, CC BY 2.0
 - **Церковь Святой Рипсиме**, [ag_046_1.webp](https://commons.wikimedia.org/wiki/File:Saint_Hripsime_Church,_Vagharshapat,_Armenia_02.jpg): Lilitik22, CC BY-SA 4.0
 - **Церковь Святой Рипсиме**, [ag_046_2.webp](https://commons.wikimedia.org/wiki/File:Saint_Hripsime_Church,_Vagharshapat,_Armenia_01.jpg): Lilitik22, CC BY-SA 4.0
 - **Церковь Святой Рипсиме**, [ag_046_3.webp](https://commons.wikimedia.org/wiki/File:Saint_Hripsime_Church,_Vagharshapat,_Armenia_05.jpg): Lilitik22, CC BY-SA 4.0
@@ -231,3 +229,5 @@
 - **Озеро Цовер**, [ag_095_1.webp](https://commons.wikimedia.org/wiki/File:Tsover_Lake_near_Dsegh,_Lori_Province,_Armenia.jpg): Mar Mkrtchyan, CC0
 - **Озеро Цовер**, [ag_095_2.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_(%D5%AC%D5%AB%D5%B3)_04.jpg): Dav Sargsyan, CC BY-SA 4.0
 - **Озеро Цовер**, [ag_095_3.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_%D5%AC%D5%AB%D5%B3_D5.jpg): Dav Sargsyan, CC0
+- **Храм Звартноц**, [ag_045_1.webp](https://commons.wikimedia.org/wiki/File:Ruins_of_Zvartnots_Cathedral_with_Mount_Ararat_Backdrop_-_Near_Yerevan_-_Armenia_(18805091799).jpg): Adam Jones, CC BY-SA 2.0; преобразовано в WebP для Armenia Guide
+- **Храм Звартноц**, [ag_045_2.webp](https://commons.wikimedia.org/wiki/File:Zvartnots-Columns.jpg): Steven C. Price, CC BY-SA 4.0; преобразовано в WebP для Armenia Guide
