@@ -3,30 +3,37 @@
   "date": "2026-11-25",
   "policy": "Manual selection by exact source filenames and slot; preserve previously approved cards and attractive originals. No generated picture is represented as a real photo.",
   "sites": {
-    "ag_050": {
-      "name": "Сагмосаванк",
-      "note": "Сохраняем третье исходное фото резного входного портала. Первое — новый общий вид, второе — интерьер.",
+    "ag_042": {
+      "name": "Двин",
+      "note": "Первое фото раскопок оставляем; вместо повторов — панорама и архитектурные остатки кафедрального собора.",
       "slots": {
-        "1": "Saghmosavank Monastery Complex 01.jpg",
-        "2": "Interior of Saghmosavank Monastery - Kasagh Gorge - Near Yerevan - Armenia (18991423935).jpg"
+        "2": "Ruins of Dvin, Armenia.jpg",
+        "3": "The Saint Gregory Cathedral of Dvin, the capital of early medieval Armenia (43932342690).jpg"
       }
     },
-    "ag_043": {
-      "name": "Ангельский каньон",
-      "note": "Сохраняем второй исходный кадр ущелья. Меняем невнятный первый и повторяющийся третий.",
+    "ag_041": {
+      "name": "Хор Вирап",
+      "note": "Первые два оригинальных снимка хорошие и непохожие; третью панораму без монастыря заменяем видом монастыря после заката.",
       "slots": {
-        "1": "Angels' canyon, Dashtakhar.jpg",
-        "3": "Canyon of Angels in Dashtakar.jpg"
+        "3": "Khor Virap Monastery after Sunset, Armenia.jpg"
       }
     },
-    "ag_107": {
-      "name": "Водохранилище Азат",
-      "note": "Вместо трёх серых похожих кадров — три подтверждённых пейзажа с разными точками съёмки.",
+    "ag_098": {
+      "name": "Арка Чаренца",
+      "note": "Второй исходный кадр красивый и остаётся. Первый и третий слишком похожи — внешняя архитектура арки и конкурсное фото.",
       "slots": {
-        "1": "Azat Lake and Azat Gorge, Armenia.jpg",
-        "2": "Azat Reservoir, Ararat Province, Armenia 01.jpg",
-        "3": "Azat Reservoir view.jpg"
+        "1": "Չարենցի կամար հուշարձան, Ողջաբերդ, Հայաստան 01.jpg",
+        "3": "Charents arch-msu-wlm-3093.jpg"
+      }
+    },
+    "ag_056": {
+      "name": "Крепость Бжни",
+      "note": "Первый кадр оставляем; два почти идентичных вида крепостных стен меняем на общий вид и главный вход.",
+      "slots": {
+        "2": "Bjni Fortress (general view) 20.jpg",
+        "3": "Bjni fortress main entry walls - panoramio.jpg"
       }
     }
-  }
+  },
+  "batch": "Second four cards, reviewed separately"
 }
