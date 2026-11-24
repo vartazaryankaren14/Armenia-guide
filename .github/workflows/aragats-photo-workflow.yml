@@ -1,0 +1,32 @@
+name: Armenia Guide - approved real Mount Aragats images
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/aragats-photo-workflow.yml'
+      - 'scripts/replace_aragats_photos.py'
+permissions:
+  contents: write
+jobs:
+  replace-approved-aragats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image-processing dependencies
+        run: python -m pip install requests pillow
+      - name: Download and verify three chosen Mount Aragats photos
+        run: python scripts/replace_aragats_photos.py
+      - name: Commit only the three updated Aragats images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add images/places/ag_049_1.webp images/places/ag_049_2.webp images/places/ag_049_3.webp
+          if ! git diff --cached --quiet; then
+            git commit -m 'Install three approved authentic Mount Aragats photos'
+            git push
+          fi

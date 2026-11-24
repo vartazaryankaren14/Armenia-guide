@@ -11,9 +11,9 @@
 - **Бюраканская обсерватория**, [ag_052_1.webp](images/places/ag_052_1.webp): изображение №2 из трёх, предоставленных пользователем; купол обсерватории и горный пейзаж. Автор и лицензия не указаны.
 - **Бюраканская обсерватория**, [ag_052_2.webp](images/places/ag_052_2.webp): изображение №1 из трёх, предоставленных пользователем; телескоп внутри купола. Автор и лицензия не указаны.
 - **Бюраканская обсерватория**, [ag_052_3.webp](images/places/ag_052_3.webp): изображение №3 из трёх, предоставленных пользователем; крупный вид купола. Автор и лицензия не указаны.
-- **Гора Арагац**, [ag_049_1.webp](https://commons.wikimedia.org/wiki/File:Crater_of_Mount_Aragats,_Aragatsotn,_Armenia_-_panoramio.jpg): Armen Manukov, CC BY 3.0
-- **Гора Арагац**, [ag_049_2.webp](https://commons.wikimedia.org/wiki/File:Mount_Aragats,_Armenia.jpg): Valen1988, CC BY-SA 4.0
-- **Гора Арагац**, [ag_049_3.webp](https://commons.wikimedia.org/wiki/File:View_of_Aragats_Mount_from_Myler_Resort,_Armenia.jpg): mk4oto https://www.instagram.com/mk4oto/, CC BY-SA 4.0
+- **Гора Арагац**, [ag_049_1.webp](https://commons.wikimedia.org/wiki/File:View_from_Lake_Kari_to_Mount_Aragats.jpg): Wowan1978, CC BY-SA 4.0; снимок преобразован в WebP для Armenia Guide
+- **Гора Арагац**, [ag_049_2.webp](https://commons.wikimedia.org/wiki/File:Aragats_crater_05.jpg): Albero, CC BY-SA 4.0; снимок преобразован в WebP для Armenia Guide
+- **Гора Арагац**, [ag_049_3.webp](https://commons.wikimedia.org/wiki/File:Mount_Aragats_2020-05-11.jpg): Armenak Margarian, CC BY-SA 4.0; снимок преобразован в WebP для Armenia Guide
 - **Крепость Амберд**, [ag_047_1.webp](https://commons.wikimedia.org/wiki/File:Amberd_fortress,_Armenia.jpg): Vitbaisa, CC BY-SA 4.0
 - **Крепость Амберд**, [ag_047_2.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Amberd_Fortress_(2165279011).jpg): Tamara Areshian from London, UK, CC BY 2.0
 - **Крепость Амберд**, [ag_047_3.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Amberd_Fortress_(2166075202).jpg): Tamara Areshian from London, UK, CC BY 2.0
