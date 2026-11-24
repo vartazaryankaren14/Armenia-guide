@@ -3,39 +3,37 @@
   "date": "2026-11-25",
   "policy": "Manual selection by exact source filenames and slot; preserve previously approved cards and attractive originals. No generated picture is represented as a real photo.",
   "sites": {
-    "ag_077": {
-      "name": "Гюмри",
-      "note": "Три исходные фотографии были случайными монументами и стройкой, не показывающими характер исторического города. Новые кадры площади и Кумайри.",
+    "ag_102": {
+      "name": "Гндеванк",
+      "note": "Первое фото — просто пол, второе — камни, третье тёмная церковь. Заменяем документальными видами монастыря.",
       "slots": {
-        "1": "Gyumri Vardanants square.jpg",
-        "2": "Kumayri Gyumri.jpg",
-        "3": "Տերյան փողոց, Գյումրի.jpg"
+        "1": "Գնդեվանքը գարնանը1.jpg",
+        "2": "Gndevank Monastery (01).jpg",
+        "3": "Gndevank 2023 ԱԹ 04.jpg"
       }
     },
-    "ag_080": {
-      "name": "Озеро Арпи",
-      "note": "Оставляем первый исходный вид озера, а две очень похожие серые фотографии меняем на летний берег и чаек.",
+    "ag_081": {
+      "name": "Нораванк",
+      "note": "Сохраняем скальную панораму и крупный вид церкви; третий очень похож на второй — показываем знаменитую каменную лестницу.",
       "slots": {
-        "2": "Արփի լիճը ամռանը.jpg",
-        "3": "Armenian gulls in the sky of Arpi lake (2).jpg"
+        "3": "Cantilevered stairs, facade of Surb Astvatsatsin Church, Noravank Monastery (Armenia, 2026).jpg"
       }
     },
-    "ag_100": {
-      "name": "Харичаванк",
-      "note": "Исходные изображения — слабый интерьер, речка и камни; заменить на реальные разные ракурсы монастырского комплекса.",
+    "ag_104": {
+      "name": "Орбелянов караван-сарай",
+      "note": "Исходные 2 и 3 почти одинаковые фотографии входа. Оставляем два внешних вида и показываем уникальные своды внутри.",
       "slots": {
-        "1": "Harichavank Monastery 2012-01-08.jpg",
-        "2": "Վանական համալիր Հառիճավանք 28092019 (30).jpg",
-        "3": "Harichavank Rear.JPG"
+        "3": "Orbelian's Caravanserai inside.jpg"
       }
     },
-    "ag_078": {
-      "name": "Чёрная крепость",
-      "note": "Сохраняем оригиналы 2 и 3, но первый похож на третий; вместо него интерьер круглой крепости.",
+    "ag_082": {
+      "name": "Пещера Арени-1",
+      "note": "Вместо нескольких похожих каменных стен показываем интерьер и внешний вход пещеры, где проводились раскопки.",
       "slots": {
-        "1": "Sev Berd or Black Fortress, Gyumri 01.jpg"
+        "2": "Areni-1 Cave Interior.JPG",
+        "3": "Areni-1 cave entrance.jpg"
       }
     }
   },
-  "batch": "Seventh editorial set: city, monastery, lake, fortress in Shirak"
+  "batch": "Eighth handpicked set: Vayots Dzor historical architecture and cave"
 }
