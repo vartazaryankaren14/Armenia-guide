@@ -55,7 +55,6 @@
 - **Шоржа**, [ag_061_2.webp](https://commons.wikimedia.org/wiki/File:SeasideShorzha.jpg): Poghosyan97, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_1.webp](https://commons.wikimedia.org/wiki/File:A_shepherd_with_his_flock_against_the_backdrop_of_Mount_Dimats_in_Armenia.jpg): Wowan1978, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_2.webp](https://commons.wikimedia.org/wiki/File:Mount_Dimats_in_the_fog.jpg): Vladimir Pankratov, CC BY-SA 4.0
-- **Гора Димац**, [ag_106_3.webp](https://commons.wikimedia.org/wiki/File:Flowers_around_Mount_Dimats_%D4%B1%D4%B9_02.jpg): 23artashes, CC BY-SA 4.0
 - **Енокаван**, [ag_068_2.webp](https://commons.wikimedia.org/wiki/File:Yenokavan_Resort_(3).jpg): Ji-Elle, CC BY-SA 4.0
 - **Ластивер**, [ag_067_1.webp](https://commons.wikimedia.org/wiki/File:Lastiver_in_Ijevan,_Armenia,_Tavush_Region_-_2015.jpg): Areg1974, CC BY-SA 4.0
 - **Ластивер**, [ag_067_2.webp](https://commons.wikimedia.org/wiki/File:Lastiver_cave_complex_03.jpg): Armen Manukov, CC BY-SA 3.0
@@ -82,9 +81,6 @@
 - **Одзун**, [ag_072_1.webp](https://commons.wikimedia.org/wiki/File:Odzun_Armenian_Apostolic_Church.jpg): SyuzanHayki, CC BY 4.0
 - **Санаин**, [ag_070_1.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_01.JPG): Beko, CC BY-SA 4.0
 - **Санаин**, [ag_070_2.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_02.JPG): Beko, CC BY-SA 4.0
-- **Гюмри**, [ag_077_1.webp](https://commons.wikimedia.org/wiki/File:Gyumri_armenia_1.JPG): Der Reisende, CC BY-SA 3.0
-- **Гюмри**, [ag_077_2.webp](https://commons.wikimedia.org/wiki/File:Gyumri,_Armenia_-_panoramio_(10).jpg): Michal Gorski, CC BY-SA 3.0
-- **Гюмри**, [ag_077_3.webp](https://commons.wikimedia.org/wiki/File:Gyumri,_Armenia_-_panoramio_(23).jpg): Michal Gorski, CC BY-SA 3.0
 - **Монастырь Мармашен**, [ag_079_1.webp](https://commons.wikimedia.org/wiki/File:Marmashen_Monastery_in_Shirak_province,_Armenia._DJI_0034-2.jpg): Vahagn Grigoryan, CC BY-SA 4.0
 - **Монастырь Мармашен**, [ag_079_2.webp](https://commons.wikimedia.org/wiki/File:Marmashen_Monastery.jpg): eglupi, CC BY-SA 3.0
 - **Монастырь Мармашен**, [ag_079_3.webp](https://commons.wikimedia.org/wiki/File:Eglise_de_Marmashen4.JPG): Armenak Margarian, CC BY-SA 4.0
@@ -109,8 +105,6 @@
 - **Спитакавор**, [ag_103_2.webp](https://commons.wikimedia.org/wiki/File:Spitakavor_monastery_(35702296810).jpg): Arian Zwegers from Brussels, Belgium, CC BY 2.0
 - **Спитакавор**, [ag_103_3.webp](https://commons.wikimedia.org/wiki/File:Spitakavor,_Vayots_Dzor.jpg): Anahit Makarian, CC BY-SA 4.0
 - **Канатная дорога «Крылья Татева»**, [ag_087_1.webp](https://commons.wikimedia.org/wiki/File:Wings_of_Tatev_Cable_Car_(37202335960).jpg): David Stanley from Nanaimo, Canada, CC BY 2.0
-- **Караундж (Зорац Карер)**, [ag_092_1.webp](https://commons.wikimedia.org/wiki/File:Karahunj_or_Zorats_Karer,_Syunik,_Armenia_-_panoramio.jpg): Armen Manukov, CC BY 3.0
-- **Караундж (Зорац Карер)**, [ag_092_2.webp](https://commons.wikimedia.org/wiki/File:Karahunj_or_Zorats_Karer,_Syunik,_Armenia_-_panoramio_(1).jpg): Armen Manukov, CC BY 3.0
 - **Караундж (Зорац Карер)**, [ag_092_3.webp](https://commons.wikimedia.org/wiki/File:Karahunj_or_Zorats_Karer,_Syunik,_Armenia_-_panoramio_(2).jpg): Armen Manukov, CC BY 3.0
 - **Мегри**, [ag_093_1.webp](https://commons.wikimedia.org/wiki/File:Meghri.jpg): unbdaveable, CC BY 2.0
 - **Мегри**, [ag_093_2.webp](https://commons.wikimedia.org/wiki/File:Meghri_church.JPG): Zorik Galstyan, CC BY-SA 3.0
@@ -221,7 +215,6 @@
 - **Орбелянов караван-сарай**, [ag_104_3.webp](https://commons.wikimedia.org/wiki/File:Orbelian%27s_Caravanserai_inside.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Пещера Арени-1**, [ag_082_2.webp](https://commons.wikimedia.org/wiki/File:Areni-1_Cave_Interior.JPG): Kiwiodysee, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Пещера Арени-1**, [ag_082_3.webp](https://commons.wikimedia.org/wiki/File:Areni-1_cave_entrance.jpg): Serouj, CC BY 3.0. Исходное изображение уменьшено и перекодировано в WebP.
-- **Горис**, [ag_090_1.webp](https://commons.wikimedia.org/wiki/File:Goris%2C_Armenia_%2828180793512%29.jpg): Clay Gilliland from Chandler, U.S.A., CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Горис**, [ag_090_2.webp](https://commons.wikimedia.org/wiki/File:Goris_inhabited_rocks.jpg): Matheus Hobold Sovernigo, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Горис**, [ag_090_3.webp](https://commons.wikimedia.org/wiki/File:Old_Goris%2C_houses_in_the_rocks.jpg): Beko, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Канатная дорога «Крылья Татева»**, [ag_087_2.webp](https://commons.wikimedia.org/wiki/File:Wings_of_Tatev.jpg): Narine Manucharyan, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
@@ -231,3 +224,10 @@
 - **Чертов мост**, [ag_088_1.webp](https://commons.wikimedia.org/wiki/File:Devil%27s_Bridge%2C_Tatev%2C_Armenia_01.jpg): Ավետիսյան91, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Чертов мост**, [ag_088_2.webp](https://commons.wikimedia.org/wiki/File:Under_Devil%27s_Bridge.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Чертов мост**, [ag_088_3.webp](https://commons.wikimedia.org/wiki/File:Devil%27s_Bridge_Armenia_May_2026%2C_02.jpg): This image was produced by me, David Castor (user:dcastor). The pictures I submit to the Wikipedia Project are released to the public domain. This gives you the right to use them in any way you like, without any kind of notification. This said, I would still appreciate to be mentioned as the originator whenever you think it complies well with your use of the picture. A message to me  about how it has been used would also be welcome. You are obviously not required to respond to these wishes of mine, just in a friendly manner encouraged to. (All my photos are placed in Category:Images by David Castor or a subcategory thereof.), CC0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Гюмри**, [ag_077_1.webp](https://commons.wikimedia.org/wiki/File:The_Church_of_the_Holy_Saviour_and_a_pedestrian_crossing_at_Vardanants_Square_in_Gyumri.jpg): Wowan1978, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Гюмри**, [ag_077_2.webp](https://commons.wikimedia.org/wiki/File:Buildings_in_Gyumri.jpg): Pandukht, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Гюмри**, [ag_077_3.webp](https://commons.wikimedia.org/wiki/File:%D5%8F%D5%A5%D6%80%D5%B5%D5%A1%D5%B6_%D6%83%D5%B8%D5%B2%D5%B8%D6%81%2C_%D4%B3%D5%B5%D5%B8%D6%82%D5%B4%D6%80%D5%AB.jpg): Atheist Armenian, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Караундж (Зорац Карер)**, [ag_092_1.webp](https://commons.wikimedia.org/wiki/File:Karahunj_%28Zorats_Karer%293.JPG): Armen Manukov, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Караундж (Зорац Карер)**, [ag_092_2.webp](https://commons.wikimedia.org/wiki/File:Carahunge_four_stones.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Горис**, [ag_090_1.webp](https://commons.wikimedia.org/wiki/File:Goris%2C_Armenia_-_panoramio_%281%29.jpg): Dalibor Z. Chvatal, CC BY 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Гора Димац**, [ag_106_3.webp](https://commons.wikimedia.org/wiki/File:View_of_Mount_Dimats_in_Dilijan_National_Park.jpg): Wowan1978, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.

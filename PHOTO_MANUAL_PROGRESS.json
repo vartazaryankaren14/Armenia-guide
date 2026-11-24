@@ -324,14 +324,10 @@
       "id": "ag_090",
       "name": "Горис",
       "changed_slots": [
-        1,
-        2,
-        3
+        1
       ],
       "files": [
-        "Goris, Armenia (28180793512).jpg",
-        "Goris inhabited rocks.jpg",
-        "Old Goris, houses in the rocks.jpg"
+        "Goris, Armenia - panoramio (1).jpg"
       ]
     },
     "ag_087": {
@@ -379,15 +375,45 @@
         "Under Devil's Bridge.jpg",
         "Devil's Bridge Armenia May 2026, 02.jpg"
       ]
-    }
-  },
-  "last_run_errors": [
-    {
+    },
+    "ag_077": {
+      "id": "ag_077",
+      "name": "Гюмри",
+      "changed_slots": [
+        1,
+        2,
+        3
+      ],
+      "files": [
+        "The Church of the Holy Saviour and a pedestrian crossing at Vardanants Square in Gyumri.jpg",
+        "Buildings in Gyumri.jpg",
+        "Տերյան փողոց, Գյումրի.jpg"
+      ]
+    },
+    "ag_092": {
       "id": "ag_092",
       "name": "Караундж (Зорац Карер)",
-      "reason": "Low resolution: Karahunj - Zorats Karer.jpg"
+      "changed_slots": [
+        1,
+        2
+      ],
+      "files": [
+        "Karahunj (Zorats Karer)3.JPG",
+        "Carahunge four stones.jpg"
+      ]
+    },
+    "ag_106": {
+      "id": "ag_106",
+      "name": "Гора Димац",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "View of Mount Dimats in Dilijan National Park.jpg"
+      ]
     }
-  ],
+  },
+  "last_run_errors": [],
   "do_not_touch": [
     "Бюраканская обсерватория",
     "Вулкан Аждаак",
