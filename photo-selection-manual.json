@@ -3,54 +3,37 @@
   "date": "2026-11-25",
   "policy": "Manual selection by exact source filenames and slot; preserve previously approved cards and attractive originals. No generated picture is represented as a real photo.",
   "sites": {
-    "ag_090": {
-      "name": "Горис",
-      "note": "Три исходных кадра были дорожный памятник, ржавый контейнер и фонтан. Заменяем общим видом города, окрестными скалами и историческими пещерами.",
+    "ag_077": {
+      "name": "Гюмри",
+      "note": "Исправление: прежнее фото площади было панорамой 360°; используем нормальный кадр площади, старинный дом и Терьянскую улицу.",
       "slots": {
-        "1": "Goris, Armenia (28180793512).jpg",
-        "2": "Goris inhabited rocks.jpg",
-        "3": "Old Goris, houses in the rocks.jpg"
-      }
-    },
-    "ag_087": {
-      "name": "Канатная дорога «Крылья Татева»",
-      "note": "Сохраняем настоящую кабину на фоне гор. Вместо логотипа и стенда — виды канатной дороги и панорама ущелья.",
-      "slots": {
-        "2": "Wings of Tatev.jpg",
-        "3": "Wings of Tatev View.jpg"
+        "1": "The Church of the Holy Saviour and a pedestrian crossing at Vardanants Square in Gyumri.jpg",
+        "2": "Buildings in Gyumri.jpg",
+        "3": "Տերյան փողոց, Գյումրի.jpg"
       }
     },
     "ag_092": {
       "name": "Караундж (Зорац Карер)",
-      "note": "Раньше все три изображения были одинаковым отверстием в камне. Сохраняем третий фактурный кадр, добавляем общий вид древних камней.",
+      "note": "Исправление: прежний общий вид имел 1024px; выбираем другую фотографию камней, сохраняем третий исходный крупный план отверстия.",
       "slots": {
-        "1": "Karahunj - Zorats Karer.jpg",
+        "1": "Karahunj (Zorats Karer)3.JPG",
         "2": "Carahunge four stones.jpg"
       }
     },
-    "ag_086": {
-      "name": "Татевский монастырь",
-      "note": "Первый ландшафт и второй интерьер удачные; третий интерьер слишком похож на второй. Заменяем его общим видом самого комплекса.",
+    "ag_090": {
+      "name": "Горис",
+      "note": "Первая версия общего вида оказалась узкой полосой; выбираем фотографию города нормального формата, два красивых скальных кадра оставляем.",
       "slots": {
-        "3": "Տաթևի վանական համալիր.jpg"
+        "1": "Goris, Armenia - panoramio (1).jpg"
       }
     },
-    "ag_089": {
-      "name": "Хндзореск и подвесной мост",
-      "note": "Сохраняем два вида моста; вместо случайного туриста — пещерное поселение Хндзореск.",
+    "ag_106": {
+      "name": "Гора Димац",
+      "note": "Меняем только третий кадр на реальную горную панораму, первые две фотографии и текст с организаторами подъёма не трогаем.",
       "slots": {
-        "3": "Khndzoresk, Khor Dzor Canyon, Old village, Caves, Armenia.jpg"
-      }
-    },
-    "ag_088": {
-      "name": "Чертов мост",
-      "note": "Раньше были 3 случайные скалы и маленький ручей. Новые снимки показывают мост, окружающий каньон и пространство под естественным мостом.",
-      "slots": {
-        "1": "Devil's Bridge, Tatev, Armenia 01.jpg",
-        "2": "Under Devil's Bridge.jpg",
-        "3": "Devil's Bridge Armenia May 2026, 02.jpg"
+        "3": "View of Mount Dimats in Dilijan National Park.jpg"
       }
     }
   },
-  "batch": "Ninth editorial set: Syunik architecture, cave settlements and canyon"
+  "batch": "Final targeted fixes: Gyumri and Karahunj sources, Goris proportions, Dimats third slot"
 }
