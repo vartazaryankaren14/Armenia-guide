@@ -89,12 +89,6 @@
 - **Монастырь Мармашен**, [ag_079_2.webp](https://commons.wikimedia.org/wiki/File:Marmashen_Monastery.jpg): eglupi, CC BY-SA 3.0
 - **Монастырь Мармашен**, [ag_079_3.webp](https://commons.wikimedia.org/wiki/File:Eglise_de_Marmashen4.JPG): Armenak Margarian, CC BY-SA 4.0
 - **Озеро Арпи**, [ag_080_1.webp](https://commons.wikimedia.org/wiki/File:Lake_Arpi_1101_01.jpg): Dav Sargsyan, CC BY-SA 4.0
-- **Озеро Арпи**, [ag_080_2.webp](https://commons.wikimedia.org/wiki/File:Lake_Arpi_1101_05.jpg): Dav Sargsyan, CC BY-SA 4.0
-- **Озеро Арпи**, [ag_080_3.webp](https://commons.wikimedia.org/wiki/File:Lake_Arpi_1101_07.jpg): Dav Sargsyan, CC BY-SA 4.0
-- **Харичаванк**, [ag_100_1.webp](https://commons.wikimedia.org/wiki/File:Harichavank_Monastery_2.JPG): Soghomon Matevosyan, CC BY-SA 3.0
-- **Харичаванк**, [ag_100_2.webp](https://commons.wikimedia.org/wiki/File:Harichavank_Monastery_1.JPG): Soghomon Matevosyan, CC BY-SA 3.0
-- **Харичаванк**, [ag_100_3.webp](https://commons.wikimedia.org/wiki/File:Harichavank_Monastery_3.JPG): Soghomon Matevosyan, CC BY-SA 3.0
-- **Чёрная крепость**, [ag_078_1.webp](https://commons.wikimedia.org/wiki/File:Black_Fortress_in_Gyumri,_Armenia_04-11-2018.jpg): Armenak Margarian, CC BY-SA 4.0
 - **Чёрная крепость**, [ag_078_2.webp](https://commons.wikimedia.org/wiki/File:Black_Fortress_in_Gyumri,_Armenia_15-09-2019.jpg): Armenak Margarian, CC BY-SA 4.0
 - **Чёрная крепость**, [ag_078_3.webp](https://commons.wikimedia.org/wiki/File:Black_Fortress,_Gyumri,_Armenia,_July_2023.jpeg): Textfabrikant, CC BY-SA 4.0
 - **Гндеванк**, [ag_102_1.webp](https://commons.wikimedia.org/wiki/File:Gndevank_Monastery_(01).jpg): Soghomon Matevosyan, CC BY-SA 4.0
@@ -231,3 +225,9 @@
 - **Одзун**, [ag_072_2.webp](https://commons.wikimedia.org/wiki/File:Dome_of_Odzun_church%2C_interior_view.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Одзун**, [ag_072_3.webp](https://commons.wikimedia.org/wiki/File:Odzun_Church_01.jpg): Emgabriell, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Санаин**, [ag_070_3.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Complex.jpg): Vladimir Pankratov, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Озеро Арпи**, [ag_080_2.webp](https://commons.wikimedia.org/wiki/File:%D4%B1%D6%80%D6%83%D5%AB_%D5%AC%D5%AB%D5%B3%D5%A8_%D5%A1%D5%B4%D5%BC%D5%A1%D5%B6%D5%A8.jpg): Valen1988, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Озеро Арпи**, [ag_080_3.webp](https://commons.wikimedia.org/wiki/File:Armenian_gulls_in_the_sky_of_Arpi_lake_%282%29.jpg): 23artashes, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Харичаванк**, [ag_100_1.webp](https://commons.wikimedia.org/wiki/File:Harichavank_Monastery_2012-01-08.jpg): Armenak Margarian, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Харичаванк**, [ag_100_2.webp](https://commons.wikimedia.org/wiki/File:%D5%8E%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6_%D5%B0%D5%A1%D5%B4%D5%A1%D5%AC%D5%AB%D6%80_%D5%80%D5%A1%D5%BC%D5%AB%D5%B3%D5%A1%D5%BE%D5%A1%D5%B6%D6%84_28092019_%2830%29.jpg): Beko, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Харичаванк**, [ag_100_3.webp](https://commons.wikimedia.org/wiki/File:Harichavank_Rear.JPG): Liveon001 © Travis K. Witt, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Чёрная крепость**, [ag_078_1.webp](https://commons.wikimedia.org/wiki/File:Sev_Berd_or_Black_Fortress%2C_Gyumri_01.jpg): Violmsyan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.

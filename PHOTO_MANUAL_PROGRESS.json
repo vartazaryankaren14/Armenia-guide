@@ -237,9 +237,51 @@
       "files": [
         "Sanahin Monastery Complex.jpg"
       ]
+    },
+    "ag_080": {
+      "id": "ag_080",
+      "name": "Озеро Арпи",
+      "changed_slots": [
+        2,
+        3
+      ],
+      "files": [
+        "Արփի լիճը ամռանը.jpg",
+        "Armenian gulls in the sky of Arpi lake (2).jpg"
+      ]
+    },
+    "ag_100": {
+      "id": "ag_100",
+      "name": "Харичаванк",
+      "changed_slots": [
+        1,
+        2,
+        3
+      ],
+      "files": [
+        "Harichavank Monastery 2012-01-08.jpg",
+        "Վանական համալիր Հառիճավանք 28092019 (30).jpg",
+        "Harichavank Rear.JPG"
+      ]
+    },
+    "ag_078": {
+      "id": "ag_078",
+      "name": "Чёрная крепость",
+      "changed_slots": [
+        1
+      ],
+      "files": [
+        "Sev Berd or Black Fortress, Gyumri 01.jpg"
+      ]
     }
   },
-  "last_run_errors": [],
+  "last_run_errors": [
+    {
+      "id": "ag_077",
+      "name": "Гюмри",
+      "reason": "Downloaded image too small"
+    }
+  ],
   "do_not_touch": [
     "Бюраканская обсерватория",
     "Вулкан Аждаак",
