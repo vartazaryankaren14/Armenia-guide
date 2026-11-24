@@ -108,12 +108,7 @@
 - **Спитакавор**, [ag_103_1.webp](https://commons.wikimedia.org/wiki/File:Spitakavor_Armenia.jpg): Anahit Makarian, CC BY-SA 4.0
 - **Спитакавор**, [ag_103_2.webp](https://commons.wikimedia.org/wiki/File:Spitakavor_monastery_(35702296810).jpg): Arian Zwegers from Brussels, Belgium, CC BY 2.0
 - **Спитакавор**, [ag_103_3.webp](https://commons.wikimedia.org/wiki/File:Spitakavor,_Vayots_Dzor.jpg): Anahit Makarian, CC BY-SA 4.0
-- **Горис**, [ag_090_1.webp](https://commons.wikimedia.org/wiki/File:Goris,_Armenia_-_panoramio.jpg): Dalibor Z. Chvatal, CC BY 3.0
-- **Горис**, [ag_090_2.webp](https://commons.wikimedia.org/wiki/File:Goris,_Armenia_-_panoramio_(2).jpg): Dalibor Z. Chvatal, CC BY 3.0
-- **Горис**, [ag_090_3.webp](https://commons.wikimedia.org/wiki/File:Goris,_Armenia_-_panoramio_(3).jpg): Dalibor Z. Chvatal, CC BY 3.0
 - **Канатная дорога «Крылья Татева»**, [ag_087_1.webp](https://commons.wikimedia.org/wiki/File:Wings_of_Tatev_Cable_Car_(37202335960).jpg): David Stanley from Nanaimo, Canada, CC BY 2.0
-- **Канатная дорога «Крылья Татева»**, [ag_087_2.webp](https://commons.wikimedia.org/wiki/File:Wings_of_Tatev_Aerial_Tramway-Guinness_World_Records.jpg): Ji-Elle, CC BY-SA 4.0
-- **Канатная дорога «Крылья Татева»**, [ag_087_3.webp](https://commons.wikimedia.org/wiki/File:The_Wings_Of_Tatev_(37746896872).jpg): Clay Gilliland from Chandler, U.S.A., CC BY-SA 2.0
 - **Караундж (Зорац Карер)**, [ag_092_1.webp](https://commons.wikimedia.org/wiki/File:Karahunj_or_Zorats_Karer,_Syunik,_Armenia_-_panoramio.jpg): Armen Manukov, CC BY 3.0
 - **Караундж (Зорац Карер)**, [ag_092_2.webp](https://commons.wikimedia.org/wiki/File:Karahunj_or_Zorats_Karer,_Syunik,_Armenia_-_panoramio_(1).jpg): Armen Manukov, CC BY 3.0
 - **Караундж (Зорац Карер)**, [ag_092_3.webp](https://commons.wikimedia.org/wiki/File:Karahunj_or_Zorats_Karer,_Syunik,_Armenia_-_panoramio_(2).jpg): Armen Manukov, CC BY 3.0
@@ -122,13 +117,8 @@
 - **Мегри**, [ag_093_3.webp](https://commons.wikimedia.org/wiki/File:Sights_of_Meghri_(6).jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Татевский монастырь**, [ag_086_1.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Tatev,_Armenia,_2016-10-01,_DD_70.jpg): Diego Delso, CC BY-SA 4.0
 - **Татевский монастырь**, [ag_086_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Tatev,_Armenia,_2016-10-01,_DD_71-73_HDR.jpg): Diego Delso, CC BY-SA 4.0
-- **Татевский монастырь**, [ag_086_3.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Tatev,_Armenia,_2016-10-01,_DD_74-76_HDR.jpg): Diego Delso, CC BY-SA 4.0
 - **Хндзореск и подвесной мост**, [ag_089_1.webp](https://commons.wikimedia.org/wiki/File:Khndzoresk_(35252734534).jpg): Arian Zwegers from Brussels, Belgium, CC BY 2.0
 - **Хндзореск и подвесной мост**, [ag_089_2.webp](https://commons.wikimedia.org/wiki/File:Old_Khndzoresk_(37492001182).jpg): David Stanley from Nanaimo, Canada, CC BY 2.0
-- **Хндзореск и подвесной мост**, [ag_089_3.webp](https://commons.wikimedia.org/wiki/File:David_Stanley_at_Khndzoresk_(37484992646).jpg): David Stanley from Nanaimo, Canada, CC BY 2.0
-- **Чертов мост**, [ag_088_1.webp](https://commons.wikimedia.org/wiki/File:River_at_Devil%27s_Bridge_-_Vorotan_Canyon_-_Near_Tatev_-_Armenia_(19029399946).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
-- **Чертов мост**, [ag_088_2.webp](https://commons.wikimedia.org/wiki/File:Devil%27s_Bridge,_Tatev,_Armenia_02.jpg): Ավետիսյան91, CC BY-SA 4.0
-- **Чертов мост**, [ag_088_3.webp](https://commons.wikimedia.org/wiki/File:Devil%27s_Bridge,_Tatev,_Armenia_01.jpg): Ավետիսյան91, CC BY-SA 4.0
 - **Шакинский водопад**, [ag_091_1.webp](https://commons.wikimedia.org/wiki/File:Shaki_Waterfall,_Armenia_-_%D5%87%D5%A1%D6%84%D5%AB%D5%AB_%D5%BB%D6%80%D5%BE%D5%A5%D5%AA,_%D5%80%D5%A1%D5%B5%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6.jpg): Hayk Barseghyan Photographer, CC BY-SA 4.0
 - **Шакинский водопад**, [ag_091_2.webp](https://commons.wikimedia.org/wiki/File:Shaki_Waterfall,_Armenia.jpg): Ավետիսյան91, CC BY-SA 4.0
 - **Шакинский водопад**, [ag_091_3.webp](https://commons.wikimedia.org/wiki/File:Armenia._Shaki_Waterfall_P8240868_2350.jpg): Alexxx1979, CC BY-SA 4.0
@@ -231,3 +221,13 @@
 - **Орбелянов караван-сарай**, [ag_104_3.webp](https://commons.wikimedia.org/wiki/File:Orbelian%27s_Caravanserai_inside.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Пещера Арени-1**, [ag_082_2.webp](https://commons.wikimedia.org/wiki/File:Areni-1_Cave_Interior.JPG): Kiwiodysee, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Пещера Арени-1**, [ag_082_3.webp](https://commons.wikimedia.org/wiki/File:Areni-1_cave_entrance.jpg): Serouj, CC BY 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Горис**, [ag_090_1.webp](https://commons.wikimedia.org/wiki/File:Goris%2C_Armenia_%2828180793512%29.jpg): Clay Gilliland from Chandler, U.S.A., CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Горис**, [ag_090_2.webp](https://commons.wikimedia.org/wiki/File:Goris_inhabited_rocks.jpg): Matheus Hobold Sovernigo, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Горис**, [ag_090_3.webp](https://commons.wikimedia.org/wiki/File:Old_Goris%2C_houses_in_the_rocks.jpg): Beko, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Канатная дорога «Крылья Татева»**, [ag_087_2.webp](https://commons.wikimedia.org/wiki/File:Wings_of_Tatev.jpg): Narine Manucharyan, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Канатная дорога «Крылья Татева»**, [ag_087_3.webp](https://commons.wikimedia.org/wiki/File:Wings_of_Tatev_View.jpg): Ashot Arzumanyan, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Татевский монастырь**, [ag_086_3.webp](https://commons.wikimedia.org/wiki/File:%D5%8F%D5%A1%D5%A9%D6%87%D5%AB_%D5%BE%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6_%D5%B0%D5%A1%D5%B4%D5%A1%D5%AC%D5%AB%D6%80.jpg): Արմին-Կարապետյան, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Хндзореск и подвесной мост**, [ag_089_3.webp](https://commons.wikimedia.org/wiki/File:Khndzoresk%2C_Khor_Dzor_Canyon%2C_Old_village%2C_Caves%2C_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Чертов мост**, [ag_088_1.webp](https://commons.wikimedia.org/wiki/File:Devil%27s_Bridge%2C_Tatev%2C_Armenia_01.jpg): Ավետիսյան91, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Чертов мост**, [ag_088_2.webp](https://commons.wikimedia.org/wiki/File:Under_Devil%27s_Bridge.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Чертов мост**, [ag_088_3.webp](https://commons.wikimedia.org/wiki/File:Devil%27s_Bridge_Armenia_May_2026%2C_02.jpg): This image was produced by me, David Castor (user:dcastor). The pictures I submit to the Wikipedia Project are released to the public domain. This gives you the right to use them in any way you like, without any kind of notification. This said, I would still appreciate to be mentioned as the originator whenever you think it complies well with your use of the picture. A message to me  about how it has been used would also be welcome. You are obviously not required to respond to these wishes of mine, just in a friendly manner encouraged to. (All my photos are placed in Category:Images by David Castor or a subcategory thereof.), CC0. Исходное изображение уменьшено и перекодировано в WebP.

@@ -319,9 +319,75 @@
         "Areni-1 Cave Interior.JPG",
         "Areni-1 cave entrance.jpg"
       ]
+    },
+    "ag_090": {
+      "id": "ag_090",
+      "name": "Горис",
+      "changed_slots": [
+        1,
+        2,
+        3
+      ],
+      "files": [
+        "Goris, Armenia (28180793512).jpg",
+        "Goris inhabited rocks.jpg",
+        "Old Goris, houses in the rocks.jpg"
+      ]
+    },
+    "ag_087": {
+      "id": "ag_087",
+      "name": "Канатная дорога «Крылья Татева»",
+      "changed_slots": [
+        2,
+        3
+      ],
+      "files": [
+        "Wings of Tatev.jpg",
+        "Wings of Tatev View.jpg"
+      ]
+    },
+    "ag_086": {
+      "id": "ag_086",
+      "name": "Татевский монастырь",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Տաթևի վանական համալիր.jpg"
+      ]
+    },
+    "ag_089": {
+      "id": "ag_089",
+      "name": "Хндзореск и подвесной мост",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Khndzoresk, Khor Dzor Canyon, Old village, Caves, Armenia.jpg"
+      ]
+    },
+    "ag_088": {
+      "id": "ag_088",
+      "name": "Чертов мост",
+      "changed_slots": [
+        1,
+        2,
+        3
+      ],
+      "files": [
+        "Devil's Bridge, Tatev, Armenia 01.jpg",
+        "Under Devil's Bridge.jpg",
+        "Devil's Bridge Armenia May 2026, 02.jpg"
+      ]
     }
   },
-  "last_run_errors": [],
+  "last_run_errors": [
+    {
+      "id": "ag_092",
+      "name": "Караундж (Зорац Карер)",
+      "reason": "Low resolution: Karahunj - Zorats Karer.jpg"
+    }
+  ],
   "do_not_touch": [
     "Бюраканская обсерватория",
     "Вулкан Аждаак",
