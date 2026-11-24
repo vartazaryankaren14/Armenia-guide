@@ -62,7 +62,7 @@ def main():
         images=[]
         temps=[]
         try:
-            if len(spec['files'])!=3 or len(set(spec['files']))!=3:raise ValueError('Need three distinct sources')
+            if not (3 <= len(spec['files']) <= 5) or len(set(spec['files'])) != len(spec['files']): raise ValueError('Need three to five distinct sources')
             for slot,filename in enumerate(spec['files'],1):
                 ii,actual,license_name=lookup(filename)
                 target=OUT/f'{ident}_{slot}.webp'
