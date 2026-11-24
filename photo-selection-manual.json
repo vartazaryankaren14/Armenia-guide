@@ -3,38 +3,58 @@
   "date": "2026-11-25",
   "policy": "Manual selection by exact source filenames and slot; preserve previously approved cards and attractive originals. No generated picture is represented as a real photo.",
   "sites": {
-    "ag_066": {
-      "name": "Монастырь Гошаванк",
-      "note": "Оставить резной хачкар на первом фото, заменяем два почти одинаковых входа на общие виды монастыря.",
-      "slots": {
-        "2": "Goshavank general view.jpg",
-        "3": "Goshavank Monastery Complex 01.jpg"
-      }
-    },
     "ag_064": {
       "name": "Озеро Гош",
-      "note": "Первое и второе исходные фото вообще не показывают озеро — вместо них два разных вида воды и лесов; третий оставляем.",
+      "note": "Два исходных кадра изображают деревья без озера; прежний источник оказался неподходящим по разрешению. Выбираем озеро на обоих кадрах.",
       "slots": {
-        "1": "Gosh Lake, Armenia.jpg",
-        "2": "Gosh Lake, Dilijan National Park 35.jpg"
+        "1": "Gosh lake 01.jpg",
+        "2": "Gosh Lake, Dilijan National Park 10.jpg"
       }
     },
-    "ag_063": {
-      "name": "Озеро Парз",
-      "note": "Все три исходные фото показывали речной ручей вместо озера. Использовать разные виды озера Парз: с воздуха, с берега, лесная атмосфера.",
+    "ag_068": {
+      "name": "Енокаван",
+      "note": "Сохраняем домики курорта, но убираем пустое поле с проводами и малопонятный каменный обломок.",
       "slots": {
-        "1": "Lake Parz in Dilijan National Park 01.jpg",
-        "2": "Parz lake, Dilijan, Armenia from air 2022.jpg",
-        "3": "Lake Parz, Tavush Province, ԱԹ 05.jpg"
+        "1": "Yell Extreme Park, Yenokavan, Tavush, Armenia 6251.jpg",
+        "3": "Yell Extreme Park, Yenokavan, Tavush, Armenia 6246.jpg"
       }
     },
-    "ag_061": {
-      "name": "Шоржа",
-      "note": "Меняем третий кадр брызг воды на конкретный берег Шоржи; прежняя сверхширокая панорама не подошла по пропорциям.",
+    "ag_069": {
+      "name": "Ахпат",
+      "note": "Сохраняем фасад и красивый зал, заменяем почти дублирующий второй интерьер на деталь древних хачкаров.",
       "slots": {
-        "3": "Sevan lake and Shorzha.jpg"
+        "3": "Khatchkars, Haghpat Monastery, Armenia.jpg"
+      }
+    },
+    "ag_071": {
+      "name": "Ахтала",
+      "note": "Два внешних пейзажа уже хорошие, третий повторяет второй; вместо него уникальная средневековая фреска.",
+      "slots": {
+        "3": "Akhtala Monastery fresco.jpg"
+      }
+    },
+    "ag_076": {
+      "name": "Водопад Трчкан",
+      "note": "Первый и второй кадры оставляем; третий повторяет второй почти пиксель в пиксель.",
+      "slots": {
+        "3": "Trchkan waterfall, ՎԱՍ.jpg"
+      }
+    },
+    "ag_072": {
+      "name": "Одзун",
+      "note": "Первый исходный кадр сохраняем; вместо фото со строительными лесами и туристами — интерьер и архитектура в более приятном свете.",
+      "slots": {
+        "2": "Dome of Odzun church, interior view.jpg",
+        "3": "Odzun Church 01.jpg"
+      }
+    },
+    "ag_070": {
+      "name": "Санаин",
+      "note": "Сохраняем архитектуру звонницы и рельеф креста; третий фасадный фрагмент меняем на общий вид комплекса.",
+      "slots": {
+        "3": "Sanahin Monastery Complex.jpg"
       }
     }
   },
-  "batch": "Fifth manually reviewed set: fix three mismatched Gosh, Goshavank and Parz galleries"
+  "batch": "Sixth handpicked review: Lori Province and remaining Tavush photogalleries"
 }
