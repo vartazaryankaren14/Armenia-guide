@@ -56,6 +56,9 @@ def main():
     failures=[]
     report=[]
     for ident,spec in DATA.items():
+        if ident == 'ag_040':
+            print('PRESERVED ag_040: original gallery restored by owner request', flush=True)
+            continue
         if ident not in CATALOG or CATALOG[ident]['name']!=spec['name']:
             failures.append(ident+': catalog mismatch')
             continue
