@@ -99,6 +99,16 @@ def main():
             protected_ids.update(json.loads(batch.read_text('utf8')).get('updated_slots',{}))
         except Exception as exc:
             print('WARN batch metadata could not be read:',exc,flush=True)
+    # Individual editorial choices must survive an unrelated generic downloader run.
+    for reference in ('photo-selection-manual.json', 'PHOTO_MANUAL_PROGRESS.json'):
+        source=ROOT/reference
+        if source.exists():
+            try:
+                manual=json.loads(source.read_text('utf8'))
+                protected_ids.update(manual.get('sites',{}))
+                protected_ids.update(manual.get('successful',{}))
+            except Exception as exc:
+                print('WARN manual curation protections:',exc,flush=True)
     previous_credits=(ROOT/'PHOTO_SOURCES.md').read_text('utf8').splitlines() if (ROOT/'PHOTO_SOURCES.md').exists() else []
     for k,p in enumerate(CATALOG,1):
         if p['id'] in protected_ids:
