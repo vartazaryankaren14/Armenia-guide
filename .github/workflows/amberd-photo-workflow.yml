@@ -1,0 +1,32 @@
+name: Armenia Guide - approved real Amberd images
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amberd-photo-workflow.yml'
+      - 'scripts/replace_amberd_photos.py'
+permissions:
+  contents: write
+jobs:
+  update-amberd-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image tools
+        run: python -m pip install requests pillow
+      - name: Download and verify approved Amberd photos
+        run: python scripts/replace_amberd_photos.py
+      - name: Commit only Amberd slots 2 and 3
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add images/places/ag_047_2.webp images/places/ag_047_3.webp
+          if ! git diff --cached --quiet; then
+            git commit -m 'Install two approved real Amberd photos'
+            git push
+          fi

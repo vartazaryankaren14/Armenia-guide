@@ -15,8 +15,8 @@
 - **Гора Арагац**, [ag_049_2.webp](https://commons.wikimedia.org/wiki/File:Aragats_crater_05.jpg): Albero, CC BY-SA 4.0; снимок преобразован в WebP для Armenia Guide
 - **Гора Арагац**, [ag_049_3.webp](https://commons.wikimedia.org/wiki/File:Mount_Aragats_2020-05-11.jpg): Armenak Margarian, CC BY-SA 4.0; снимок преобразован в WebP для Armenia Guide
 - **Крепость Амберд**, [ag_047_1.webp](https://commons.wikimedia.org/wiki/File:Amberd_fortress,_Armenia.jpg): Vitbaisa, CC BY-SA 4.0
-- **Крепость Амберд**, [ag_047_2.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Amberd_Fortress_(2165279011).jpg): Tamara Areshian from London, UK, CC BY 2.0
-- **Крепость Амберд**, [ag_047_3.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Amberd_Fortress_(2166075202).jpg): Tamara Areshian from London, UK, CC BY 2.0
+- **Крепость Амберд**, [ag_047_2.webp](https://commons.wikimedia.org/wiki/File:Amberd_fortress_and_Church_St._Astvatsatsin.jpg): Vladimir Pankratov, CC BY-SA 2.0; уменьшено и преобразовано в WebP для Armenia Guide
+- **Крепость Амберд**, [ag_047_3.webp](https://commons.wikimedia.org/wiki/File:View_of_Amberd_fortress,_Armenia.jpg): TigranG8403, CC BY-SA 4.0; уменьшено и преобразовано в WebP для Armenia Guide
 - **Крепость Даштадем**, [ag_053_1.webp](https://commons.wikimedia.org/wiki/File:Dashtadem_Fortress_in_the_Aragatsotn_Province_of_Armenia_02.jpg): Beko, CC BY-SA 4.0
 - **Крепость Даштадем**, [ag_053_2.webp](https://commons.wikimedia.org/wiki/File:Dashtadem_Fortress_in_the_Aragatsotn_Province_of_Armenia_04.jpg): Beko, CC BY-SA 4.0
 - **Крепость Даштадем**, [ag_053_3.webp](https://commons.wikimedia.org/wiki/File:Dashtadem_Fortress_in_the_Aragatsotn_Province_of_Armenia_07.jpg): Beko, CC BY-SA 4.0
