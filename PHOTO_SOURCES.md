@@ -53,7 +53,6 @@
 - **Севанаванк**, [ag_058_3.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Sevanavank,_Armenia,_2016-10-02,_DD_101.jpg): Diego Delso, CC BY-SA 4.0
 - **Шоржа**, [ag_061_1.webp](https://commons.wikimedia.org/wiki/File:Sevanblue.jpg): Poghosyan97, CC BY-SA 4.0
 - **Шоржа**, [ag_061_2.webp](https://commons.wikimedia.org/wiki/File:SeasideShorzha.jpg): Poghosyan97, CC BY-SA 4.0
-- **Шоржа**, [ag_061_3.webp](https://commons.wikimedia.org/wiki/File:Shorzha_(1).jpg): Emma YSU, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_1.webp](https://commons.wikimedia.org/wiki/File:A_shepherd_with_his_flock_against_the_backdrop_of_Mount_Dimats_in_Armenia.jpg): Wowan1978, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_2.webp](https://commons.wikimedia.org/wiki/File:Mount_Dimats_in_the_fog.jpg): Vladimir Pankratov, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_3.webp](https://commons.wikimedia.org/wiki/File:Flowers_around_Mount_Dimats_%D4%B1%D4%B9_02.jpg): 23artashes, CC BY-SA 4.0
@@ -66,14 +65,9 @@
 - **Монастырь Агарцин**, [ag_065_2.webp](https://commons.wikimedia.org/wiki/File:Haghartsin_Monastery_in_Tavush_Province_of_Armenia.jpg): Poshotenk, CC BY-SA 4.0
 - **Монастырь Агарцин**, [ag_065_3.webp](https://commons.wikimedia.org/wiki/File:Haghartsin_monastery_complex_035.jpg): Ahaik, CC BY-SA 3.0
 - **Монастырь Гошаванк**, [ag_066_1.webp](https://commons.wikimedia.org/wiki/File:Khatchkar_at_Goshavank_Monastery_in_Armenia.jpg): Inna, CC BY 2.0
-- **Монастырь Гошаванк**, [ag_066_2.webp](https://commons.wikimedia.org/wiki/File:GOSHAVANK_MONASTERY_25.jpg): Soghomon Matevosyan, CC BY-SA 4.0
-- **Монастырь Гошаванк**, [ag_066_3.webp](https://commons.wikimedia.org/wiki/File:GOSHAVANK_MONASTERY_69.jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Озеро Гош**, [ag_064_1.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_01.jpg): Beko, CC BY-SA 4.0
 - **Озеро Гош**, [ag_064_2.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_02.jpg): Beko, CC BY-SA 4.0
 - **Озеро Гош**, [ag_064_3.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_05.jpg): Beko, CC BY-SA 4.0
-- **Озеро Парз**, [ag_063_1.webp](https://commons.wikimedia.org/wiki/File:Lake_Parz,_Dilijan_National_Park_02.jpg): Beko, CC BY-SA 4.0
-- **Озеро Парз**, [ag_063_2.webp](https://commons.wikimedia.org/wiki/File:Lake_Parz,_Dilijan_National_Park_01.jpg): Beko, CC BY-SA 4.0
-- **Озеро Парз**, [ag_063_3.webp](https://commons.wikimedia.org/wiki/File:Lake_Parz,_Dilijan_National_Park_04.jpg): Beko, CC BY-SA 4.0
 - **Ахпат**, [ag_069_1.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Haghpat,_Armenia,_2016-09-30,_DD_04.jpg): Diego Delso, CC BY-SA 4.0
 - **Ахпат**, [ag_069_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Haghpat,_Armenia,_2016-09-30,_DD_07.jpg): Diego Delso, CC BY-SA 4.0
 - **Ахпат**, [ag_069_3.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Haghpat,_Armenia,_2016-09-30,_DD_06.jpg): Diego Delso, CC BY-SA 4.0
@@ -231,3 +225,9 @@
 - **Айраванк**, [ag_059_3.webp](https://commons.wikimedia.org/wiki/File:%D5%80%D5%A1%D5%B5%D6%80%D5%A1%D5%BE%D5%A1%D5%B6%D6%84_112.jpg): Vahag851, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Севанаванк**, [ag_058_1.webp](https://commons.wikimedia.org/wiki/File:Sevanavank_Surp_Arakelots_church_in_February_2024.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Ластивер**, [ag_067_3.webp](https://commons.wikimedia.org/wiki/File:Path_to_Lastiver_Waterfall_in_Yenokavan.jpg): Wowan1978, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Монастырь Гошаванк**, [ag_066_2.webp](https://commons.wikimedia.org/wiki/File:Goshavank_general_view.jpg): Vladimir Pankratov, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Монастырь Гошаванк**, [ag_066_3.webp](https://commons.wikimedia.org/wiki/File:Goshavank_Monastery_Complex_01.jpg): Lubekar, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Озеро Парз**, [ag_063_1.webp](https://commons.wikimedia.org/wiki/File:Lake_Parz_in_Dilijan_National_Park_01.jpg): Avetisyan Ani, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Озеро Парз**, [ag_063_2.webp](https://commons.wikimedia.org/wiki/File:Parz_lake%2C_Dilijan%2C_Armenia_from_air_2022.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Озеро Парз**, [ag_063_3.webp](https://commons.wikimedia.org/wiki/File:Lake_Parz%2C_Tavush_Province%2C_%D4%B1%D4%B9_05.jpg): 23artashes, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Шоржа**, [ag_061_3.webp](https://commons.wikimedia.org/wiki/File:Sevan_lake_and_Shorzha.jpg): Krysar711, CC BY 4.0. Исходное изображение уменьшено и перекодировано в WebP.

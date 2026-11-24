@@ -125,12 +125,48 @@
       "files": [
         "Path to Lastiver Waterfall in Yenokavan.jpg"
       ]
+    },
+    "ag_066": {
+      "id": "ag_066",
+      "name": "Монастырь Гошаванк",
+      "changed_slots": [
+        2,
+        3
+      ],
+      "files": [
+        "Goshavank general view.jpg",
+        "Goshavank Monastery Complex 01.jpg"
+      ]
+    },
+    "ag_063": {
+      "id": "ag_063",
+      "name": "Озеро Парз",
+      "changed_slots": [
+        1,
+        2,
+        3
+      ],
+      "files": [
+        "Lake Parz in Dilijan National Park 01.jpg",
+        "Parz lake, Dilijan, Armenia from air 2022.jpg",
+        "Lake Parz, Tavush Province, ԱԹ 05.jpg"
+      ]
+    },
+    "ag_061": {
+      "id": "ag_061",
+      "name": "Шоржа",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Sevan lake and Shorzha.jpg"
+      ]
     }
   },
   "last_run_errors": [
     {
-      "id": "ag_061",
-      "name": "Шоржа",
+      "id": "ag_064",
+      "name": "Озеро Гош",
       "reason": "Downloaded image too small"
     }
   ],
