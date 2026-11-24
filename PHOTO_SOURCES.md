@@ -3,8 +3,8 @@
 Фотографии взяты из Wikimedia Commons. Перед публикацией соблюдайте условия соответствующей лицензии.
 
 - **Церковь Святой Рипсиме**, [ag_046_1.webp](https://commons.wikimedia.org/wiki/File:Saint_Hripsime_Church,_Vagharshapat,_Armenia_02.jpg): Lilitik22, CC BY-SA 4.0
-- **Церковь Святой Рипсиме**, [ag_046_2.webp](https://commons.wikimedia.org/wiki/File:Saint_Hripsime_Church,_Vagharshapat,_Armenia_01.jpg): Lilitik22, CC BY-SA 4.0
-- **Церковь Святой Рипсиме**, [ag_046_3.webp](images/places/ag_046_3.webp): изображение предоставлено пользователем; по согласованию обозначено как ИИ-иллюстрация (не документальная фотография).
+- **Церковь Святой Рипсиме**, [ag_046_2.webp](https://commons.wikimedia.org/wiki/File:Vagharshapat-St_Hripsime-22-innen-2019-gje.jpg): Gerd Eichmann, CC BY-SA 4.0; преобразовано в WebP для Armenia Guide
+- **Церковь Святой Рипсиме**, [ag_046_3.webp](https://commons.wikimedia.org/wiki/File:Hripsime_church_aerial_2023.jpg): Yerevantsi, CC BY 4.0; преобразовано в WebP для Armenia Guide
 - **Эчмиадзинский кафедральный собор**, [ag_044_1.webp](https://commons.wikimedia.org/wiki/File:Vagharshapat_-_Etchmiadzin_Cathedral.jpg): P. Hughes, CC BY 4.0
 - **Эчмиадзинский кафедральный собор**, [ag_044_2.webp](https://commons.wikimedia.org/wiki/File:Armenia._Vagharshapat._Mother_See_of_Holy_Etchmiadzin_P8200203_2350.jpg): Alexxx1979, CC BY-SA 4.0
 - **Эчмиадзинский кафедральный собор**, [ag_044_3.webp](https://commons.wikimedia.org/wiki/File:Etchmiadzin_Cathedral,_khachkar_gate.jpg): Palickap, CC BY 4.0
