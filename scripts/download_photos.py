@@ -109,6 +109,15 @@ def main():
                 protected_ids.update(manual.get('successful',{}))
             except Exception as exc:
                 print('WARN manual curation protections:',exc,flush=True)
+    # Protect every individually reviewed gallery, including untouched original
+    # images retained for aesthetics after manual review.
+    editorial_review=ROOT/'PHOTO_VISUAL_REVIEW_2026-11-25.json'
+    if editorial_review.exists():
+        try:
+            protected_ids.update(x['id'] for x in json.loads(editorial_review.read_text('utf8')).get('galleries',[]))
+            protected_ids.add('ag_106')
+        except Exception as exc:
+            print('WARN editorial review protections:',exc,flush=True)
     previous_credits=(ROOT/'PHOTO_SOURCES.md').read_text('utf8').splitlines() if (ROOT/'PHOTO_SOURCES.md').exists() else []
     for k,p in enumerate(CATALOG,1):
         if p['id'] in protected_ids:
