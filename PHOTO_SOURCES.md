@@ -49,7 +49,6 @@
 - **Озеро Севан**, [ag_057_1.webp](https://commons.wikimedia.org/wiki/File:Frozen_Lake_Sevan,_%D5%8E%D4%B1%D5%8D.jpg): ՎԱՍ, CC BY-SA 4.0
 - **Озеро Севан**, [ag_057_2.webp](https://commons.wikimedia.org/wiki/File:Lake_Sevan_0001.jpg): Ավետիսյան91, CC BY-SA 4.0
 - **Озеро Севан**, [ag_057_3.webp](https://commons.wikimedia.org/wiki/File:Lake_Sevan_0100_01.jpg): Ավետիսյան91, CC BY-SA 4.0
-- **Севанаванк**, [ag_058_1.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Sevanavank,_Armenia,_2016-10-02,_DD_97.jpg): Diego Delso, CC BY-SA 4.0
 - **Севанаванк**, [ag_058_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Sevanavank,_Armenia,_2016-10-02,_DD_98.jpg): Diego Delso, CC BY-SA 4.0
 - **Севанаванк**, [ag_058_3.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Sevanavank,_Armenia,_2016-10-02,_DD_101.jpg): Diego Delso, CC BY-SA 4.0
 - **Шоржа**, [ag_061_1.webp](https://commons.wikimedia.org/wiki/File:Sevanblue.jpg): Poghosyan97, CC BY-SA 4.0
@@ -63,7 +62,6 @@
 - **Енокаван**, [ag_068_3.webp](https://commons.wikimedia.org/wiki/File:Khachkar_in_Srbenes_church,_Yenokavan_(2).jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Ластивер**, [ag_067_1.webp](https://commons.wikimedia.org/wiki/File:Lastiver_in_Ijevan,_Armenia,_Tavush_Region_-_2015.jpg): Areg1974, CC BY-SA 4.0
 - **Ластивер**, [ag_067_2.webp](https://commons.wikimedia.org/wiki/File:Lastiver_cave_complex_03.jpg): Armen Manukov, CC BY-SA 3.0
-- **Ластивер**, [ag_067_3.webp](https://commons.wikimedia.org/wiki/File:Lastiver_cave_complex_01.jpg): Armen Manukov, CC BY-SA 3.0
 - **Монастырь Агарцин**, [ag_065_1.webp](https://commons.wikimedia.org/wiki/File:Armenia._Haghartsin_Monastery_P8230711_2350.jpg): Alexxx1979, CC BY-SA 4.0
 - **Монастырь Агарцин**, [ag_065_2.webp](https://commons.wikimedia.org/wiki/File:Haghartsin_Monastery_in_Tavush_Province_of_Armenia.jpg): Poshotenk, CC BY-SA 4.0
 - **Монастырь Агарцин**, [ag_065_3.webp](https://commons.wikimedia.org/wiki/File:Haghartsin_monastery_complex_035.jpg): Ahaik, CC BY-SA 3.0
@@ -229,5 +227,7 @@
 - **Монастырь Кечарис**, [ag_055_2.webp](https://commons.wikimedia.org/wiki/File:Kecharis_monastery.JPG): Marion&Christoph Aistleitner, CC0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Монастырь Кечарис**, [ag_055_3.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery_Tsakhkadzor_1.jpg): Armineaghayan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Айраванк**, [ag_059_1.webp](https://commons.wikimedia.org/wiki/File:Hayravank_monastery_with_frozen_Sevan_lake.jpg): Haykhove, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
-- **Айраванк**, [ag_059_3.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_17.jpg): Azniv Stepanian, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Арка Чаренца**, [ag_098_3.webp](https://commons.wikimedia.org/wiki/File:%D5%80%D5%B8%D6%82%D5%B7%D5%A1%D6%80%D5%B1%D5%A1%D5%B6_%C2%AB%D5%89%D5%A1%D6%80%D5%A5%D5%B6%D6%81%D5%AB_%D5%AF%D5%A1%D5%B4%D5%A1%D6%80%C2%BB%2C_ArmAg_%286%29.jpg): Armineaghayan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Айраванк**, [ag_059_3.webp](https://commons.wikimedia.org/wiki/File:%D5%80%D5%A1%D5%B5%D6%80%D5%A1%D5%BE%D5%A1%D5%B6%D6%84_112.jpg): Vahag851, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Севанаванк**, [ag_058_1.webp](https://commons.wikimedia.org/wiki/File:Sevanavank_Surp_Arakelots_church_in_February_2024.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Ластивер**, [ag_067_3.webp](https://commons.wikimedia.org/wiki/File:Path_to_Lastiver_Waterfall_in_Yenokavan.jpg): Wowan1978, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.

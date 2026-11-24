@@ -100,19 +100,37 @@
       "id": "ag_059",
       "name": "Айраванк",
       "changed_slots": [
-        1,
         3
       ],
       "files": [
-        "Hayravank monastery with frozen Sevan lake.jpg",
-        "Hayravank Monastery near Sevan lake 17.jpg"
+        "Հայրավանք 112.jpg"
+      ]
+    },
+    "ag_058": {
+      "id": "ag_058",
+      "name": "Севанаванк",
+      "changed_slots": [
+        1
+      ],
+      "files": [
+        "Sevanavank Surp Arakelots church in February 2024.jpg"
+      ]
+    },
+    "ag_067": {
+      "id": "ag_067",
+      "name": "Ластивер",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Path to Lastiver Waterfall in Yenokavan.jpg"
       ]
     }
   },
   "last_run_errors": [
     {
-      "id": "ag_058",
-      "name": "Севанаванк",
+      "id": "ag_061",
+      "name": "Шоржа",
       "reason": "Downloaded image too small"
     }
   ],
