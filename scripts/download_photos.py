@@ -85,7 +85,7 @@ def main():
     totals={'places':len(CATALOG),'images':0,'places_with_images':0,'missing':[]}
     credit=['# Источники изображений Armenia Guide','','Фотографии взяты из Wikimedia Commons. Перед публикацией соблюдайте условия соответствующей лицензии.','']
     # Preserve manually curated and AI-generated images when this job is rerun.
-    protected_ids={'ag_034','ag_035','ag_036'}
+    protected_ids={'ag_034','ag_035','ag_036','ag_037','ag_038','ag_039'}
     curated=ROOT/'photo-curation-reviewed.json'
     if curated.exists():
         try:

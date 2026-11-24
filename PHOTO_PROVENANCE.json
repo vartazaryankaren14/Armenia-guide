@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21",
+  "updated_at": "2026-11-24",
   "label": "ИИ-визуализация — не документальное фото",
-  "notice": "Девять сгенерированных изображений показывают художественную интерпретацию реальных достопримечательностей. Они могут отличаться от вида на месте.",
+  "notice": "18 изображений для шести объектов Еревана сгенерированы ИИ и не являются документальными фотографиями; детали могут отличаться от действительности.",
   "generated_images": [
     {
       "place": "Каскад",
@@ -72,6 +72,78 @@
       "id": "ag_036",
       "slot": 3,
       "path": "images/places/ag_036_3.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Вернисаж",
+      "id": "ag_037",
+      "slot": 1,
+      "path": "images/places/ag_037_1.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Вернисаж",
+      "id": "ag_037",
+      "slot": 2,
+      "path": "images/places/ag_037_2.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Вернисаж",
+      "id": "ag_037",
+      "slot": 3,
+      "path": "images/places/ag_037_3.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Крепость Эребуни",
+      "id": "ag_038",
+      "slot": 1,
+      "path": "images/places/ag_038_1.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Крепость Эребуни",
+      "id": "ag_038",
+      "slot": 2,
+      "path": "images/places/ag_038_2.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Крепость Эребуни",
+      "id": "ag_038",
+      "slot": 3,
+      "path": "images/places/ag_038_3.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Цицернакаберд",
+      "id": "ag_039",
+      "slot": 1,
+      "path": "images/places/ag_039_1.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Цицернакаберд",
+      "id": "ag_039",
+      "slot": 2,
+      "path": "images/places/ag_039_2.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Цицернакаберд",
+      "id": "ag_039",
+      "slot": 3,
+      "path": "images/places/ag_039_3.webp",
       "kind": "AI-generated",
       "verified_as_actual_photo": false
     }

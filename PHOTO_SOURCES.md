@@ -2,18 +2,9 @@
 
 Фотографии взяты из Wikimedia Commons. Перед публикацией соблюдайте условия соответствующей лицензии.
 
-- **Вернисаж**, [ag_037_1.webp](https://commons.wikimedia.org/wiki/File:Vernissage_market,_Yerevan.jpg): Deb Collins, CC BY 2.0
-- **Вернисаж**, [ag_037_2.webp](https://commons.wikimedia.org/wiki/File:Armenian_rugs_at_Vernissage_Yerevan.jpg): Deb Collins, CC BY 2.0
-- **Вернисаж**, [ag_037_3.webp](https://commons.wikimedia.org/wiki/File:Vernissage_in_yerevan.jpg): acid holic, CC BY-SA 4.0
-- **Крепость Эребуни**, [ag_038_1.webp](https://commons.wikimedia.org/wiki/File:Erebuni_Fortress,_Yerevan,_Armenia_01.jpg): Armen Manukov, CC BY-SA 3.0
-- **Крепость Эребуни**, [ag_038_2.webp](https://commons.wikimedia.org/wiki/File:Erebuni_fortress_in_Armenia.jpg): Armen888, CC BY-SA 4.0
-- **Крепость Эребуни**, [ag_038_3.webp](https://commons.wikimedia.org/wiki/File:Erebuni_Fortress,_Yerevan,_Armenia_03.JPG): Armen Manukov, CC BY-SA 3.0
 - **Парк Победы и Мать Армения**, [ag_040_1.webp](https://commons.wikimedia.org/wiki/File:Mother_Armenia,_Park_of_Victory,_Yerevan.jpg): Narinar, CC BY-SA 3.0
 - **Парк Победы и Мать Армения**, [ag_040_2.webp](https://commons.wikimedia.org/wiki/File:Mother_Armenia_statue_in_Victory_Park_of_Yerevan_on_Victory_Day_May_9_2021.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0
 - **Парк Победы и Мать Армения**, [ag_040_3.webp](https://commons.wikimedia.org/wiki/File:Yerevan,_Mother_Armenia_Monument,_S-75_Dvina,_Victory_Park,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
-- **Цицернакаберд**, [ag_039_1.webp](https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_-_Armenian_Genocide_memorial_complex_(18%E2%80%A409%E2%80%A42019)_15.jpg): Gardmanahay, CC BY-SA 4.0
-- **Цицернакаберд**, [ag_039_2.webp](https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_-_Armenian_Genocide_memorial_complex_(18%E2%80%A409%E2%80%A42019)_17.jpg): Gardmanahay, CC BY-SA 4.0
-- **Цицернакаберд**, [ag_039_3.webp](https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_-_Armenian_Genocide_memorial_complex_(18%E2%80%A409%E2%80%A42019)_18.jpg): Gardmanahay, CC BY-SA 4.0
 - **Храм Звартноц**, [ag_045_1.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Zvartnots_Cathedral_ruins_(2166083354).jpg): Tamara Areshian from London, UK, CC BY 2.0
 - **Храм Звартноц**, [ag_045_2.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Zvartnots_Cathedral_ruins_(2166082792).jpg): Tamara Areshian from London, UK, CC BY 2.0
 - **Храм Звартноц**, [ag_045_3.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Zvartnots_Cathedral_ruins_(2166083834).jpg): Tamara Areshian from London, UK, CC BY 2.0
@@ -234,3 +225,13 @@
 - **Матенадаран**, `ag_036_1.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
 - **Матенадаран**, `ag_036_2.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
 - **Матенадаран**, `ag_036_3.webp`: изображение сгенерировано ИИ для Armenia Guide, не является документальной фотографией. Архитектурные детали могут отличаться от реальности.
+
+- **Вернисаж**, `ag_037_1.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
+- **Вернисаж**, `ag_037_2.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
+- **Вернисаж**, `ag_037_3.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
+- **Крепость Эребуни**, `ag_038_1.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
+- **Крепость Эребуни**, `ag_038_2.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
+- **Крепость Эребуни**, `ag_038_3.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
+- **Цицернакаберд**, `ag_039_1.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
+- **Цицернакаберд**, `ag_039_2.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
+- **Цицернакаберд**, `ag_039_3.webp`: сгенерированная ИИ-визуализация для Armenia Guide; не документальная фотография и может отличаться от реального объекта.
