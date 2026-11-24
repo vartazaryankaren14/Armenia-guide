@@ -1,0 +1,53 @@
+name: Armenia Guide - Handpicked Photo Galleries
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/photos-manual.yml'
+      - 'photo-selection-manual.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: armenia-guide-handpicked-photos
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install requests pillow
+      - name: Install only handpicked photos in specified slots
+        run: python scripts/apply_manual_photo_selection.py
+      - name: Verify protected places and record outcome
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest=json.loads(Path("photo-selection-manual.json").read_text())
+          report=json.loads(Path("PHOTO_MANUAL_PROGRESS.json").read_text())
+          protected=set(report['do_not_touch'])
+          names={p['id']:p['name'] for p in json.loads(Path("catalog.json").read_text())}
+          for ident,entry in manifest['sites'].items():
+              assert names[ident] not in protected
+              assert set(entry['slots']) <= {'1','2','3'}
+          for ident,entry in report['successful'].items():
+              assert names[ident] not in protected
+          print("Handpicked galleries:",len(report['successful']))
+          print("Last errors:",report['last_run_errors'])
+          PY
+      - name: Commit photo assets, credits and gallery references
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/places/ catalog.json index.html PHOTO_SOURCES.md PHOTO_MANUAL_PROGRESS.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Install individually selected Armenia Guide photos with real credits"
+            git pull --rebase
+            git push
+          fi
