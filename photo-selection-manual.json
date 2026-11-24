@@ -5,35 +5,43 @@
   "sites": {
     "ag_042": {
       "name": "Двин",
-      "note": "Первое фото раскопок оставляем; вместо повторов — панорама и архитектурные остатки кафедрального собора.",
+      "note": "Сохраняем первый исходный снимок раскопок. Меняем два повторяющихся кадра; прежняя сверхширокая панорама не подошла для карточки.",
       "slots": {
-        "2": "Ruins of Dvin, Armenia.jpg",
+        "2": "The ruins of Ancient Dvin 25.jpg",
         "3": "The Saint Gregory Cathedral of Dvin, the capital of early medieval Armenia (43932342690).jpg"
       }
     },
-    "ag_041": {
-      "name": "Хор Вирап",
-      "note": "Первые два оригинальных снимка хорошие и непохожие; третью панораму без монастыря заменяем видом монастыря после заката.",
+    "ag_055": {
+      "name": "Монастырь Кечарис",
+      "note": "Три исходных кадра не показывали архитектуру: тёмный интерьер с туристами, машина и табличка. Меняем на комплекс, архитектуру и хачкар.",
       "slots": {
-        "3": "Khor Virap Monastery after Sunset, Armenia.jpg"
+        "1": "Kecharis Monastery Tsakhkadzor.jpg",
+        "2": "Kecharis monastery.JPG",
+        "3": "Kecharis Monastery Tsakhkadzor 1.jpg"
+      }
+    },
+    "ag_059": {
+      "name": "Айраванк",
+      "note": "Исходный второй снимок резного хачкара оставляем, но первый и третий заменяем реальными видами монастыря у Севана.",
+      "slots": {
+        "1": "Hayravank monastery with frozen Sevan lake.jpg",
+        "3": "Hayravank Monastery near Sevan lake 17.jpg"
+      }
+    },
+    "ag_058": {
+      "name": "Севанаванк",
+      "note": "Второй пейзаж и третий архитектурный крупный план сохраняем. Первый заменяем общим видом монастырского полуострова.",
+      "slots": {
+        "1": "Panorama of Sevanavank.png"
       }
     },
     "ag_098": {
       "name": "Арка Чаренца",
-      "note": "Второй исходный кадр красивый и остаётся. Первый и третий слишком похожи — внешняя архитектура арки и конкурсное фото.",
+      "note": "Исправляем неудачную повторяющуюся фотографию 3; первые два уже удачны и сохраняются.",
       "slots": {
-        "1": "Չարենցի կամար հուշարձան, Ողջաբերդ, Հայաստան 01.jpg",
-        "3": "Charents arch-msu-wlm-3093.jpg"
-      }
-    },
-    "ag_056": {
-      "name": "Крепость Бжни",
-      "note": "Первый кадр оставляем; два почти идентичных вида крепостных стен меняем на общий вид и главный вход.",
-      "slots": {
-        "2": "Bjni Fortress (general view) 20.jpg",
-        "3": "Bjni fortress main entry walls - panoramio.jpg"
+        "3": "Հուշարձան «Չարենցի կամար», ArmAg (6).jpg"
       }
     }
   },
-  "batch": "Second four cards, reviewed separately"
+  "batch": "Third editorial batch with corrective replacement for Charents' Arch and Dvin"
 }
