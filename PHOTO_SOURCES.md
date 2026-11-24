@@ -21,8 +21,8 @@
 - **Крепость Даштадем**, [ag_053_2.webp](https://commons.wikimedia.org/wiki/File:Dashtadem_Fortress_in_the_Aragatsotn_Province_of_Armenia_04.jpg): Beko, CC BY-SA 4.0
 - **Крепость Даштадем**, [ag_053_3.webp](https://commons.wikimedia.org/wiki/File:Dashtadem_Fortress_in_the_Aragatsotn_Province_of_Armenia_07.jpg): Beko, CC BY-SA 4.0
 - **Монастырь Тегер**, [ag_099_1.webp](https://commons.wikimedia.org/wiki/File:Tegher_Monastery_in_Aragatsotn_province,_Armenia_01.jpg): Մարի Ավետիսյան, CC BY-SA 4.0
-- **Монастырь Тегер**, [ag_099_2.webp](https://commons.wikimedia.org/wiki/File:Tegher_Monastery_in_Aragatsotn_province,_Armenia_02.jpg): Մարի Ավետիսյան, CC BY-SA 4.0
-- **Монастырь Тегер**, [ag_099_3.webp](https://commons.wikimedia.org/wiki/File:Tegher_Monastery_in_Aragatsotn_province,_Armenia_03.jpg): Մարի Ավետիսյան, CC BY-SA 4.0
+- **Монастырь Тегер**, [ag_099_2.webp](https://commons.wikimedia.org/wiki/File:Tegher_Gavit_Dome.JPG): Travis K. Witt (Liveon001), CC BY-SA 3.0; фотография купола гавита изнутри, преобразована в WebP для Armenia Guide
+- **Монастырь Тегер**, [ag_099_3.webp](https://commons.wikimedia.org/wiki/File:Tegher_Monastery_from_Aragats.jpg): Yerevantsi, CC BY-SA 4.0; дальний вид монастыря со склонов Арагаца, преобразована в WebP для Armenia Guide
 - **Ованаванк**, [ag_051_1.webp](https://commons.wikimedia.org/wiki/File:Hovhannavank_-_Armenia_(2927647696).jpg): Rita Willaert from 9890 Gavere, Belgium, CC BY 2.0
 - **Ованаванк**, [ag_051_2.webp](https://commons.wikimedia.org/wiki/File:Interior_-_Hovhannavank_Monastery_-_Kasagh_Gorge_-_Near_Yerevan_-_Armenia_-_01_(18368916174).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
 - **Ованаванк**, [ag_051_3.webp](https://commons.wikimedia.org/wiki/File:Christ_Painting_-_Hovhannavank_Monastery_-_Kasagh_Gorge_-_Near_Yerevan_-_Armenia_(18965426566).jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0
