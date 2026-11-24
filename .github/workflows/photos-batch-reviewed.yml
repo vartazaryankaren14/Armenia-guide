@@ -1,0 +1,54 @@
+name: Armenia Guide - Curate Remaining Galleries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/photos-batch-reviewed.yml'
+permissions:
+  contents: write
+concurrency:
+  group: armenia-guide-photo-batch
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 85
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install photo validation tools
+        run: python -m pip install requests pillow
+      - name: Curate forty-eight remaining galleries and Dimats photo 3
+        run: python scripts/batch_curate_remaining.py
+      - name: Validate scope and licenses
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('PHOTO_BATCH_RESULT.json').read_text())
+          approved=set(data.get('excluded',[]))
+          names={x['id']:x['name'] for x in json.loads(Path('catalog.json').read_text())}
+          assert len(names)==76
+          assert len(data['updated_slots'])<=49
+          for ident,slots in data['updated_slots'].items():
+              if ident=='ag_106': assert slots == [3]
+              else:
+                  assert names[ident] not in approved, (ident,names[ident])
+                  assert set(slots) <= {1,2,3}
+          print('Validated:',len(data['updated_slots']),'updated galleries')
+          PY
+      - name: Publish corrected photos and cache-busted references
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/places catalog.json index.html PHOTO_SOURCES.md PHOTO_BATCH_RESULT.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Curate remaining Armenia Guide photographs and update Dimats third image"
+            git pull --rebase
+            git push
+          fi
