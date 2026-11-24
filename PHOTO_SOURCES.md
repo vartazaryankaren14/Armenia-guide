@@ -32,21 +32,14 @@
 - **Сагмосаванк**, [ag_050_3.webp](https://commons.wikimedia.org/wiki/File:Saghmosavank_028.jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Ангельский каньон**, [ag_043_2.webp](https://commons.wikimedia.org/wiki/File:Angels%27_canyon,_Armenia_01.jpg): Ավետիսյան91, CC BY-SA 4.0
 - **Двин**, [ag_042_1.webp](https://commons.wikimedia.org/wiki/File:The_ruins_of_Ancient_Dvin_03.jpg): Vardouhie Ghazarian, CC BY-SA 4.0
-- **Двин**, [ag_042_2.webp](https://commons.wikimedia.org/wiki/File:The_ruins_of_Ancient_Dvin_02.jpg): Vardouhie Ghazarian, CC BY-SA 4.0
-- **Двин**, [ag_042_3.webp](https://commons.wikimedia.org/wiki/File:The_ruins_of_Ancient_Dvin_05.jpg): Vardouhie Ghazarian, CC BY-SA 4.0
 - **Хор Вирап**, [ag_041_1.webp](https://commons.wikimedia.org/wiki/File:Khor_Virap_Monastery_and_Mount_Ararat,_Armenia.jpg): Andrew Behesnilian (MrAndrew47), CC BY-SA 3.0
 - **Хор Вирап**, [ag_041_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_Khor_Virap,_Armenia,_2016-10-01,_DD_02.jpg): Diego Delso, CC BY-SA 4.0
 - **Арка Чаренца**, [ag_098_2.webp](https://commons.wikimedia.org/wiki/File:Charents_arch-msu-wlm-3093.jpg): Matthias Süßen, CC BY-SA 4.0
 - **Крепость Бжни**, [ag_056_1.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_at_Bjni,_Armenia_01.jpg): Beko, CC BY-SA 4.0
-- **Монастырь Кечарис**, [ag_055_1.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor_(interior).jpg): Kevorkmail (talk), Public domain
-- **Монастырь Кечарис**, [ag_055_2.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor,_2009_(2).jpg): Kevorkmail (talk), Public domain
-- **Монастырь Кечарис**, [ag_055_3.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor_03.jpg): GeoO, CC BY-SA 4.0
 - **Симфония камней**, [simfoniya_001_1.webp](https://commons.wikimedia.org/wiki/File:Symphony_of_Stones,_Armenia.jpg): mk4oto https://www.instagram.com/mk4oto/, CC BY-SA 4.0
 - **Симфония камней**, [simfoniya_001_2.webp](https://commons.wikimedia.org/wiki/File:Symphony_of_the_Stones,_%D5%8E%D4%B1%D5%8D.jpg): ՎԱՍ, CC BY-SA 4.0
 - **Симфония камней**, [simfoniya_001_3.webp](https://commons.wikimedia.org/wiki/File:Garni_Gorge_Armenia_(13).JPG): Hanay, CC BY-SA 3.0
-- **Айраванк**, [ag_059_1.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_18.jpg): Azniv Stepanian, CC BY-SA 4.0
 - **Айраванк**, [ag_059_2.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_20.jpg): Azniv Stepanian, CC BY-SA 4.0
-- **Айраванк**, [ag_059_3.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_22.jpg): Azniv Stepanian, CC BY-SA 4.0
 - **Вулкан Аждаак**, [ag_105_1.webp](https://commons.wikimedia.org/wiki/File:Volcano_Azhdahak.jpg): Vladimir Pankratov, CC BY-SA 4.0
 - **Вулкан Аждаак**, [ag_105_2.webp](https://commons.wikimedia.org/wiki/File:Lake_near_volcano_Azhdahak.jpg): Vladimir Pankratov, CC BY-SA 4.0
 - **Вулкан Аждаак**, [ag_105_3.webp](https://commons.wikimedia.org/wiki/File:View_from_Azhdahak_Volcano_overlooking_the_Gegham_Mountains_and_Lake_Akna_Lich.jpg): Wowan1978, CC BY-SA 4.0
@@ -228,6 +221,13 @@
 - **Водохранилище Азат**, [ag_107_3.webp](https://commons.wikimedia.org/wiki/File:Azat_Reservoir_view.jpg): Dor Shabashewitz, CC BY 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Хор Вирап**, [ag_041_3.webp](https://commons.wikimedia.org/wiki/File:Khor_Virap_Monastery_after_Sunset%2C_Armenia.jpg): mk4oto https://www.instagram.com/mk4oto/, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Арка Чаренца**, [ag_098_1.webp](https://commons.wikimedia.org/wiki/File:%D5%89%D5%A1%D6%80%D5%A5%D5%B6%D6%81%D5%AB_%D5%AF%D5%A1%D5%B4%D5%A1%D6%80_%D5%B0%D5%B8%D6%82%D5%B7%D5%A1%D6%80%D5%B1%D5%A1%D5%B6%2C_%D5%88%D5%B2%D5%BB%D5%A1%D5%A2%D5%A5%D6%80%D5%A4%2C_%D5%80%D5%A1%D5%B5%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6_01.jpg): Մարի Ավետիսյան, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
-- **Арка Чаренца**, [ag_098_3.webp](https://commons.wikimedia.org/wiki/File:Charents_arch-msu-wlm-3093.jpg): Matthias Süßen, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Крепость Бжни**, [ag_056_2.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_%28general_view%29_20.jpg): Armen Manukov, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Крепость Бжни**, [ag_056_3.webp](https://commons.wikimedia.org/wiki/File:Bjni_fortress_main_entry_walls_-_panoramio.jpg): sedrakGr, CC BY 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Двин**, [ag_042_2.webp](https://commons.wikimedia.org/wiki/File:The_ruins_of_Ancient_Dvin_25.jpg): Vardouhie Ghazarian, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Двин**, [ag_042_3.webp](https://commons.wikimedia.org/wiki/File:The_Saint_Gregory_Cathedral_of_Dvin%2C_the_capital_of_early_medieval_Armenia_%2843932342690%29.jpg): Carole Raddato from FRANKFURT, Germany, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Монастырь Кечарис**, [ag_055_1.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery_Tsakhkadzor.jpg): Armineaghayan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Монастырь Кечарис**, [ag_055_2.webp](https://commons.wikimedia.org/wiki/File:Kecharis_monastery.JPG): Marion&Christoph Aistleitner, CC0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Монастырь Кечарис**, [ag_055_3.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery_Tsakhkadzor_1.jpg): Armineaghayan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Айраванк**, [ag_059_1.webp](https://commons.wikimedia.org/wiki/File:Hayravank_monastery_with_frozen_Sevan_lake.jpg): Haykhove, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Айраванк**, [ag_059_3.webp](https://commons.wikimedia.org/wiki/File:Hayravank_Monastery_near_Sevan_lake_17.jpg): Azniv Stepanian, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Арка Чаренца**, [ag_098_3.webp](https://commons.wikimedia.org/wiki/File:%D5%80%D5%B8%D6%82%D5%B7%D5%A1%D6%80%D5%B1%D5%A1%D5%B6_%C2%AB%D5%89%D5%A1%D6%80%D5%A5%D5%B6%D6%81%D5%AB_%D5%AF%D5%A1%D5%B4%D5%A1%D6%80%C2%BB%2C_ArmAg_%286%29.jpg): Armineaghayan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
