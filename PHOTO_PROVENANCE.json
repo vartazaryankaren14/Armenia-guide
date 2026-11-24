@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-24",
   "label": "ИИ-визуализация — не документальное фото",
-  "notice": "20 изображений для семи объектов Еревана сгенерированы ИИ, включая две иллюстрации аттракционов Парка Победы. Они не являются документальными фотографиями, а детали могут отличаться от действительности.",
+  "notice": "В каталоге присутствуют ИИ-иллюстрации, в том числе три изображения «Парка Победы и Мать Армения», выбранные владельцем. Это не документальные фотографии: вид и детали могут отличаться от реальности.",
   "generated_images": [
     {
       "place": "Каскад",
@@ -150,16 +150,24 @@
     {
       "place": "Парк Победы и Мать Армения",
       "id": "ag_040",
-      "slot": 6,
-      "path": "images/places/ag_040_6.webp",
+      "slot": 1,
+      "path": "images/places/ag_040_1.webp",
       "kind": "AI-generated",
       "verified_as_actual_photo": false
     },
     {
       "place": "Парк Победы и Мать Армения",
       "id": "ag_040",
-      "slot": 7,
-      "path": "images/places/ag_040_7.webp",
+      "slot": 2,
+      "path": "images/places/ag_040_2.webp",
+      "kind": "AI-generated",
+      "verified_as_actual_photo": false
+    },
+    {
+      "place": "Парк Победы и Мать Армения",
+      "id": "ag_040",
+      "slot": 3,
+      "path": "images/places/ag_040_3.webp",
       "kind": "AI-generated",
       "verified_as_actual_photo": false
     }
