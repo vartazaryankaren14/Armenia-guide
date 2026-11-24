@@ -18,7 +18,7 @@ async function load(){
    const name=document.createElement('div'); name.className='name'; name.textContent=p.name; card.append(name);
    const meta=document.createElement('div'); meta.className='minor'; meta.textContent=p.region+' · '+p.id;card.append(meta);
    const photos=document.createElement('div');photos.className='photos';
-   for(let i=1;i<=3;i++){
+   for(let i=1;i<=(p.id==='ag_040'?4:3);i++){
     const path='images/places/'+p.id+'_'+i+'.webp';
     const item=document.createElement('div');item.className='photo';
     const link=document.createElement('a');link.href=path;link.target='_blank';link.rel='noopener';
