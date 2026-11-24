@@ -29,15 +29,8 @@
 - **Озеро Кари**, [ag_048_1.webp](https://commons.wikimedia.org/wiki/File:Lake_Kari,_Armenia_12%E2%80%A408%E2%80%A42018_(2).jpg): Beko, CC BY-SA 4.0
 - **Озеро Кари**, [ag_048_2.webp](https://commons.wikimedia.org/wiki/File:Lake_Kari,_Armenia_12%E2%80%A408%E2%80%A42018_(6).jpg): Beko, CC BY-SA 4.0
 - **Озеро Кари**, [ag_048_3.webp](https://commons.wikimedia.org/wiki/File:Lake_Kari,_Armenia_12%E2%80%A408%E2%80%A42018_(8).jpg): Beko, CC BY-SA 4.0
-- **Сагмосаванк**, [ag_050_1.webp](https://commons.wikimedia.org/wiki/File:Saghmosavank_004.jpg): Soghomon Matevosyan, CC BY-SA 4.0
-- **Сагмосаванк**, [ag_050_2.webp](https://commons.wikimedia.org/wiki/File:Saghmosavank_010.jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Сагмосаванк**, [ag_050_3.webp](https://commons.wikimedia.org/wiki/File:Saghmosavank_028.jpg): Soghomon Matevosyan, CC BY-SA 4.0
-- **Ангельский каньон**, [ag_043_1.webp](https://commons.wikimedia.org/wiki/File:Angels%27_canyon,_Dashtakhar,_Armenia.jpg): Գարվիք, CC BY-SA 4.0
 - **Ангельский каньон**, [ag_043_2.webp](https://commons.wikimedia.org/wiki/File:Angels%27_canyon,_Armenia_01.jpg): Ավետիսյան91, CC BY-SA 4.0
-- **Ангельский каньон**, [ag_043_3.webp](https://commons.wikimedia.org/wiki/File:Angels%27_canyon,_Armenia_02.jpg): Ավետիսյան91, CC BY-SA 4.0
-- **Водохранилище Азат**, [ag_107_1.webp](https://commons.wikimedia.org/wiki/File:Azat_reservoir_4.jpg): Dav Sargsyan, CC BY-SA 4.0
-- **Водохранилище Азат**, [ag_107_2.webp](https://commons.wikimedia.org/wiki/File:Azat_reservoir_5.jpg): Dav Sargsyan, CC BY-SA 4.0
-- **Водохранилище Азат**, [ag_107_3.webp](https://commons.wikimedia.org/wiki/File:Azat_reservoir_8.jpg): Dav Sargsyan, CC BY-SA 4.0
 - **Двин**, [ag_042_1.webp](https://commons.wikimedia.org/wiki/File:The_ruins_of_Ancient_Dvin_03.jpg): Vardouhie Ghazarian, CC BY-SA 4.0
 - **Двин**, [ag_042_2.webp](https://commons.wikimedia.org/wiki/File:The_ruins_of_Ancient_Dvin_02.jpg): Vardouhie Ghazarian, CC BY-SA 4.0
 - **Двин**, [ag_042_3.webp](https://commons.wikimedia.org/wiki/File:The_ruins_of_Ancient_Dvin_05.jpg): Vardouhie Ghazarian, CC BY-SA 4.0
@@ -231,3 +224,10 @@
 - **Озеро Цовер**, [ag_095_3.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_%D5%AC%D5%AB%D5%B3_D5.jpg): Dav Sargsyan, CC0
 - **Храм Звартноц**, [ag_045_1.webp](https://commons.wikimedia.org/wiki/File:Ruins_of_Zvartnots_Cathedral_with_Mount_Ararat_Backdrop_-_Near_Yerevan_-_Armenia_(18805091799).jpg): Adam Jones, CC BY-SA 2.0; преобразовано в WebP для Armenia Guide
 - **Храм Звартноц**, [ag_045_2.webp](https://commons.wikimedia.org/wiki/File:Zvartnots-Columns.jpg): Steven C. Price, CC BY-SA 4.0; преобразовано в WebP для Armenia Guide
+- **Сагмосаванк**, [ag_050_1.webp](https://commons.wikimedia.org/wiki/File:Saghmosavank_Monastery_Complex_01.jpg): Մարի Ավետիսյան, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Сагмосаванк**, [ag_050_2.webp](https://commons.wikimedia.org/wiki/File:Interior_of_Saghmosavank_Monastery_-_Kasagh_Gorge_-_Near_Yerevan_-_Armenia_%2818991423935%29.jpg): Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Ангельский каньон**, [ag_043_1.webp](https://commons.wikimedia.org/wiki/File:Angels%27_canyon%2C_Dashtakhar.jpg): Գարվիք, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Ангельский каньон**, [ag_043_3.webp](https://commons.wikimedia.org/wiki/File:Canyon_of_Angels_in_Dashtakar.jpg): Wowan1978, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Водохранилище Азат**, [ag_107_1.webp](https://commons.wikimedia.org/wiki/File:Azat_Lake_and_Azat_Gorge%2C_Armenia.jpg): mk4oto https://www.instagram.com/mk4oto/, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Водохранилище Азат**, [ag_107_2.webp](https://commons.wikimedia.org/wiki/File:Azat_Reservoir%2C_Ararat_Province%2C_Armenia_01.jpg): GeoO, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Водохранилище Азат**, [ag_107_3.webp](https://commons.wikimedia.org/wiki/File:Azat_Reservoir_view.jpg): Dor Shabashewitz, CC BY 4.0. Исходное изображение уменьшено и перекодировано в WebP.

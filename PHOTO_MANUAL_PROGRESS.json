@@ -1,0 +1,64 @@
+{
+  "successful": {
+    "ag_050": {
+      "id": "ag_050",
+      "name": "Сагмосаванк",
+      "changed_slots": [
+        1,
+        2
+      ],
+      "files": [
+        "Saghmosavank Monastery Complex 01.jpg",
+        "Interior of Saghmosavank Monastery - Kasagh Gorge - Near Yerevan - Armenia (18991423935).jpg"
+      ]
+    },
+    "ag_043": {
+      "id": "ag_043",
+      "name": "Ангельский каньон",
+      "changed_slots": [
+        1,
+        3
+      ],
+      "files": [
+        "Angels' canyon, Dashtakhar.jpg",
+        "Canyon of Angels in Dashtakar.jpg"
+      ]
+    },
+    "ag_107": {
+      "id": "ag_107",
+      "name": "Водохранилище Азат",
+      "changed_slots": [
+        1,
+        2,
+        3
+      ],
+      "files": [
+        "Azat Lake and Azat Gorge, Armenia.jpg",
+        "Azat Reservoir, Ararat Province, Armenia 01.jpg",
+        "Azat Reservoir view.jpg"
+      ]
+    }
+  },
+  "last_run_errors": [],
+  "do_not_touch": [
+    "Бюраканская обсерватория",
+    "Вулкан Аждаак",
+    "Гора Арагац",
+    "Дилижан",
+    "Кладбище хачкаров Норатус",
+    "Крепость Амберд",
+    "Монастырь Гегард",
+    "Монастырь Макараванк",
+    "Монастырь Тегер",
+    "Ованаванк",
+    "Озеро Кари",
+    "Озеро Севан",
+    "Озеро Цовер",
+    "Степанаванский дендропарк",
+    "Ущелье Касах",
+    "Храм Гарни",
+    "Цахкадзор",
+    "Эчмиадзинский кафедральный собор"
+  ],
+  "editorial_policy": "Manually approved Wikimedia filenames, exact slots only. Original photo preserved in all other slots. Generated art requires explicit labels."
+}
