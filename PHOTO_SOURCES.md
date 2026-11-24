@@ -233,5 +233,7 @@
 - **Озеро Цовер**, [ag_095_2.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_(%D5%AC%D5%AB%D5%B3)_04.jpg): Dav Sargsyan, CC BY-SA 4.0
 - **Озеро Цовер**, [ag_095_3.webp](https://commons.wikimedia.org/wiki/File:%D4%B4%D5%BD%D5%A5%D5%B2%D5%AB_%D4%BE%D5%B8%D5%BE%D5%A5%D6%80_%D5%AC%D5%AB%D5%B3_D5.jpg): Dav Sargsyan, CC0
 - **Парк Победы и Мать Армения**, [ag_040_1.webp](https://commons.wikimedia.org/wiki/File:Mother_Armenia,_Park_of_Victory,_Yerevan.jpg): Narinar, CC BY-SA 3.0
-- **Парк Победы и Мать Армения**, [ag_040_2.webp](https://commons.wikimedia.org/wiki/File:Mother_Armenia_statue_in_Victory_Park_of_Yerevan_on_Victory_Day_May_9_2021.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0
-- **Парк Победы и Мать Армения**, [ag_040_3.webp](https://commons.wikimedia.org/wiki/File:Yerevan,_Mother_Armenia_Monument,_S-75_Dvina,_Victory_Park,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
+- **Парк Победы и Мать Армения**, [ag_040_2.webp](https://commons.wikimedia.org/wiki/File:Victory_Park_Ferris_Wheel,_Yerevan.jpg): Armineaghayan, CC BY-SA 4.0
+- **Парк Победы и Мать Армения**, [ag_040_3.webp](https://commons.wikimedia.org/wiki/File:Victory_park_4.jpg): Tiia Monto, CC BY-SA 3.0
+- **Парк Победы и Мать Армения**, [ag_040_4.webp](https://commons.wikimedia.org/wiki/File:Mother_Armenia_statue_in_Victory_Park_of_Yerevan_on_Victory_Day_May_9_2021.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0
+- **Парк Победы и Мать Армения**, [ag_040_5.webp](https://commons.wikimedia.org/wiki/File:Yerevan,_Mother_Armenia_Monument,_S-75_Dvina,_Victory_Park,_Armenia.jpg): Vyacheslav Argenberg, CC BY 4.0
