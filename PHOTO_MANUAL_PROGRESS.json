@@ -161,15 +161,85 @@
       "files": [
         "Sevan lake and Shorzha.jpg"
       ]
-    }
-  },
-  "last_run_errors": [
-    {
+    },
+    "ag_064": {
       "id": "ag_064",
       "name": "Озеро Гош",
-      "reason": "Downloaded image too small"
+      "changed_slots": [
+        1,
+        2
+      ],
+      "files": [
+        "Gosh lake 01.jpg",
+        "Gosh Lake, Dilijan National Park 10.jpg"
+      ]
+    },
+    "ag_068": {
+      "id": "ag_068",
+      "name": "Енокаван",
+      "changed_slots": [
+        1,
+        3
+      ],
+      "files": [
+        "Yell Extreme Park, Yenokavan, Tavush, Armenia 6251.jpg",
+        "Yell Extreme Park, Yenokavan, Tavush, Armenia 6246.jpg"
+      ]
+    },
+    "ag_069": {
+      "id": "ag_069",
+      "name": "Ахпат",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Khatchkars, Haghpat Monastery, Armenia.jpg"
+      ]
+    },
+    "ag_071": {
+      "id": "ag_071",
+      "name": "Ахтала",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Akhtala Monastery fresco.jpg"
+      ]
+    },
+    "ag_076": {
+      "id": "ag_076",
+      "name": "Водопад Трчкан",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Trchkan waterfall, ՎԱՍ.jpg"
+      ]
+    },
+    "ag_072": {
+      "id": "ag_072",
+      "name": "Одзун",
+      "changed_slots": [
+        2,
+        3
+      ],
+      "files": [
+        "Dome of Odzun church, interior view.jpg",
+        "Odzun Church 01.jpg"
+      ]
+    },
+    "ag_070": {
+      "id": "ag_070",
+      "name": "Санаин",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Sanahin Monastery Complex.jpg"
+      ]
     }
-  ],
+  },
+  "last_run_errors": [],
   "do_not_touch": [
     "Бюраканская обсерватория",
     "Вулкан Аждаак",

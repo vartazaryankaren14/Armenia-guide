@@ -56,27 +56,20 @@
 - **Гора Димац**, [ag_106_1.webp](https://commons.wikimedia.org/wiki/File:A_shepherd_with_his_flock_against_the_backdrop_of_Mount_Dimats_in_Armenia.jpg): Wowan1978, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_2.webp](https://commons.wikimedia.org/wiki/File:Mount_Dimats_in_the_fog.jpg): Vladimir Pankratov, CC BY-SA 4.0
 - **Гора Димац**, [ag_106_3.webp](https://commons.wikimedia.org/wiki/File:Flowers_around_Mount_Dimats_%D4%B1%D4%B9_02.jpg): 23artashes, CC BY-SA 4.0
-- **Енокаван**, [ag_068_1.webp](https://commons.wikimedia.org/wiki/File:Yell_Extreme_Park,_Yenokavan,_Tavush,_Armenia.jpg): Narek Avetisyan /NAREK75/, CC BY-SA 4.0
 - **Енокаван**, [ag_068_2.webp](https://commons.wikimedia.org/wiki/File:Yenokavan_Resort_(3).jpg): Ji-Elle, CC BY-SA 4.0
-- **Енокаван**, [ag_068_3.webp](https://commons.wikimedia.org/wiki/File:Khachkar_in_Srbenes_church,_Yenokavan_(2).jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Ластивер**, [ag_067_1.webp](https://commons.wikimedia.org/wiki/File:Lastiver_in_Ijevan,_Armenia,_Tavush_Region_-_2015.jpg): Areg1974, CC BY-SA 4.0
 - **Ластивер**, [ag_067_2.webp](https://commons.wikimedia.org/wiki/File:Lastiver_cave_complex_03.jpg): Armen Manukov, CC BY-SA 3.0
 - **Монастырь Агарцин**, [ag_065_1.webp](https://commons.wikimedia.org/wiki/File:Armenia._Haghartsin_Monastery_P8230711_2350.jpg): Alexxx1979, CC BY-SA 4.0
 - **Монастырь Агарцин**, [ag_065_2.webp](https://commons.wikimedia.org/wiki/File:Haghartsin_Monastery_in_Tavush_Province_of_Armenia.jpg): Poshotenk, CC BY-SA 4.0
 - **Монастырь Агарцин**, [ag_065_3.webp](https://commons.wikimedia.org/wiki/File:Haghartsin_monastery_complex_035.jpg): Ahaik, CC BY-SA 3.0
 - **Монастырь Гошаванк**, [ag_066_1.webp](https://commons.wikimedia.org/wiki/File:Khatchkar_at_Goshavank_Monastery_in_Armenia.jpg): Inna, CC BY 2.0
-- **Озеро Гош**, [ag_064_1.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_01.jpg): Beko, CC BY-SA 4.0
-- **Озеро Гош**, [ag_064_2.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_02.jpg): Beko, CC BY-SA 4.0
 - **Озеро Гош**, [ag_064_3.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake,_Dilijan_National_Park_05.jpg): Beko, CC BY-SA 4.0
 - **Ахпат**, [ag_069_1.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Haghpat,_Armenia,_2016-09-30,_DD_04.jpg): Diego Delso, CC BY-SA 4.0
 - **Ахпат**, [ag_069_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Haghpat,_Armenia,_2016-09-30,_DD_07.jpg): Diego Delso, CC BY-SA 4.0
-- **Ахпат**, [ag_069_3.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Haghpat,_Armenia,_2016-09-30,_DD_06.jpg): Diego Delso, CC BY-SA 4.0
 - **Ахтала**, [ag_071_1.webp](https://commons.wikimedia.org/wiki/File:Akhtala_Church_Monastery,_Armenia.jpg): Anastasiia Kucherenko, CC BY-SA 4.0
 - **Ахтала**, [ag_071_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Akhtala,_Armenia,_2016-09-30,_DD_01.jpg): Diego Delso, CC BY-SA 4.0
-- **Ахтала**, [ag_071_3.webp](https://commons.wikimedia.org/wiki/File:Monasterio_de_Akhtala,_Armenia,_2016-09-30,_DD_02.jpg): Diego Delso, CC BY-SA 4.0
 - **Водопад Трчкан**, [ag_076_1.webp](https://commons.wikimedia.org/wiki/File:Trchkan_waterfall,_%D5%8E%D4%B1%D5%8D.jpg): ՎԱՍ, CC BY-SA 4.0
 - **Водопад Трчкан**, [ag_076_2.webp](https://commons.wikimedia.org/wiki/File:Trchkan_Waterfall_02.jpg): Dav Sargsyan, CC BY-SA 4.0
-- **Водопад Трчкан**, [ag_076_3.webp](https://commons.wikimedia.org/wiki/File:Trchkan_Waterfall_01.jpg): Dav Sargsyan, CC BY-SA 4.0
 - **Дебедское ущелье**, [ag_096_1.webp](https://commons.wikimedia.org/wiki/File:Debed_Canyon-Ch%C3%A8vres.jpg): Ji-Elle, CC BY-SA 4.0
 - **Дебедское ущелье**, [ag_096_2.webp](https://commons.wikimedia.org/wiki/File:Debed_Canyon_2018.jpg): Tiia Monto, CC BY-SA 3.0
 - **Дебедское ущелье**, [ag_096_3.webp](https://commons.wikimedia.org/wiki/File:Debed_Canyon,_Gorge.jpg): Lilit.amiraghyan, CC BY-SA 4.0
@@ -87,11 +80,8 @@
 - **Монастырь Кобайр**, [ag_073_2.webp](https://commons.wikimedia.org/wiki/File:Kobayr_monastery_2.JPG): Soghomon Matevosyan, CC BY-SA 3.0
 - **Монастырь Кобайр**, [ag_073_3.webp](https://commons.wikimedia.org/wiki/File:Kobayr_monastery_1.JPG): Soghomon Matevosyan, CC BY-SA 3.0
 - **Одзун**, [ag_072_1.webp](https://commons.wikimedia.org/wiki/File:Odzun_Armenian_Apostolic_Church.jpg): SyuzanHayki, CC BY 4.0
-- **Одзун**, [ag_072_2.webp](https://commons.wikimedia.org/wiki/File:Odzun_Church_1-01.jpg): Arman musikyan, CC BY-SA 3.0
-- **Одзун**, [ag_072_3.webp](https://commons.wikimedia.org/wiki/File:Odzun_Church_1-05.jpg): Arman musikyan, CC BY-SA 3.0
 - **Санаин**, [ag_070_1.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_01.JPG): Beko, CC BY-SA 4.0
 - **Санаин**, [ag_070_2.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_02.JPG): Beko, CC BY-SA 4.0
-- **Санаин**, [ag_070_3.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Armenia_05.JPG): Beko, CC BY-SA 4.0
 - **Гюмри**, [ag_077_1.webp](https://commons.wikimedia.org/wiki/File:Gyumri_armenia_1.JPG): Der Reisende, CC BY-SA 3.0
 - **Гюмри**, [ag_077_2.webp](https://commons.wikimedia.org/wiki/File:Gyumri,_Armenia_-_panoramio_(10).jpg): Michal Gorski, CC BY-SA 3.0
 - **Гюмри**, [ag_077_3.webp](https://commons.wikimedia.org/wiki/File:Gyumri,_Armenia_-_panoramio_(23).jpg): Michal Gorski, CC BY-SA 3.0
@@ -231,3 +221,13 @@
 - **Озеро Парз**, [ag_063_2.webp](https://commons.wikimedia.org/wiki/File:Parz_lake%2C_Dilijan%2C_Armenia_from_air_2022.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Озеро Парз**, [ag_063_3.webp](https://commons.wikimedia.org/wiki/File:Lake_Parz%2C_Tavush_Province%2C_%D4%B1%D4%B9_05.jpg): 23artashes, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Шоржа**, [ag_061_3.webp](https://commons.wikimedia.org/wiki/File:Sevan_lake_and_Shorzha.jpg): Krysar711, CC BY 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Озеро Гош**, [ag_064_1.webp](https://commons.wikimedia.org/wiki/File:Gosh_lake_01.jpg): Dav Sargsyan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Озеро Гош**, [ag_064_2.webp](https://commons.wikimedia.org/wiki/File:Gosh_Lake%2C_Dilijan_National_Park_10.jpg): Beko, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Енокаван**, [ag_068_1.webp](https://commons.wikimedia.org/wiki/File:Yell_Extreme_Park%2C_Yenokavan%2C_Tavush%2C_Armenia_6251.jpg): Narek Avetisyan /NAREK75/, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Енокаван**, [ag_068_3.webp](https://commons.wikimedia.org/wiki/File:Yell_Extreme_Park%2C_Yenokavan%2C_Tavush%2C_Armenia_6246.jpg): Narek Avetisyan /NAREK75/, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Ахпат**, [ag_069_3.webp](https://commons.wikimedia.org/wiki/File:Khatchkars%2C_Haghpat_Monastery%2C_Armenia.jpg): Shaun Dunphy, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Ахтала**, [ag_071_3.webp](https://commons.wikimedia.org/wiki/File:Akhtala_Monastery_fresco.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Водопад Трчкан**, [ag_076_3.webp](https://commons.wikimedia.org/wiki/File:Trchkan_waterfall%2C_%D5%8E%D4%B1%D5%8D.jpg): ՎԱՍ, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Одзун**, [ag_072_2.webp](https://commons.wikimedia.org/wiki/File:Dome_of_Odzun_church%2C_interior_view.jpg): Aleksey Chalabyan a.k.a Xelgen, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Одзун**, [ag_072_3.webp](https://commons.wikimedia.org/wiki/File:Odzun_Church_01.jpg): Emgabriell, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Санаин**, [ag_070_3.webp](https://commons.wikimedia.org/wiki/File:Sanahin_Monastery_Complex.jpg): Vladimir Pankratov, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
