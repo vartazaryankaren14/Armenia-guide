@@ -3,34 +3,38 @@
   "date": "2026-11-25",
   "policy": "Manual selection by exact source filenames and slot; preserve previously approved cards and attractive originals. No generated picture is represented as a real photo.",
   "sites": {
-    "ag_059": {
-      "name": "Айраванк",
-      "note": "Корректируем слишком похожий третий хачкар. Сохраняем зимний общий вид и один красивый старый резной хачкар.",
+    "ag_066": {
+      "name": "Монастырь Гошаванк",
+      "note": "Оставить резной хачкар на первом фото, заменяем два почти одинаковых входа на общие виды монастыря.",
       "slots": {
-        "3": "Հայրավանք 112.jpg"
+        "2": "Goshavank general view.jpg",
+        "3": "Goshavank Monastery Complex 01.jpg"
       }
     },
-    "ag_058": {
-      "name": "Севанаванк",
-      "note": "Второй кадр панорамный, третий крупный план храма; первое фото заменяем на зимний ракурс другого сезона.",
+    "ag_064": {
+      "name": "Озеро Гош",
+      "note": "Первое и второе исходные фото вообще не показывают озеро — вместо них два разных вида воды и лесов; третий оставляем.",
       "slots": {
-        "1": "Sevanavank Surp Arakelots church in February 2024.jpg"
+        "1": "Gosh Lake, Armenia.jpg",
+        "2": "Gosh Lake, Dilijan National Park 35.jpg"
+      }
+    },
+    "ag_063": {
+      "name": "Озеро Парз",
+      "note": "Все три исходные фото показывали речной ручей вместо озера. Использовать разные виды озера Парз: с воздуха, с берега, лесная атмосфера.",
+      "slots": {
+        "1": "Lake Parz in Dilijan National Park 01.jpg",
+        "2": "Parz lake, Dilijan, Armenia from air 2022.jpg",
+        "3": "Lake Parz, Tavush Province, ԱԹ 05.jpg"
       }
     },
     "ag_061": {
       "name": "Шоржа",
-      "note": "Сохраняем бирюзовый берег и песчаный пляж; третий кадр брызг воды заменяем более характерным видом восточного берега.",
+      "note": "Меняем третий кадр брызг воды на конкретный берег Шоржи; прежняя сверхширокая панорама не подошла по пропорциям.",
       "slots": {
-        "3": "Eastern shore of Lake Sevan - Սեւանայ լիճի արեւելեան ափը (3413246424).jpg"
-      }
-    },
-    "ag_067": {
-      "name": "Ластивер",
-      "note": "Сохраняем водопад и уникальную резьбу в пещере; повтор резьбы меняем лесной тропой к водопаду.",
-      "slots": {
-        "3": "Path to Lastiver Waterfall in Yenokavan.jpg"
+        "3": "Sevan lake and Shorzha.jpg"
       }
     }
   },
-  "batch": "Fourth individual review: nonrepeating shores, cave-trail and church perspectives"
+  "batch": "Fifth manually reviewed set: fix three mismatched Gosh, Goshavank and Parz galleries"
 }
