@@ -273,15 +273,55 @@
       "files": [
         "Sev Berd or Black Fortress, Gyumri 01.jpg"
       ]
+    },
+    "ag_102": {
+      "id": "ag_102",
+      "name": "Гндеванк",
+      "changed_slots": [
+        1,
+        2,
+        3
+      ],
+      "files": [
+        "Գնդեվանքը գարնանը1.jpg",
+        "Gndevank Monastery (01).jpg",
+        "Gndevank 2023 ԱԹ 04.jpg"
+      ]
+    },
+    "ag_081": {
+      "id": "ag_081",
+      "name": "Нораванк",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Cantilevered stairs, facade of Surb Astvatsatsin Church, Noravank Monastery (Armenia, 2026).jpg"
+      ]
+    },
+    "ag_104": {
+      "id": "ag_104",
+      "name": "Орбелянов караван-сарай",
+      "changed_slots": [
+        3
+      ],
+      "files": [
+        "Orbelian's Caravanserai inside.jpg"
+      ]
+    },
+    "ag_082": {
+      "id": "ag_082",
+      "name": "Пещера Арени-1",
+      "changed_slots": [
+        2,
+        3
+      ],
+      "files": [
+        "Areni-1 Cave Interior.JPG",
+        "Areni-1 cave entrance.jpg"
+      ]
     }
   },
-  "last_run_errors": [
-    {
-      "id": "ag_077",
-      "name": "Гюмри",
-      "reason": "Downloaded image too small"
-    }
-  ],
+  "last_run_errors": [],
   "do_not_touch": [
     "Бюраканская обсерватория",
     "Вулкан Аждаак",

@@ -91,9 +91,6 @@
 - **Озеро Арпи**, [ag_080_1.webp](https://commons.wikimedia.org/wiki/File:Lake_Arpi_1101_01.jpg): Dav Sargsyan, CC BY-SA 4.0
 - **Чёрная крепость**, [ag_078_2.webp](https://commons.wikimedia.org/wiki/File:Black_Fortress_in_Gyumri,_Armenia_15-09-2019.jpg): Armenak Margarian, CC BY-SA 4.0
 - **Чёрная крепость**, [ag_078_3.webp](https://commons.wikimedia.org/wiki/File:Black_Fortress,_Gyumri,_Armenia,_July_2023.jpeg): Textfabrikant, CC BY-SA 4.0
-- **Гндеванк**, [ag_102_1.webp](https://commons.wikimedia.org/wiki/File:Gndevank_Monastery_(01).jpg): Soghomon Matevosyan, CC BY-SA 4.0
-- **Гндеванк**, [ag_102_2.webp](https://commons.wikimedia.org/wiki/File:Gndevank_Monastery_(02).jpg): Soghomon Matevosyan, CC BY-SA 4.0
-- **Гндеванк**, [ag_102_3.webp](https://commons.wikimedia.org/wiki/File:Gndevank_Monastery_(04).jpg): Soghomon Matevosyan, CC BY-SA 4.0
 - **Джермук**, [ag_085_1.webp](https://commons.wikimedia.org/wiki/File:H42,_Jermuk_3701,_Armenia_-_panoramio.jpg): Gor Aghajhanyan, CC BY 3.0
 - **Джермук**, [ag_085_2.webp](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Arpa,_Jermuk,_Armenia,_2016-10-01,_DD_64.jpg): Diego Delso, CC BY-SA 4.0
 - **Джермук**, [ag_085_3.webp](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Arpa,_Jermuk,_Armenia,_2016-10-01,_DD_69.jpg): Diego Delso, CC BY-SA 4.0
@@ -102,13 +99,9 @@
 - **Джермукский водопад**, [ag_084_3.webp](https://commons.wikimedia.org/wiki/File:Jermuk_waterfall_11.jpg): Dav Sargsyan, CC BY-SA 4.0
 - **Нораванк**, [ag_081_1.webp](https://commons.wikimedia.org/wiki/File:Monasterio_Noravank,_Armenia,_2016-10-01,_DD_28.jpg): Diego Delso, CC BY-SA 4.0
 - **Нораванк**, [ag_081_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_Noravank,_Armenia,_2016-10-01,_DD_29.jpg): Diego Delso, CC BY-SA 4.0
-- **Нораванк**, [ag_081_3.webp](https://commons.wikimedia.org/wiki/File:Monasterio_Noravank,_Armenia,_2016-10-01,_DD_30.jpg): Diego Delso, CC BY-SA 4.0
 - **Орбелянов караван-сарай**, [ag_104_1.webp](https://commons.wikimedia.org/wiki/File:Orbelian%27s_Caravanserai,_Armenia.jpg): Photographer: Mosbatho, CC BY 4.0
 - **Орбелянов караван-сарай**, [ag_104_2.webp](https://commons.wikimedia.org/wiki/File:Orbelian%27s_Caravanserai_02.jpg): Dav Sargsyan, CC BY-SA 4.0
-- **Орбелянов караван-сарай**, [ag_104_3.webp](https://commons.wikimedia.org/wiki/File:Orbelian%27s_Caravanserai_01.jpg): Dav Sargsyan, CC BY-SA 4.0
 - **Пещера Арени-1**, [ag_082_1.webp](https://commons.wikimedia.org/wiki/File:Areni-1_Cave,_Vayots_Dzor,_Armenia_2023_03.jpg): 23artashes, CC BY-SA 4.0
-- **Пещера Арени-1**, [ag_082_2.webp](https://commons.wikimedia.org/wiki/File:Areni-1_Cave,_Vayots_Dzor,_Armenia_2023_02.jpg): 23artashes, CC BY-SA 4.0
-- **Пещера Арени-1**, [ag_082_3.webp](https://commons.wikimedia.org/wiki/File:Areni-1_Cave,_Vayots_Dzor,_Armenia_2023_01.jpg): 23artashes, CC BY-SA 4.0
 - **Село Арени**, [ag_083_1.webp](https://commons.wikimedia.org/wiki/File:Areni_Village,_Armenia.jpg): Narek75, CC BY-SA 4.0
 - **Село Арени**, [ag_083_2.webp](https://commons.wikimedia.org/wiki/File:Areni_village.jpg): Yavuz Çölaşan, CC BY 3.0
 - **Село Арени**, [ag_083_3.webp](https://commons.wikimedia.org/wiki/File:Areni-village1.jpg): Bertramz, CC BY-SA 3.0
@@ -231,3 +224,10 @@
 - **Харичаванк**, [ag_100_2.webp](https://commons.wikimedia.org/wiki/File:%D5%8E%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6_%D5%B0%D5%A1%D5%B4%D5%A1%D5%AC%D5%AB%D6%80_%D5%80%D5%A1%D5%BC%D5%AB%D5%B3%D5%A1%D5%BE%D5%A1%D5%B6%D6%84_28092019_%2830%29.jpg): Beko, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Харичаванк**, [ag_100_3.webp](https://commons.wikimedia.org/wiki/File:Harichavank_Rear.JPG): Liveon001 © Travis K. Witt, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Чёрная крепость**, [ag_078_1.webp](https://commons.wikimedia.org/wiki/File:Sev_Berd_or_Black_Fortress%2C_Gyumri_01.jpg): Violmsyan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Гндеванк**, [ag_102_1.webp](https://commons.wikimedia.org/wiki/File:%D4%B3%D5%B6%D5%A4%D5%A5%D5%BE%D5%A1%D5%B6%D6%84%D5%A8_%D5%A3%D5%A1%D6%80%D5%B6%D5%A1%D5%B6%D5%A81.jpg): Valen1988, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Гндеванк**, [ag_102_2.webp](https://commons.wikimedia.org/wiki/File:Gndevank_Monastery_%2801%29.jpg): Soghomon Matevosyan, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Гндеванк**, [ag_102_3.webp](https://commons.wikimedia.org/wiki/File:Gndevank_2023_%D4%B1%D4%B9_04.jpg): 23artashes, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Нораванк**, [ag_081_3.webp](https://commons.wikimedia.org/wiki/File:Cantilevered_stairs%2C_facade_of_Surb_Astvatsatsin_Church%2C_Noravank_Monastery_%28Armenia%2C_2026%29.jpg): Petar Milošević, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Орбелянов караван-сарай**, [ag_104_3.webp](https://commons.wikimedia.org/wiki/File:Orbelian%27s_Caravanserai_inside.jpg): Vladimir Pankratov, CC BY-SA 2.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Пещера Арени-1**, [ag_082_2.webp](https://commons.wikimedia.org/wiki/File:Areni-1_Cave_Interior.JPG): Kiwiodysee, CC BY-SA 3.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Пещера Арени-1**, [ag_082_3.webp](https://commons.wikimedia.org/wiki/File:Areni-1_cave_entrance.jpg): Serouj, CC BY 3.0. Исходное изображение уменьшено и перекодировано в WebP.
