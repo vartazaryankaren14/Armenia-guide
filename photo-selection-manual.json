@@ -3,37 +3,54 @@
   "date": "2026-11-25",
   "policy": "Manual selection by exact source filenames and slot; preserve previously approved cards and attractive originals. No generated picture is represented as a real photo.",
   "sites": {
-    "ag_102": {
-      "name": "Гндеванк",
-      "note": "Первое фото — просто пол, второе — камни, третье тёмная церковь. Заменяем документальными видами монастыря.",
+    "ag_090": {
+      "name": "Горис",
+      "note": "Три исходных кадра были дорожный памятник, ржавый контейнер и фонтан. Заменяем общим видом города, окрестными скалами и историческими пещерами.",
       "slots": {
-        "1": "Գնդեվանքը գարնանը1.jpg",
-        "2": "Gndevank Monastery (01).jpg",
-        "3": "Gndevank 2023 ԱԹ 04.jpg"
+        "1": "Goris, Armenia (28180793512).jpg",
+        "2": "Goris inhabited rocks.jpg",
+        "3": "Old Goris, houses in the rocks.jpg"
       }
     },
-    "ag_081": {
-      "name": "Нораванк",
-      "note": "Сохраняем скальную панораму и крупный вид церкви; третий очень похож на второй — показываем знаменитую каменную лестницу.",
+    "ag_087": {
+      "name": "Канатная дорога «Крылья Татева»",
+      "note": "Сохраняем настоящую кабину на фоне гор. Вместо логотипа и стенда — виды канатной дороги и панорама ущелья.",
       "slots": {
-        "3": "Cantilevered stairs, facade of Surb Astvatsatsin Church, Noravank Monastery (Armenia, 2026).jpg"
+        "2": "Wings of Tatev.jpg",
+        "3": "Wings of Tatev View.jpg"
       }
     },
-    "ag_104": {
-      "name": "Орбелянов караван-сарай",
-      "note": "Исходные 2 и 3 почти одинаковые фотографии входа. Оставляем два внешних вида и показываем уникальные своды внутри.",
+    "ag_092": {
+      "name": "Караундж (Зорац Карер)",
+      "note": "Раньше все три изображения были одинаковым отверстием в камне. Сохраняем третий фактурный кадр, добавляем общий вид древних камней.",
       "slots": {
-        "3": "Orbelian's Caravanserai inside.jpg"
+        "1": "Karahunj - Zorats Karer.jpg",
+        "2": "Carahunge four stones.jpg"
       }
     },
-    "ag_082": {
-      "name": "Пещера Арени-1",
-      "note": "Вместо нескольких похожих каменных стен показываем интерьер и внешний вход пещеры, где проводились раскопки.",
+    "ag_086": {
+      "name": "Татевский монастырь",
+      "note": "Первый ландшафт и второй интерьер удачные; третий интерьер слишком похож на второй. Заменяем его общим видом самого комплекса.",
       "slots": {
-        "2": "Areni-1 Cave Interior.JPG",
-        "3": "Areni-1 cave entrance.jpg"
+        "3": "Տաթևի վանական համալիր.jpg"
+      }
+    },
+    "ag_089": {
+      "name": "Хндзореск и подвесной мост",
+      "note": "Сохраняем два вида моста; вместо случайного туриста — пещерное поселение Хндзореск.",
+      "slots": {
+        "3": "Khndzoresk, Khor Dzor Canyon, Old village, Caves, Armenia.jpg"
+      }
+    },
+    "ag_088": {
+      "name": "Чертов мост",
+      "note": "Раньше были 3 случайные скалы и маленький ручей. Новые снимки показывают мост, окружающий каньон и пространство под естественным мостом.",
+      "slots": {
+        "1": "Devil's Bridge, Tatev, Armenia 01.jpg",
+        "2": "Under Devil's Bridge.jpg",
+        "3": "Devil's Bridge Armenia May 2026, 02.jpg"
       }
     }
   },
-  "batch": "Eighth handpicked set: Vayots Dzor historical architecture and cave"
+  "batch": "Ninth editorial set: Syunik architecture, cave settlements and canyon"
 }
