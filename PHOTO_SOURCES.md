@@ -36,13 +36,8 @@
 - **Двин**, [ag_042_3.webp](https://commons.wikimedia.org/wiki/File:The_ruins_of_Ancient_Dvin_05.jpg): Vardouhie Ghazarian, CC BY-SA 4.0
 - **Хор Вирап**, [ag_041_1.webp](https://commons.wikimedia.org/wiki/File:Khor_Virap_Monastery_and_Mount_Ararat,_Armenia.jpg): Andrew Behesnilian (MrAndrew47), CC BY-SA 3.0
 - **Хор Вирап**, [ag_041_2.webp](https://commons.wikimedia.org/wiki/File:Monasterio_Khor_Virap,_Armenia,_2016-10-01,_DD_02.jpg): Diego Delso, CC BY-SA 4.0
-- **Хор Вирап**, [ag_041_3.webp](https://commons.wikimedia.org/wiki/File:Monasterio_Khor_Virap,_Armenia,_2016-10-01,_DD_04.jpg): Diego Delso, CC BY-SA 4.0
-- **Арка Чаренца**, [ag_098_1.webp](https://commons.wikimedia.org/wiki/File:Mount_Ararat_from_Charents%27_Arch_1.jpg): Beko, CC BY-SA 4.0
 - **Арка Чаренца**, [ag_098_2.webp](https://commons.wikimedia.org/wiki/File:Charents_arch-msu-wlm-3093.jpg): Matthias Süßen, CC BY-SA 4.0
-- **Арка Чаренца**, [ag_098_3.webp](https://commons.wikimedia.org/wiki/File:Charents_arch-msu-wlm-3094.jpg): Matthias Süßen, CC BY-SA 4.0
 - **Крепость Бжни**, [ag_056_1.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_at_Bjni,_Armenia_01.jpg): Beko, CC BY-SA 4.0
-- **Крепость Бжни**, [ag_056_2.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_at_Bjni,_Armenia_03.jpg): Beko, CC BY-SA 4.0
-- **Крепость Бжни**, [ag_056_3.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_at_Bjni,_Armenia_02.jpg): Beko, CC BY-SA 4.0
 - **Монастырь Кечарис**, [ag_055_1.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor_(interior).jpg): Kevorkmail (talk), Public domain
 - **Монастырь Кечарис**, [ag_055_2.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor,_2009_(2).jpg): Kevorkmail (talk), Public domain
 - **Монастырь Кечарис**, [ag_055_3.webp](https://commons.wikimedia.org/wiki/File:Kecharis_Monastery,_Tsaghkadzor_03.jpg): GeoO, CC BY-SA 4.0
@@ -231,3 +226,8 @@
 - **Водохранилище Азат**, [ag_107_1.webp](https://commons.wikimedia.org/wiki/File:Azat_Lake_and_Azat_Gorge%2C_Armenia.jpg): mk4oto https://www.instagram.com/mk4oto/, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Водохранилище Азат**, [ag_107_2.webp](https://commons.wikimedia.org/wiki/File:Azat_Reservoir%2C_Ararat_Province%2C_Armenia_01.jpg): GeoO, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
 - **Водохранилище Азат**, [ag_107_3.webp](https://commons.wikimedia.org/wiki/File:Azat_Reservoir_view.jpg): Dor Shabashewitz, CC BY 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Хор Вирап**, [ag_041_3.webp](https://commons.wikimedia.org/wiki/File:Khor_Virap_Monastery_after_Sunset%2C_Armenia.jpg): mk4oto https://www.instagram.com/mk4oto/, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Арка Чаренца**, [ag_098_1.webp](https://commons.wikimedia.org/wiki/File:%D5%89%D5%A1%D6%80%D5%A5%D5%B6%D6%81%D5%AB_%D5%AF%D5%A1%D5%B4%D5%A1%D6%80_%D5%B0%D5%B8%D6%82%D5%B7%D5%A1%D6%80%D5%B1%D5%A1%D5%B6%2C_%D5%88%D5%B2%D5%BB%D5%A1%D5%A2%D5%A5%D6%80%D5%A4%2C_%D5%80%D5%A1%D5%B5%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6_01.jpg): Մարի Ավետիսյան, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Арка Чаренца**, [ag_098_3.webp](https://commons.wikimedia.org/wiki/File:Charents_arch-msu-wlm-3093.jpg): Matthias Süßen, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Крепость Бжни**, [ag_056_2.webp](https://commons.wikimedia.org/wiki/File:Bjni_Fortress_%28general_view%29_20.jpg): Armen Manukov, CC BY-SA 4.0. Исходное изображение уменьшено и перекодировано в WebP.
+- **Крепость Бжни**, [ag_056_3.webp](https://commons.wikimedia.org/wiki/File:Bjni_fortress_main_entry_walls_-_panoramio.jpg): sedrakGr, CC BY 3.0. Исходное изображение уменьшено и перекодировано в WebP.
