@@ -1,0 +1,32 @@
+name: Armenia Guide - approved authentic Zvartnots photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/zvartnots-photo-workflow.yml'
+      - 'scripts/replace_zvartnots_photos.py'
+permissions:
+  contents: write
+jobs:
+  replace-approved-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Prepare image processing
+        run: python -m pip install requests pillow
+      - name: Download two selected real Zvartnots photos and credit creators
+        run: python scripts/replace_zvartnots_photos.py
+      - name: Commit verified real photos
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add images/places/ag_045_1.webp images/places/ag_045_2.webp PHOTO_SOURCES.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Install two approved real Zvartnots photos and licenses'
+            git push
+          fi

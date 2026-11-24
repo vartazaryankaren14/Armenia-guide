@@ -4,7 +4,6 @@
 
 - **Храм Звартноц**, [ag_045_1.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Zvartnots_Cathedral_ruins_(2166083354).jpg): Tamara Areshian from London, UK, CC BY 2.0
 - **Храм Звартноц**, [ag_045_2.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Zvartnots_Cathedral_ruins_(2166082792).jpg): Tamara Areshian from London, UK, CC BY 2.0
-- **Храм Звартноц**, [ag_045_3.webp](https://commons.wikimedia.org/wiki/File:Armenia_2007_Zvartnots_Cathedral_ruins_(2166083834).jpg): Tamara Areshian from London, UK, CC BY 2.0
 - **Церковь Святой Рипсиме**, [ag_046_1.webp](https://commons.wikimedia.org/wiki/File:Saint_Hripsime_Church,_Vagharshapat,_Armenia_02.jpg): Lilitik22, CC BY-SA 4.0
 - **Церковь Святой Рипсиме**, [ag_046_2.webp](https://commons.wikimedia.org/wiki/File:Saint_Hripsime_Church,_Vagharshapat,_Armenia_01.jpg): Lilitik22, CC BY-SA 4.0
 - **Церковь Святой Рипсиме**, [ag_046_3.webp](https://commons.wikimedia.org/wiki/File:Saint_Hripsime_Church,_Vagharshapat,_Armenia_05.jpg): Lilitik22, CC BY-SA 4.0
